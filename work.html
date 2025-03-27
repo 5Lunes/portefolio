@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Luca Mevis - réalisations</title>
+    <link rel="stylesheet" href="css/reset_helha.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/hin3izn.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="header_link">
+          <a href="/index.html">5Lunes</a>
+          <div class="header_empty"></div>
+          <div class="header_menu">
+              <a href="/work.html">réalisations</a>
+              <a href="/about.html">à propos</a>
+              <a href="/blog.html">blog</a>
+          </div>
+          
+      </div>
+  </header>
+    <div class="mainpage">
+      <div class="maincontent">
+        <div class="worktitle">
+          <h2>Mes réalisations</h2>
+        </div>
+
+        <div class="workfilter">
+          <div class="workfilter-left">
+            <div id="tag-menu">
+              <button class="buttonfilter" id="toggletag">Tags</button>
+              <div class="filters" id="tag-filters">
+                <div class="filterselect">
+                  <button class="buttonfilterselect" onclick="activecheckbox('tag-filters')" >tout</button>
+                  <button class="buttonfilterselect" onclick="desactivecheckbox('tag-filters')">aucun</button>
+                </div>
+                <ul class="filterslist" >
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-props" value="props" checked>
+                    <label for="filter-props">props</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-environnement" value="environnement" checked>
+                    <label for="filter-environnement">environnement</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-procedural" value="procedural" checked>
+                    <label for="filter-procedural">procedural</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-prog" value="prog" checked>
+                    <label for="filter-prog">prog</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-dessin" value="dessin" checked>
+                    <label for="filter-dessin">dessin</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div id="soft-menu">
+              <button class="buttonfilter" id="togglesoft">Soft</button>
+              <div class="filters" id="soft-filters">
+                <div class="filterselect">
+                  <button class="buttonfilterselect" onclick="activecheckbox('soft-filters')">tout</button>
+                  <button class="buttonfilterselect" onclick="desactivecheckbox('soft-filters')">aucun</button>
+                </div>
+                <ul class="filterslist" >
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-blender" value="blender" checked>
+                    <label for="filter-blender">blender</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-houdini" value="houdini" checked>
+                    <label for="filter-houdini">houdini</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-3Dmax" value="3Dmax" checked>
+                    <label for="filter-3Dmax">3DS Max</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-unreal" value="unreal" checked>
+                    <label for="filter-unreal">Unreal Engine</label>
+                  </li>
+                  <li class="filterselement">
+                    <input type="checkbox" id="filter-painter" value="painter" checked>
+                    <label for="filter-painter">Substance Painter</label>
+                  </li>
+                </ul>
+              </div>   
+            </div>
+          </div>
+          <div class="workfilter-right">
+            <button class="buttonfilter" onclick="applyTagFilters()">Filtrer</button>
+          </div>
+          
+        </div>
+
+        <div id="workgrid">
+        </div>
+        <div id="workdetail">
+        </div>
+      </div>
+    </div>
+    
+
+
+
+    <footer>
+      <div class="bottom">
+          <div class="footer_time">
+              <p>Belgique</p>
+              <p id="clock">15h41</p>
+          </div>
+          <div class="footer_social">
+              <a href="https://www.artstation.com/mevisluca7">Artstation</a>
+              <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
+          </div>
+          <a href="#top">haut</a>
+      </div>
+  </footer>
+
+
+  </body>
+</html>
+<script src="js/time.js"> </script>
+<script src="js/works.js"> </script>

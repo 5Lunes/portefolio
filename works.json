@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "title_fr": "sabre suisse",
+      "title_en": "swiss saber",
+      "date": "2024-09-01",
+      "tags": ["props"],
+      "soft":["blender","painter"],
+      "description_fr": "Sabre Suisse plantée dans un environnement montagnard. Modélisation, matériaux et décors réalisés depuis zéro. Je trouve cette sorte d'épée particulièrement élégante.",
+      "description_en":"Swiss sabre planted in a mountain environment. Model, matérials and set made from scratch. I feel that this type of sword is particularly elegant.",
+      "mainImage": "img/works/1/sabre_suisse_rouge_cropped.png",
+      "additionalImages": [
+        "img/works/1/sabre_suisse_rouge5.jpg",
+        "img/works/1/sabre_suisse.png",
+        "img/works/1/sabre_suisse2.png",
+        "img/works/1/sabre_suisse3.png"
+      ]
+    },
+    {
+        "id": 2,
+        "title_fr": "scientifique fou",
+        "title_en": "mad scientist",
+        "date": "2024-06-01",
+        "tags": ["environnement","dessin"],
+        "soft":["blender","paint.net","photoshop"],
+        "description_fr": "Laboratoire de scientifique fou en vue isométrique. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale.",
+        "description_en":"Isometric view of a mad scientist lab. My goal was to present modern chemistry equipment in a dirty medieval set.",
+        "mainImage": "img/works/2/scientifique_fou.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 3,
+        "title_fr": "Rickenbacker 4001",
+        "title_en": "Rickenbacker 4001",
+        "date": "2024-04-01",
+        "tags": ["props"],
+        "soft":["blender","painter"],
+        "description_fr": "Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare. ",
+        "description_en":"Hard surface modeling of the Rickenbacker 4001 fretless. Game ready model. This is a BASS, not a guitar.",
+        "mainImage": "img/works/3/Rickenbacker_avant_post.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 4,
+        "title_fr": "chandelier",
+        "title_en": "chandelier",
+        "date": "2023-09-01",
+        "tags": ["procedural"],
+        "soft":["houdini"],
+        "description_fr": "Chandelier procédural conçu avec Houdini, s'inspirant du style baroque du château de Versailles.<br>Il est entièrement configurable dans les détails.",
+        "description_en":"Procedural Chandelier made with Houdini. It takes inspiration from Chateau de Versailles's baroque style.<br>It's entirely configurable in every detail.",
+        "mainImage": "img/works/4/chandelier2_postprod.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 5,
+        "title_fr": "borne d'arcade",
+        "title_en": "arcade cabinet",
+        "date": "2024-01-01",
+        "tags": ["procedural"],
+        "soft":["houdini"],
+        "description_fr": "Borne d'arcade procédurale réalisée sur Houdini<br>complétement configurables avec 6 pressets de layout de boutons<br>Réalisée à la base pour le challenge 2 du nodevember 2023 ",
+        "description_en":"Entirely Procedural Arcade Cabinet made with Houdini. It's fully-configurable with up to 6 different button layouts!<br>Initialy created for day 2 of Nodevember 2023",
+        "mainImage": "img/works/5/borne2.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      }
+  ]
+  
