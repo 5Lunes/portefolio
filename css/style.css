@@ -5,7 +5,8 @@
     --secondary: oklab(74.95% 0.094 0.03);
     --accent: oklab(50.38% -0.082 -0.02);
 
-    --border_distance: 5vh;
+    --border_distance: 10vh;
+    --border_radius: 5px;
   }
 
   ::-moz-selection { /* Code for Firefox */
@@ -19,6 +20,7 @@
   *{
     
     font-family: museo-slab;
+    font-size: 1rem;
     font-weight: 300;
     color: var(--text);
     letter-spacing: -0.025rem;
@@ -26,30 +28,34 @@
 
 
   h1{
-    font-size: 8em;
+    font-size: 6em;
     font-weight:100;
     color: var(--text);
   }
 
   h2{
-    font-size: 4rem;
+    font-size: 3rem;
     padding:  1.5rem 1.5rem 1.5rem 0;
     font-weight: 300;
   }
 
   h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
   }
 
   h4{
     color: var(--background);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   a{
     color: inherit;
     text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
   }
 
   input[type="checkbox"]{
@@ -75,7 +81,7 @@
     position: fixed;
     z-index: 5;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .header_link{
@@ -86,10 +92,10 @@
   }
 
   .header_link a{
-    text-decoration: underline;
     color: var(--text);
     font-weight: 700;
   }
+
 
   .header_menu{
     display: flex;
@@ -214,6 +220,7 @@ footer{
     padding: 0.25rem calc(var(--border_distance)/2);
     margin: 0.75rem calc(var(--border_distance)/2);
     background-color: var(--primary);
+    border-radius: var(--border_radius);
   }
 
   .workfilter-left{
@@ -226,6 +233,7 @@ footer{
     padding: 0.75rem 1rem;
     border: 0;
     background-color: var(--primary);
+    border-radius: var(--border_radius);
   }
 
   .buttonfilter:hover{

@@ -35,7 +35,7 @@
         "id": 3,
         "title_fr": "Rickenbacker 4001",
         "title_en": "Rickenbacker 4001",
-        "date": "2024-04-01",
+        "date": "2024-04-07",
         "tags": ["props"],
         "soft":["blender","painter"],
         "description_fr": "Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare. ",
@@ -71,6 +71,561 @@
         "description_fr": "Borne d'arcade procédurale réalisée sur Houdini<br>complétement configurables avec 6 pressets de layout de boutons<br>Réalisée à la base pour le challenge 2 du nodevember 2023 ",
         "description_en":"Entirely Procedural Arcade Cabinet made with Houdini. It's fully-configurable with up to 6 different button layouts!<br>Initialy created for day 2 of Nodevember 2023",
         "mainImage": "img/works/5/borne2.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 6,
+        "title_fr": "cuisine mamy",
+        "title_en": "kitchen",
+        "date": "2023-09-01",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "description_fr": "Cuisine isométrique inspirée par celle de feu mon arrière grand mère.",
+        "description_en":"Isometric Kitchen inspired by my great grandma's.",
+        "mainImage": "img/works/6/cuisine_hornu.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 7,
+        "title_fr": "pied de micro",
+        "title_en": "microphone stand",
+        "date": "2024-01-15",
+        "tags": ["procedural"],
+        "soft":["houdini"],
+        "description_fr": "Pied de micro procédural sur Houdini.",
+        "description_en":"Procedural microphone stand made with Houdini.",
+        "mainImage": "img/works/7/pied_de_micro_postprod_2.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 8,
+        "title_fr": "spas-12",
+        "title_en": "spas-12",
+        "date": "2023-02-19",
+        "tags": ["props"],
+        "soft":["blender"],
+        "description_fr": "quelques rendus du célèbre fusil à pompe Italien.",
+        "description_en":"Some renders of the famous Italian shotgun.",
+        "mainImage": "img/works/8/spas-12-compressed.jpg",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 9,
+        "title_fr": "pâtisseries japonaises",
+        "title_en": "japaneses cake shop",
+        "date": "2023-05-15",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "description_fr": "Une cuisine urbaine de pâtisseries japonaises.",
+        "description_en":"",
+        "mainImage": "img/works/9/cuitzine_postprod.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 10,
+        "title_fr": "cuisine italienne",
+        "title_en": "italian kitchen",
+        "date": "2023-08-22",
+        "tags": ["environnement","dessin"],
+        "soft":["blender","photoshop"],
+        "description_fr": "Une cuisine italinne avec une vue imprennable sur un paysage inspiré de Sienne.",
+        "description_en":"",
+        "mainImage": "img/works/10/italian_cuisine_final.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 11,
+        "title_fr": "port d'Alger",
+        "title_en": "Algiers port",
+        "date": "2023-01-08",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "description_fr": "Environnement inspiré par le littoral d'Alger, du temps de la régence d'Alger. Autant dire, à l'âge d'or de Barberousse et de la piraterie automane",
+        "description_en":"",
+        "mainImage": "img/works/11/pirate-alger.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 12,
+        "title_fr": "parc du beffroi",
+        "title_en": "belfry park",
+        "date": "2024-07-01",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "description_fr": "Reproduction d'une chapelle du parc du beffroi à Mons",
+        "description_en":"",
+        "mainImage": "img/works/12/beffroi.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 13,
+        "title_fr": "gare",
+        "title_en": "train station",
+        "date": "2025-02-23",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "description_fr": "Une gare aux inspirations brutaliste <br>C'était la période bianuelle de minecraft donc j'ai rajouté des portails",
+        "description_en":"",
+        "mainImage": "img/works/13/gare.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 14,
+        "title_fr": "Honda Civic",
+        "title_en": "Honda Civic",
+        "date": "2024-11-21",
+        "tags": ["props"],
+        "soft":["3Dmax","blender"],
+        "description_fr": "Reproduction de la Honda Civic type R de 2020 <br> Série de rendus au bord de l'eau et pour un challenge demandant d'immaginer un marchant ambulant",
+        "description_en":"",
+        "mainImage": "img/works/14/CivicFinal_1.jpg",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 15,
+        "title_fr": "montre",
+        "title_en": "watch",
+        "date": "2023-02-12",
+        "tags": ["props"],
+        "soft":["blender"],
+        "description_fr": "Reproduction d'une montre de la marque Citizen. C'est la même que celle que j'ai quotidiennement au poignet",
+        "description_en":"",
+        "mainImage": "img/works/15/montre.jpg",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 16,
+        "title_fr": "nature morte 1",
+        "title_en": "still life 1",
+        "date": "2022-11-01",
+        "tags": ["props"],
+        "soft":["houdini"],
+        "description_fr": "nature morte bleue",
+        "description_en":"",
+        "mainImage": "img/works/16/MEVIS_postprod_1.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 17,
+        "title_fr": "nature morte 2",
+        "title_en": "still life 2",
+        "date": "2023-01-16",
+        "tags": ["props"],
+        "soft":["houdini"],
+        "description_fr": "nature morte verdâtre inspirée d'une zone de Control. Avec une seconde natre morte inpirée des peintures imressionistes",
+        "description_en":"",
+        "mainImage": "img/works/17/MEVIS_postprod.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 18,
+        "title_fr": "nature morte 3",
+        "title_en": "still life 3",
+        "date": "2023-05-29",
+        "tags": ["props"],
+        "soft":["houdini"],
+        "description_fr": "nature morte jaunâtre sous les conseils de Anthony",
+        "description_en":"",
+        "mainImage": "img/works/18/MEVIS_postprod.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 19,
+        "title_fr": "nature morte 4",
+        "title_en": "still life 4",
+        "date": "2023-08-03",
+        "tags": ["props"],
+        "soft":["houdini"],
+        "description_fr": "nature morte rosâtre",
+        "description_en":"",
+        "mainImage": "img/works/19/postprod.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 20,
+        "title_fr": "nature morte 5",
+        "title_en": "still life 5",
+        "date": "2023-10-25",
+        "tags": ["props"],
+        "soft":["houdini"],
+        "description_fr": "nature morte finale, sur des tons oranges comme un coucher de soleil",
+        "description_en":"",
+        "mainImage": "img/works/20/MEVIS_postprod.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 21,
+        "title_fr": "Justin",
+        "title_en": "Justin",
+        "date": "2024-05-24",
+        "tags": ["sculpt"],
+        "soft":["zbrush"],
+        "description_fr": "Reproduction du personnage du film d'animation Justin and the knight of valour",
+        "description_en":"",
+        "mainImage": "img/works/21/MEVIS_screenshot.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 22,
+        "title_fr": "vampire",
+        "title_en": "vampire",
+        "date": "2024-01-06",
+        "tags": ["sculpt"],
+        "soft":["zbrush"],
+        "description_fr": "un vampire avec une tête d'asperge",
+        "description_en":"",
+        "mainImage": "img/works/22/MEVIS_final_paint.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 23,
+        "title_fr": "tortue",
+        "title_en": "turtle",
+        "date": "2023-12-01",
+        "tags": ["sculpt"],
+        "soft":["zbrush"],
+        "description_fr": "une tortue caouanne",
+        "description_en":"",
+        "mainImage": "img/works/23/",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 24,
+        "title_fr": "academia Nabulio",
+        "title_en": "academia Nabulio",
+        "date": "2024-04-01",
+        "tags": ["dessin"],
+        "soft":["photoshop"],
+        "description_fr": "les plans d'une académie pour ultra-riche fictive <br>réalisé pour Vénus dans le cadre d'un rp.",
+        "description_en":"",
+        "mainImage": "img/works/24/academia_nabulio_1.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 25,
+        "title_fr": "cosmo tardigrade",
+        "title_en": "cosmo tardigrade",
+        "date": "2023-01-05",
+        "tags": ["dessin"],
+        "soft":["photoshop"],
+        "description_fr": "mocup immaginaire pour un jeu de plateforme mettant un scène un cosmo tardigrade, le plus petit barde du monde, face au boss, le cosmonaute.",
+        "description_en":"",
+        "mainImage": "img/works/25/cosmo_tardigrade.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 26,
+        "title_fr": "dessin 2023",
+        "title_en": "drawing 2023",
+        "date": "2023-12-31",
+        "tags": ["dessin"],
+        "soft":["photoshop"],
+        "description_fr": "compilations de dessins réalisés en 2023. Surtout pendant les cours.",
+        "description_en":"",
+        "mainImage": "img/works/26/maison_iso.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 27,
+        "title_fr": "forteresse Hwaseong",
+        "title_en": "Hwaseong camp",
+        "date": "2024-05-16",
+        "tags": ["GDLD","dessin"],
+        "soft":["photoshop","unreal"],
+        "description_fr": "rélisation d'un level design pour un jeu d'infiltration fictif fortement inspiré du gameplay des derniers hitman.",
+        "description_en":"",
+        "mainImage": "img/works/27/Plan_LD_forteresse.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 28,
+        "title_fr": "Diakonievene",
+        "title_en": "Diakonievene",
+        "date": "2025-01-12",
+        "tags": ["environnement"],
+        "soft":["unreal","blender","speedtree"],
+        "description_fr": "environnement inspiré du parc naturel Diakonievene. Berçé dans une délicate lumière automnale",
+        "description_en":"",
+        "mainImage": "img/works/28/MEVIS_Luca_Final01.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 29,
+        "title_fr": "Fish Stick Protocol",
+        "title_en": "Fish Stick Protocol",
+        "date": "2024-12-10",
+        "tags": ["GDLD"],
+        "soft":["unreal"],
+        "description_fr": "réfléxion sur une nouvelle mécanique pour le jeu fish stick protocol et réalisation d'une animation la présentant. <br>Travaillé éffectué avec Meredith R., Marc V. et Ianis S.",
+        "description_en":"",
+        "mainImage": "img/works/29/Page_storyboard_pg1.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":30,
+        "title_fr": "Fruit Survivor",
+        "title_en": "Fruit Survivor",
+        "date": "2024-04-25",
+        "tags": ["GDLD","prog"],
+        "soft":["unity"],
+        "description_fr": "un suvivor like mêlé avec fruit ninja, ca ne peut que bien marcher non ? <br>Travaillé éffectué avec Sandy R., Cyril N., Anthony R. et Brieux D.",
+        "description_en":"",
+        "mainImage": "img/works/30/titleScreen.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":31,
+        "title_fr": "grotte clandestine",
+        "title_en": "hidden cave",
+        "date": "2023-10-12",
+        "tags": ["environnement"],
+        "soft":["unreal","zbrush"],
+        "description_fr": "une grotte contenant une usine clandestine de fabrication d'android sexuels",
+        "description_en":"",
+        "mainImage": "img/works/31/mockup_grotte.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":32,
+        "title_fr": "donjon Zelda",
+        "title_en": "Zelda dungeon",
+        "date": "2023-01-11",
+        "tags": ["GDLD"],
+        "soft":["photoshop"],
+        "description_fr": "Des challenges de recréations d'un donjon de Zelda avec des mécaniques spécifiques en 4H de temps",
+        "description_en":"",
+        "mainImage": "img/works/32/monde.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":33,
+        "title_fr": "motion capture",
+        "title_en": "motion capture",
+        "date": "2024-11-29",
+        "tags": ["autre"],
+        "soft":["unreal"],
+        "description_fr": "Ititiation à la motion capture avec du matériel professionel <br>Réalisé avec Armand C. et Maxime F.",
+        "description_en":"",
+        "mainImage": "img/works/33/IMG_20241126_145130863_HDR.jpg",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":34,
+        "title_fr": "Shiptricks 3077",
+        "title_en": "Shiptricks 3077",
+        "date": "2024-04-09",
+        "tags": ["GDLD","prog"],
+        "soft":["unreal"],
+        "description_fr": "Faites des figures avec un vaisseau spacial <br>Réalisé avec Ana T. et Cyril N. et Marc V.",
+        "description_en":"",
+        "mainImage": "img/works/34/ST3077.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":35,
+        "title_fr": "Spirate - game",
+        "title_en": "Spirate - game",
+        "date": "2023-11-15",
+        "tags": ["GDLD","prog"],
+        "soft":["VS"],
+        "description_fr": "Un ogame like avec des pirates de l'éspace <br>Réalisé avec Ana T. et Cyril N.",
+        "description_en":"",
+        "mainImage": "img/works/35/Spirate_menu.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":36,
+        "title_fr": "Spirate - art",
+        "title_en": "Spirate - art",
+        "date": "2023-11-14",
+        "tags": ["props"],
+        "soft":["blender"],
+        "description_fr": "Un ogame like avec des pirates de l'éspace <br>Réalisé avec Ana T. et Cyril N.",
+        "description_en":"",
+        "mainImage": "img/works/36/key-art-spirates.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":37,
+        "title_fr": "Stealth bastard",
+        "title_en": "Stealth bastard",
+        "date": "2024-05-18",
+        "tags": ["GDLD"],
+        "soft":["In game editor"],
+        "description_fr": "Création d'un niveau pour le jeu Steath Bastard <br>Réalisé avec Ana T. et Cyril N.",
+        "description_en":"",
+        "mainImage": "img/works/37/",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":38,
+        "title_fr": "Macrocyst - Game Jam",
+        "title_en": "Macrocyst - Game Jam",
+        "date": "2023-01-27",
+        "tags": ["GDLD"],
+        "soft":["unity"],
+        "description_fr": "Première game jam. Jeu inspiré par tentacle war <br>Réalisé avec Lightbolt, Breniak, Théo D. et Neil P.",
+        "description_en":"",
+        "mainImage": "img/works/38/macrocyst_title_0.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":39,
+        "title_fr": "Overstrum - Game Jam",
+        "title_en": "Overstrum - Game Jam",
+        "date": "2024-01-27",
+        "tags": ["GDLD"],
+        "soft":["unity"],
+        "description_fr": "Seconde game jam. wario ware avec la guitare en plastique <br>Réalisé avec Ana T., Cyril N., Hugues C. et Anthony R.",
+        "description_en":"",
+        "mainImage": "img/works/39/overstrum-logo.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":40,
+        "title_fr": "Shonk - Game Jam",
+        "title_en": "Shonk - Game Jam",
+        "date": "2025-01-27",
+        "tags": ["prog"],
+        "soft":["unreal"],
+        "description_fr": "Troisieme game jam. Un platformer inspriré de celeste avec des bulles <br>Réalisé avec Meg B., Cyril N., Jules V., Rafael R., Lucas J. et Nathan A.",
+        "description_en":"",
+        "mainImage": "img/works/40/background_Plan_de_travail_1.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":41,
+        "title_fr": "portefolio Ana",
+        "title_en": "portefolio Ana",
+        "date": "2025-01-28",
+        "tags": ["prog"],
+        "soft":["VS"],
+        "description_fr": "Aide pour la réalisation du portefolio de Ana Tronion",
+        "description_en":"",
+        "mainImage": "img/works/41/anaportefolio.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":42,
+        "title_fr": "Amarna - enviro",
+        "title_en": "Amarna - enviro",
+        "date": "2025-01-28",
+        "tags": ["prog"],
+        "soft":["VS"],
+        "description_fr": "Aide pour la réalisation du portefolio de Ana Tronion",
+        "description_en":"",
+        "mainImage": "img/works/42/MEVIS_Luca_WideShot01.png",
         "additionalImages": [
           "",
           ""
