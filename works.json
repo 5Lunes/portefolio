@@ -620,16 +620,61 @@
         "id":42,
         "title_fr": "Amarna - enviro",
         "title_en": "Amarna - enviro",
-        "date": "2025-01-28",
-        "tags": ["prog"],
-        "soft":["VS"],
-        "description_fr": "Aide pour la réalisation du portefolio de Ana Tronion",
+        "date": "2025-01-12",
+        "tags": ["environnement"],
+        "soft":["unreal"],
+        "description_fr": "Iterprétation du palais d'Akhénaton à Amarna",
         "description_en":"",
         "mainImage": "img/works/42/MEVIS_Luca_WideShot01.png",
         "additionalImages": [
           "",
           ""
         ]
+      },
+      {
+        "id":43,
+        "title_fr": "Amarna - material",
+        "title_en": "Amarna - material",
+        "date": "2025-01-11",
+        "tags": ["procedural"],
+        "soft":["designer"],
+        "description_fr": "Iterprétation du palais d'Akhénaton à Amarna",
+        "description_en":"",
+        "mainImage": "img/works/43/MEVIS_Luca_BeautyShot_Trim01.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":44,
+        "title_fr": "palais",
+        "title_en": "palace",
+        "date": "2024-01-05",
+        "tags": ["prog"],
+        "soft":["unreal","painter"],
+        "description_fr": "un prototype de platformer. Environnement inspiré du jeu Echo",
+        "description_en":"",
+        "mainImage": "img/works/44/HighresScreenshot00001.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id":45,
+        "title_fr": "santa Teresa",
+        "title_en": "santa Teresa",
+        "date": "2024-05-26",
+        "tags": ["environnement"],
+        "soft":["unreal"],
+        "description_fr": "",
+        "description_en":"",
+        "mainImage": "img/works/45/HighresScreenshot00000.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
       }
-  ]
+]
   
