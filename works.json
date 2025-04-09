@@ -1,140 +1,167 @@
 [
     {
       "id": 1,
-      "title_fr": "sabre suisse",
-      "title_en": "swiss saber",
+      "title_fr": "sabre",
+      "title_en": "saber",
+      "pays_fr":"Suisse 🇨🇭",
+      "pays_en":"Switzerland 🇨🇭",
       "date": "2024-09-01",
       "tags": ["props"],
       "soft":["blender","painter"],
       "description_fr": "Sabre Suisse plantée dans un environnement montagnard. Modélisation, matériaux et décors réalisés depuis zéro. Je trouve cette sorte d'épée particulièrement élégante.",
       "description_en":"Swiss sabre planted in a mountain environment. Model, matérials and set made from scratch. I feel that this type of sword is particularly elegant.",
-      "mainImage": "img/works/1/sabre_suisse_rouge_cropped.png",
+      "mainImage": "img/works/1/sabre_suisse_rouge_cropped.webp",
       "additionalImages": [
-        "img/works/1/sabre_suisse_rouge5.jpg",
-        "img/works/1/sabre_suisse.png",
-        "img/works/1/sabre_suisse2.png",
-        "img/works/1/sabre_suisse3.png"
-      ]
+        "img/works/1/sabre_suisse_rouge5.webp",
+        "img/works/1/sabre_suisse.webp",
+        "img/works/1/sabre_suisse2.webp",
+        "img/works/1/sabre_suisse3.webp"
+      ],
+      "additionalVideo": ""
     },
     {
         "id": 2,
-        "title_fr": "scientifique fou",
-        "title_en": "mad scientist",
-        "date": "2024-06-01",
-        "tags": ["environnement","dessin"],
-        "soft":["blender","paint.net","photoshop"],
+        "title_fr": "scientifique fou - 3D",
+        "title_en": "mad scientist - 3D",
+        "pays_fr":"Inconnu",
+        "pays_en":"Unknown",
+        "date": "2024-06-02",
+        "tags": ["environnement"],
+        "soft":["blender","paint.net"],
         "description_fr": "Laboratoire de scientifique fou en vue isométrique. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale.",
         "description_en":"Isometric view of a mad scientist lab. My goal was to present modern chemistry equipment in a dirty medieval set.",
-        "mainImage": "img/works/2/scientifique_fou.png",
+        "mainImage": "img/works/2/scientifique_fou.webp",
         "additionalImages": [
-          "",
-          ""
+          "img/works/2/scientifique_fou.webp",
+          "img/works/2/scientifique_fou_alt1.webp",
+          "img/works/2/scientifique_fou_alt2.webp",
+          "img/works/2/scientifique_fou_alt3.webp",
+          "img/works/2/MEVIS_Diorama_3D_Clay.webp",
+          "img/works/2/MEVIS_ Diorama_3D_Closeup_01_wireframe.webp"
         ]
       },
       {
         "id": 3,
-        "title_fr": "Rickenbacker 4001",
-        "title_en": "Rickenbacker 4001",
-        "date": "2024-04-07",
-        "tags": ["props"],
-        "soft":["blender","painter"],
-        "description_fr": "Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare. ",
-        "description_en":"Hard surface modeling of the Rickenbacker 4001 fretless. Game ready model. This is a BASS, not a guitar.",
-        "mainImage": "img/works/3/Rickenbacker_avant_post.png",
+        "title_fr": "scientifique fou - dessin",
+        "title_en": "mad scientist - drawing",
+        "pays_fr":"Inconnu",
+        "pays_en":"Unknown",
+        "date": "2024-06-01",
+        "tags": ["environnement","dessin"],
+        "soft":["photoshop"],
+        "description_fr": "Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale. <br> Il y a eu de nombreuses itérations avant d'arriver à un résultat aussi sombre et glauque. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre.",
+        "description_en":" ",
+        "mainImage": "img/works/3/MEVIS_Diorama_Iso.webp",
         "additionalImages": [
-          "",
-          ""
+          "img/works/3/MEVIS_Diorama_Iso.webp",
+          "img/works/3/MEVIS_Conceptart.webp",
+          "img/works/3/MEVIS_Thumbnails.webp"
         ]
       },
       {
         "id": 4,
         "title_fr": "chandelier",
         "title_en": "chandelier",
+        "pays_fr":"Liechtenstein 🇱🇮",
+        "pays_en":"Liechtenstein 🇱🇮",
         "date": "2023-09-01",
         "tags": ["procedural"],
         "soft":["houdini"],
         "description_fr": "Chandelier procédural conçu avec Houdini, s'inspirant du style baroque du château de Versailles.<br>Il est entièrement configurable dans les détails.",
         "description_en":"Procedural Chandelier made with Houdini. It takes inspiration from Chateau de Versailles's baroque style.<br>It's entirely configurable in every detail.",
-        "mainImage": "img/works/4/chandelier2_postprod.png",
+        "mainImage": "img/works/4/chandelier2_postprod_crop.webp",
         "additionalImages": [
-          "",
-          ""
+          "img/works/4/chandelier2_postprod.webp",
+          "img/works/4/chandeliermulti_postprod.webp"
         ]
       },
       {
         "id": 5,
         "title_fr": "borne d'arcade",
         "title_en": "arcade cabinet",
+        "pays_fr":"Inconnu",
+        "pays_en":"Unknown",
         "date": "2024-01-01",
         "tags": ["procedural"],
         "soft":["houdini"],
         "description_fr": "Borne d'arcade procédurale réalisée sur Houdini<br>complétement configurables avec 6 pressets de layout de boutons<br>Réalisée à la base pour le challenge 2 du nodevember 2023 ",
         "description_en":"Entirely Procedural Arcade Cabinet made with Houdini. It's fully-configurable with up to 6 different button layouts!<br>Initialy created for day 2 of Nodevember 2023",
-        "mainImage": "img/works/5/borne2.png",
+        "mainImage": "img/works/5/borne2.webp",
         "additionalImages": [
-          "",
-          ""
+          "img/works/5/bornes2.webp"
         ]
       },
       {
         "id": 6,
         "title_fr": "cuisine mamy",
         "title_en": "kitchen",
+        "pays_fr":"Belgique 🇧🇪",
+        "pays_en":"Belgium 🇧🇪",
         "date": "2023-09-01",
         "tags": ["environnement"],
         "soft":["blender"],
         "description_fr": "Cuisine isométrique inspirée par celle de feu mon arrière grand mère.",
         "description_en":"Isometric Kitchen inspired by my great grandma's.",
-        "mainImage": "img/works/6/cuisine_hornu.png",
+        "mainImage": "img/works/6/cuisine_hornu.webp",
         "additionalImages": [
-          "",
-          ""
+          "img/works/6/cuisine_hornu.webp",
+          "img/works/6/cuisine_hornu_alt.webp",
+          "img/works/6/cuisine_hornu_brun.webp"
         ]
       },
       {
         "id": 7,
         "title_fr": "pied de micro",
         "title_en": "microphone stand",
+        "pays_fr":"Inconnu",
+        "pays_en":"Unknown",
         "date": "2024-01-15",
         "tags": ["procedural"],
         "soft":["houdini"],
         "description_fr": "Pied de micro procédural sur Houdini.",
         "description_en":"Procedural microphone stand made with Houdini.",
-        "mainImage": "img/works/7/pied_de_micro_postprod_2.png",
+        "mainImage": "img/works/7/pied_de_micro_postprod_2.webp",
         "additionalImages": [
-          "",
-          ""
-        ]
+          "img/works/7/pied_de_micro_postprod_2.webp"
+        ],
+        "additionalVideo": "https://www.youtube.com/embed/VQxyfXrhLUQ?si=3iKsKJEhMl-3RCHx"
       },
       {
         "id": 8,
         "title_fr": "spas-12",
         "title_en": "spas-12",
+        "pays_fr":"Italie 🇮🇹",
+        "pays_en":"Italia 🇮🇹",
         "date": "2023-02-19",
         "tags": ["props"],
         "soft":["blender"],
-        "description_fr": "quelques rendus du célèbre fusil à pompe Italien.",
-        "description_en":"Some renders of the famous Italian shotgun.",
-        "mainImage": "img/works/8/spas-12-compressed.jpg",
+        "description_fr": "Quelques rendus du célèbre fusil à pompe Italien. Textures procédurales réalisées sur blender.",
+        "description_en":"Some renders of the famous Italian shotgun. Procedural texture made on blender.",
+        "mainImage": "img/works/8/spas-12-scene.webp",
         "additionalImages": [
-          "",
-          ""
+          "img/works/8/spas-12-scene.webp",
+          "img/works/8/spas-12_1.webp",
+          "img/works/8/spas-12_2.webp",
+          "img/works/8/spas-12_3.webp"
         ]
       },
       {
         "id": 9,
         "title_fr": "pâtisseries japonaises",
         "title_en": "japaneses cake shop",
+        "pays_fr":"Japon 🇯🇵",
+        "pays_en":"Japan 🇯🇵",
         "date": "2023-05-15",
         "tags": ["environnement"],
         "soft":["blender"],
-        "description_fr": "Une cuisine urbaine de pâtisseries japonaises.",
+        "description_fr": "Une cuisine urbaine de pâtisseries japonaises. Vends des daifukus, des dangos, des sakura mochis ainsi que des anpans.",
         "description_en":"",
-        "mainImage": "img/works/9/cuitzine_postprod.png",
+        "mainImage": "img/works/9/cuitzine_postprod.webp",
         "additionalImages": [
-          "",
-          ""
-        ]
+          "img/works/9/cuisine.webp",
+          "img/works/9/MEVIS_diorama3D_nb.webp"
+        ],
+        "additionalVideo": "https://www.youtube.com/embed/bJ6wrblUwEo?si=LhiA0zj_KaPUqB0r"
       },
       {
         "id": 10,
@@ -671,6 +698,21 @@
         "description_fr": "",
         "description_en":"",
         "mainImage": "img/works/45/HighresScreenshot00000.png",
+        "additionalImages": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 46,
+        "title_fr": "Rickenbacker 4001",
+        "title_en": "Rickenbacker 4001",
+        "date": "2024-04-07",
+        "tags": ["props"],
+        "soft":["blender","painter"],
+        "description_fr": "Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare. ",
+        "description_en":"Hard surface modeling of the Rickenbacker 4001 fretless. Game ready model. This is a BASS, not a guitar.",
+        "mainImage": "img/works/46/Rickenbacker_avant_post.png",
         "additionalImages": [
           "",
           ""

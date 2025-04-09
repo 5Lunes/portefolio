@@ -21,12 +21,46 @@ fetch('/works.json')
       image.src = item.mainImage;
       image.alt = item.title_fr;
       image.addEventListener('click', () => showImageDetails(item));
+      const imagedesc = document.createElement(`div`);
+      imagedesc.classList.add('imagedesc');
 
       const title = document.createElement('h4');
       title.innerText = item.title_fr;
+
+      const softicon = document.createElement('div');
+      softicon.classList.add('softicons');
+      if(item.soft.includes("blender")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/blender.svg">`)
+      }
+      if(item.soft.includes("houdini")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/houdini.svg">`)
+      }
+      if(item.soft.includes("3Dmax")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/3Dmax.png">`)
+      }
+      if(item.soft.includes("unity")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/unity.svg">`)
+      }
+      if(item.soft.includes("unreal")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/unreal.svg">`)
+      }
+      if(item.soft.includes("zbrush")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/zbrush.svg">`)
+      }
+      if(item.soft.includes("painter")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/painter.svg">`)
+      }
+      if(item.soft.includes("speedtree")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/speedtree.png">`)
+      }
+      if(item.soft.includes("photoshop")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/photoshop.svg">`)
+      }
   
       imageElement.appendChild(image);
-      imageElement.appendChild(title)
+      imageElement.appendChild(imagedesc);
+      imagedesc.appendChild(title);
+      imagedesc.appendChild(softicon)
       gridContainer.appendChild(imageElement);
     });
   }
@@ -38,10 +72,17 @@ fetch('/works.json')
       <p>${item.description_fr}</p>
       <p><strong>Date:</strong> ${item.date}</p>
       <p><strong>Tag:</strong> ${item.tags}</p>
+      <p><strong>Pays:</strong> ${item.pays_fr}</p>
       <div class="additional-images">
         ${item.additionalImages.map(img => `<img src="${img}" alt="Additional image">`).join('')}
       </div>
     `;
+    if( item.additionalVideo != null){
+      detailsContainer.insertAdjacentHTML(
+        "beforeend",
+        `<iframe width="560" height="315" src="${item.additionalVideo}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+      )
+    }
     detailsContainer.style.display = 'block';
   }
 

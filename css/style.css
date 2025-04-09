@@ -287,10 +287,7 @@ footer{
   
   .image-item{
     position: relative;
-  }
-
-  .image-item:hover{
-    border: 7px solid var(--secondary);
+    display: inherit
   }
 
   .image-item img {
@@ -301,12 +298,25 @@ footer{
     cursor: pointer;
   }
 
-  .image-item h4{
+  .imagedesc {
     position: absolute;
-    width: 100%;
     bottom: 7%;
+    width: 100%;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .imagedesc h4{
     text-align: center;
     text-shadow: 4px 5px 8px rgba(0,0,0,0.9);
+  }
+
+  .softicons img{
+    width: 16px;
+    text-align: center;
+    text-shadow: 4px 5px 8px rgba(0,0,0,0.9);
+    margin: 4px;
   }
   
   #workdetail {
