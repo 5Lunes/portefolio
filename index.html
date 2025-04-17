@@ -10,14 +10,17 @@
   </head>
 
   <body>
+    <script src="js/translation/node_modules/jquery-slim/dist/jquery.slim.js"></script>
+
     <header>
         <div class="header_link">
             <a href="/index.html">5Lunes</a>
             <div class="header_empty"></div>
             <div class="header_menu">
-                <a href="/work.html">réalisations</a>
-                <a href="/about.html">à propos</a>
-                <a href="/blog.html">blog</a>
+                <a href="/work.html" data-i18n="header.realisation"></a>
+                <a href="/about.html" data-i18n="header.propos"></a>
+                <a href="/blog.html" data-i18n="header.blog"></a>
+                <select name="language" id="languageSwitcher">aaaa</select>
             </div>
             
         </div>
@@ -31,28 +34,30 @@
         <div class="main_first">
             <div class="main_text">
                 <h1 id="main_title">5Lunes</h1>
-                <h3 id="main_subtitle">Techniquement artiste</h3>
+                <h2 data-i18n="pays.inconnu"></h2>
+                <h3 id="main_subtitle" data-i18n="main.subtitle">Techniquement artiste</h3>
             </div>
         </div> 
         <div class="maincontent">
             <div class="main_second">
                 <div class="main_redirection">
-                    <h2>Réalisations</h2>
+                    <h2 data-i18n="header.realisation"></h2>
                     <ul class="redirection_list">
                         <li><a>Modélisation</a></li>
                         <ul class="redirection_list_mode"> 
-                            <li>Environnement</li>
-                            <li>Objects</li>
-                            <li>Procédural</li>
+                            <li data-i18n="works.tags.enviro"></li>
+                            <li data-i18n="works.tags.props"></li>
+                            <li data-i18n="works.tags.procedural"></li>
+                            <li data-i18n="works.tags.sculpt"></li>
                         </ul>
-                        <li>Game & level design</li>
-                        <li><a>Programmation</a></li>
-                        <li><a>Autre</a></li>
+                        <li data-i18n="works.tags.GDLD"></li>
+                        <li data-i18n="works.tags.prog"><a></a></li>
+                        <li data-i18n="works.tags.autre"><a></a></li>
                     </ul>
                 </div>
     
                 <div class="main_best">
-                    <h2>La crème</h2>
+                    <h2 data-i18n="main.creme"></h2>
                 
                 </div>
             </div>
@@ -74,7 +79,15 @@
         </div>
     </footer>
 
-
+    
   </body>
 </html>
 <script src="js/time.js"> </script>
+
+<script src="js\translation\node_modules\i18next\dist\umd\i18next.min.js"></script>
+<script src="js\translation\node_modules\jquery-i18next\dist\umd\jquery-i18next.min.js"></script>
+<script src="js\translation\node_modules\i18next-browser-languagedetector\dist\umd\i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+<!-- an example can be found in example/jquery/index.html -->
+
+<script src="js/translation/i18n.js"></script>

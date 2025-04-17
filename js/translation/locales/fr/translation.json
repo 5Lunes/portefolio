@@ -1,0 +1,10 @@
+{
+    "pays":{
+        "inconnu" : "Inconnu",
+        "suisse": "Suisse 🇨🇭"
+    },
+    "1":{
+        "titre": "sabre",
+        "description":"Sabre Suisse plantée dans un environnement montagnard. Modélisation, matériaux et décors réalisés depuis zéro. Je trouve cette sorte d'épée particulièrement élégante."
+    }
+}

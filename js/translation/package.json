@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "jquery-i18next": "^1.2.1",
+    "jquery-slim": "^3.0.0"
+  }
+}

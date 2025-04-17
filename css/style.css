@@ -107,6 +107,21 @@
     flex: 1;
   }
 
+  select{
+    background:none;
+    border: none;
+    color: var(--text);
+    font-weight: 700;
+  }
+
+ select  option{
+    font-family: museo-slab;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text);
+    letter-spacing: -0.025rem;
+  }
+
 
 
 
@@ -263,7 +278,7 @@ footer{
   }
 
   .filterselement{
-    padding: 0.33rem 0.2rem;
+    
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
@@ -276,6 +291,7 @@ footer{
   .filterselement label{
     display: flex;
     align-items: center;
+    padding: 0.33rem 0.2rem;
   }
 
   #workgrid{

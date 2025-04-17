@@ -24,8 +24,9 @@ fetch('/works.json')
       const imagedesc = document.createElement(`div`);
       imagedesc.classList.add('imagedesc');
 
-      const title = document.createElement('h4');
-      title.innerText = item.title_fr;
+      const title = document.createElement(`h4`);
+      title.setAttribute('data-i18n',`${item.id}.titre`);
+
 
       const softicon = document.createElement('div');
       softicon.classList.add('softicons');
@@ -55,6 +56,9 @@ fetch('/works.json')
       }
       if(item.soft.includes("photoshop")){
         softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/photoshop.svg">`)
+      }
+      if(item.soft.includes("VS")){
+        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/VS.svg">`)
       }
   
       imageElement.appendChild(image);
