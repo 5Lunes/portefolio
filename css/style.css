@@ -7,6 +7,10 @@
 
     --border_distance: 10vh;
     --border_radius: 5px;
+
+    @media screen and (orientation: portrait) {
+      --border_distance:4px;
+    }
   }
 
   ::-moz-selection { /* Code for Firefox */
@@ -24,6 +28,7 @@
     font-weight: 300;
     color: var(--text);
     letter-spacing: -0.025rem;
+    scroll-behavior: smooth;
   }
 
 
@@ -97,7 +102,7 @@
   }
 
 
-  .header_menu{
+  .header_menu, .nav_laptop{
     display: flex;
     gap: 4rem;
   }
@@ -120,6 +125,72 @@
     font-weight: 300;
     color: var(--text);
     letter-spacing: -0.025rem;
+  }
+
+   /* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 0;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: var(--background);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.33s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.nav_mobile_content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--primary);
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: var(--secondary)
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+} 
+
+  @media screen and (orientation : portrait) {
+    .nav_laptop{ display: none;}
+    .nav_mobile_open{display: flex;}
+  }
+  @media screen and (orientation : landscape) {
+    .nav_laptop{ display: flex;}
+    .nav_mobile_open{display: none;}
   }
 
 
@@ -152,7 +223,12 @@
     top: 20%;
     right: 21%;
     text-align: center;
+    @media screen and (orientation : portrait) {
+      right: 0%;
+    }
   }
+
+  
 
   #main_subtitle{
     position: relative;
@@ -175,7 +251,7 @@
 
   .redirection_list{
     font-size: 1.1rem;
-    margin-left: 3rem;
+    margin-left: calc(var(--border_distance)/2);
   }
 
   .redirection_list li{
@@ -194,6 +270,13 @@
 
   .main_best{
     width: 50%;
+    @media screen and (orientation : portrait){
+      width:100%
+    }
+  }
+
+  #workgridIndex{
+    padding: 0 calc(var(--border_distance)/2);
   }
 
 
@@ -220,6 +303,10 @@ footer{
   .footer_social{
     display: flex;
     gap: 4rem;
+  }
+
+  @media screen and (orientation : portrait) {
+    .footer_social, .footer_top{display: none;}
   }
 
 
@@ -294,7 +381,7 @@ footer{
     padding: 0.33rem 0.2rem;
   }
 
-  #workgrid{
+  .workgrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
     gap: 5px;
@@ -336,14 +423,56 @@ footer{
   }
   
   #workdetail {
-    display: none;
     position: fixed;
+    border: none;
     background-color: var(--primary);
-    width: 60%;
-    top: 12%;
-    margin-inline: 20%;
+    padding: calc(var(--border_distance)/2) calc(var(--border_distance)*1.5);
+    width: 95%;
+    height: 97.5%;
+    top: 1%;
+    z-index: 15;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width:thin;
+    scrollbar-color: var(--accent) var(--primary);
+
+    border-radius: var(--border_radius);
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.39);
+  }
+
+  .x {
+		border: none;
+		background: none;
+		position: fixed;
+		top: 64px;
+		right: 64px;
+		transition: ease filter, transform 0.3s;
+		cursor: pointer;
+		transform-origin: center;
+    stroke: var(--text);
+  }
+	.x:hover {
+		stroke: var(--accent);
+		transform: scale(1.025);
+  }
+
+  #workdetail::backdrop {
+		animation: fadeIn 1s ease both;
+		background: rgb(255 255 255 / 40%);
+		z-index: 2;
+		backdrop-filter: blur(20px);
+  }
+
+  .additional-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .additional-images img{
     width: 100%;
+    display: block;
+  }
+
+  .additional-images a:first-child{
+    grid-column: 1 / span 2;
   }

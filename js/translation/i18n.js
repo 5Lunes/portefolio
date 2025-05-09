@@ -32,12 +32,9 @@ $(function () {
 
       debug: true,
       fallbackLng: 'fr',
-
       backend: {
-        loadPath: '/locales/{{lng}}/{{ns}}.json'
+        loadPath: 'js/translation/locales/{{lng}}/{{ns}}.json'
       },
-
-      
 
     }, (err, t) => {
 
@@ -70,8 +67,10 @@ $(function () {
         });
 
       });
+      
       rerender();
 
     });
 
 });
+

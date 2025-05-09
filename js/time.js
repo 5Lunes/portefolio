@@ -5,3 +5,13 @@ function updateClock() {
 }
 setInterval(updateClock, 1000);
 updateClock();
+
+/* Open */
+function openNav() {
+    document.getElementById("nav_mobile").style.height = "100%";
+  }
+  
+  /* Close */
+  function closeNav() {
+    document.getElementById("nav_mobile").style.height = "0%";
+  } 

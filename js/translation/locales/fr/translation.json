@@ -1,10 +1,225 @@
 {
+    "key":"clé",
+    "header":{
+        "realisation": "Réalisations",
+        "propos": "À propos",
+        "blog": "Blog"
+    },
+    "main":{
+        "subtitle": "techniquement artiste",
+        "creme":"La crème"
+    },
+    "works":{
+        "title":"Mes réalisations",
+        "tout":"tout",
+        "aucun":"aucun",
+        "filtrer":"Filtrer",
+        "tags":{
+            "props":"objets",
+            "enviro":"environnement",
+            "procedural":"procédural",
+            "sculpt": "sculpture",
+            "GDLD": "game & level design",
+            "prog": "programation",
+            "dessin": "dessin",
+            "autre": "autre"
+        }
+    },
     "pays":{
         "inconnu" : "Inconnu",
-        "suisse": "Suisse 🇨🇭"
+        "suisse": "Suisse 🇨🇭",
+        "liechtenstein": "Liechtenstein 🇱🇮",
+        "belgique":"Belgique 🇧🇪",
+        "italie":"Italie 🇮🇹",
+        "russie":"Russie 🇷🇺",
+        "japon":"Japon 🇯🇵",
+        "algerie":"Algérie 🇩🇿",
+        "france":"France 🇫🇷",
+        "coree_sud":"Corée du Sud 🇰🇷",
+        "pays_bas": "Pays-Bas 🇳🇱",
+        "birmanie":"Birmanie 🇲🇲",
+        "egypte":"Égypte 🇪🇬",
+        "uruguay":"Uruguay 🇺🇾"
     },
     "1":{
         "titre": "sabre",
         "description":"Sabre Suisse plantée dans un environnement montagnard. Modélisation, matériaux et décors réalisés depuis zéro. Je trouve cette sorte d'épée particulièrement élégante."
+    },
+    "2":{
+        "titre": "scientifique fou - 3D",
+        "description":"Laboratoire de scientifique fou en vue isométrique. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale."
+    },
+    "3":{
+        "titre": "scientifique fou - dessin",
+        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale. <br> Il y a eu de nombreuses itérations avant d'arriver à un résultat aussi sombre et glauque. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
+    },
+    "4":{
+        "titre": "chandelier",
+        "description":"Chandelier procédural conçu avec Houdini, s'inspirant du style baroque du château de Versailles.<br>Il est entièrement configurable dans les détails."
+    },
+    "5":{
+        "titre": "borne d'arcade",
+        "description":"Borne d'arcade procédurale réalisée sur Houdini<br>complétement configurables avec 6 pressets de layout de boutons<br>Réalisée à la base pour le challenge 2 du nodevember 2023"
+    },
+    "6":{
+        "titre": "cuisine mamy",
+        "description":"Cuisine isométrique inspirée par celle de feu mon arrière grand mère."
+    },
+    "7":{
+        "titre":"pied de micro",
+        "description": "Pied de micro procédural sur Houdini."
+    },
+    "8":{
+        "titre":"spas-12",
+        "description": "Quelques rendus du célèbre fusil à pompe Italien. Textures procédurales réalisées sur blender."
+    },
+    "9":{
+        "titre":"pâtisseries japonaises",
+        "description": "Une cuisine urbaine de pâtisseries japonaises. Vends des daifukus, des dangos, des sakura mochis ainsi que des anpans."
+    },
+    "10":{
+        "titre": "cuisine italienne",
+        "description":"Une cuisine italinne avec une vue imprennable sur un paysage inspiré de Sienne."
+    },
+    "11":{
+        "titre":"port de Barberousse",
+        "description":"Environnement inspiré par le littoral d'Alger, du temps de la régence d'Alger. Autant dire, à l'âge d'or de Barberousse et de la piraterie automane"
+    },
+    "12":{
+        "titre":"parc du beffroi",
+        "description":"Reproduction d'une chapelle du parc du beffroi à Mons. Modélisation réalisée dans un temps réduit"
+    },
+    "13":{
+        "titre":"gare",
+        "description":"Une gare aux inspirations brutaliste <br>C'était la période bianuelle de minecraft donc j'ai rajouté des portails."
+    },
+    "14":{
+        "titre":"honda civic",
+        "description":"Reproduction de la Honda Civic type R de 2020. C'est le premier véhicule que j'arrive à modéliser entièrement. Ca aura été très formateur sur 3DS Max <br> Série de rendus au bord de l'eau et pour un challenge demandant d'immaginer un marchant ambulant. C'est donc une grand mère du Vaucleuse qui vend ses fruits en voiture de course."
+    },
+    "15":{
+        "titre":"montre",
+        "description":"Reproduction d'une montre de la marque Citizen. C'est la même que celle que j'ai quotidiennement au poignet."
+    },
+    "16":{
+        "titre": "nature morte 1",
+        "description":"Nature morte bleue.<br>Premier rendu avec Houdini."
+    },
+    "17":{
+        "titre": "nature morte 2",
+        "description":"nature morte verdâtre inspirée d'une zone de Control. Avec une seconde natre morte inpirée des peintures imressionistes"
+    },
+    "18":{
+        "titre":"nature morte 3",
+        "description":"nature morte jaunâtre sous les conseils de Anthony."
+    },
+    "19":{
+        "titre":"nature morte 4",
+        "description":"nature morte rosâtre."
+    },
+    "20":{
+        "titre":"nature morte 5",
+        "description":"nature morte finale, sur des tons oranges comme un coucher de soleil"
+    },
+    "21":{
+        "titre":"Justin",
+        "description":"Reproduction du personnage du film d'animation Justin and the knight of valour. Première expérience de modélisation d'un personnage complet."
+    },
+    "22":{
+        "titre":"vampire",
+        "description":"un vampire avec une tête d'asperge"
+    },
+    "23":{
+        "titre":"tortue",
+        "description":"une tortue caouanne"
+    },
+    "24":{
+        "titre":"academia Nabulio",
+        "description":"Les plans d'une académie pour ultra-riche fictive. <br>Réalisé pour Vénus dans le cadre d'un rp."
+    },
+    "25":{
+        "titre":"cosmo tardigrade",
+        "description":"Mocup immaginaire pour un jeu de plateforme mettant un scène un cosmo tardigrade, le plus petit barde du monde, face au boss, le cosmonaute."
+    },
+    "26":{
+        "titre": "dessins 2023",
+        "description":"Compilations de dessins réalisés en 2023. Surtout pendant les cours."
+    },
+    "27":{
+        "titre":"forteresse Hwaseong",
+        "description":"Rélisation d'un level design pour un jeu d'infiltration fictif fortement inspiré du gameplay des derniers hitman."
+    },
+    "28":{
+        "titre":"Diakonievene",
+        "description":"Environnement inspiré du parc naturel Diakonievene. Berçé dans une délicate lumière automnale."
+    },
+    "29":{
+        "titre":"Fish Stick Protocol",
+        "description": "Réflexion sur une nouvelle mécanique pour le jeu fish stick protocol et réalisation d'une animation la présentant. <br>Travail éffectué avec Meredith R., Marc V. et Ianis S."
+    },
+    "30":{
+        "titre":"fruit survivor",
+        "description":"Un suvivor like mêlé avec fruit ninja, ca ne peut que bien marcher non ? <br>Travail effectué avec Sandy R., Cyril N., Anthony R. et Brieux D."
+    },
+    "31":{
+        "titre":"grotte clandestine",
+        "description":"Une grotte contenant une usine clandestine de fabrication d'android sexuels."
+    },
+    "32":{
+        "titre":"donjon Zelda",
+        "description":"Des challenges de recréations d'un donjon de Zelda avec des mécaniques spécifiques en 4H de temps"
+    },
+    "33":{
+        "titre":"motion capture",
+        "description":"Ititiation à la motion capture avec du matériel professionel <br>Réalisé avec Armand C. et Maxime F."
+    },
+    "34":{
+        "titre":"Shiptricks 3077",
+        "description":"Un jeu où l'on fait des tricks avec un bateau à tarvers une mer d'étoile. Désormais avec un véritable gouvernail <br> C'est un jeu réalisé pour l'école avec mes amis Ana T., Cyril N. et Marc V. Nous avons dû créer un jeu d'arcade utilisant un périphérique alternatif."
+    },
+    "35":{
+        "titre":"Spirate - game",
+        "description":" Un jeu de stratégie en ligne dans lequel vous devez améliorer et acheter des vaisseaux pour devenir le plus grand pirate de l'espace !C'est un jeu que j'ai fait avec mes amis Luca Mevis et Cyril Naessens pour l'école. Nous devions créer un document de conception de jeu et ensuite essayer de créer un jeu à partir de ce document. Le jeu est disponible ici."
+    },
+    "36":{
+        "titre":"Spirate - art",
+        "description":" Un jeu de stratégie en ligne dans lequel vous devez améliorer et acheter des vaisseaux pour devenir le plus grand pirate de l'espace !C'est un jeu que j'ai fait avec mes amis Luca Mevis et Cyril Naessens pour l'école. Nous devions créer un document de conception de jeu et ensuite essayer de créer un jeu à partir de ce document. Le jeu est disponible ici."
+    },
+    "37":{
+        "titre":"Stealth bastard",
+        "description":"Exercice de level design demandant de créer un niveau pour le jeu Stealth Bastard. Travail réalisé en groupe avec Ana T. et Cyril N., dans lequel je me suis chargé du niveau de difficulté intermédiaire. Nous avons essayé d'exploiter au mieux la mécanique du portail portatif."
+
+    },
+    "38":{
+        "titre":"Macrocyst - Game Jam",
+        "description":"Première game jam. Jeu inspiré par tentacle war <br>Réalisé avec Lightbolt, Breniak, Théo D. et Neil P."
+    },
+    "39":{
+        "titre":"Overstrum - Game Jam",
+        "description":"Un Wario wWare liké avec une guitare enplastoc de guitar Hero (ou rockband). Un projet fait avec des amis lors de la game jam 2024. Réalisé en utilisant Unity. À la fin du weekend, nous nous sommes débrouillé pour concevoir et implémenter 11 mini jeux exploitant toutes les possibilités offectes par le controleur."
+    },
+    "40":{
+        "titre":"Shonk - Game Jam",
+        "description":"Jeu de la troisième game jam. Un platformer inspiré de Celeste avec des bulles et Shonk, le requin bleu. Réalisé avec Meg B., Cyril N., Jules V., Rafael R., Lucas J. et Nathan A. Sur ce projet, j'ai réalisé entièrement la programation et coordonné beaucoup pour le game design."
+    },
+    "42":{
+        "titre":"Amarna - enviro",
+        "description":"Iterprétation de la salle du trône du palais d'Akhénaton à Amarna. Crédit au projet amrna3D et à tous les archéologues pour m'avoir grandement inspiré. Bien que ce voulant historique, le bâtiment a une taille irréaliste pour mettre en avant la puissance. Réalisé sur Unreal."
+    },
+    "43":{
+        "titre":"Amarna - matériaux",
+        "description":"Matériaux utilisés dans le projet d'enviro d'Amarna, un interpretation de la salle du trône du palais d'Akhénaton."
+    },
+    "44":{
+        "titre":"palais",
+        "description":"un prototype de platformer. Environnement inspiré du jeu ECHO."
+    },
+    "45":{
+        "titre":"santa Teresa",
+        "description":"Environnement en deux saisons inspiré du parc naturel de santa Teresa."
+    },
+    "46":{
+        "titre":"Rickenbacker 4001",
+        "description":"Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare."
     }
 }

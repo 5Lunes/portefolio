@@ -17,12 +17,28 @@
             <a href="/index.html">5Lunes</a>
             <div class="header_empty"></div>
             <div class="header_menu">
-                <a href="/work.html" data-i18n="header.realisation"></a>
-                <a href="/about.html" data-i18n="header.propos"></a>
-                <a href="/blog.html" data-i18n="header.blog"></a>
+                <div class="nav_laptop">
+                    <a href="/work.html" data-i18n="header.realisation"></a>
+                    <a href="/about.html" data-i18n="header.propos"></a>
+                    <a href="/blog.html" data-i18n="header.blog"></a>
+                </div>
+                <span class="nav_mobile_open" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
                 <select name="language" id="languageSwitcher">aaaa</select>
             </div>
-            
+
+
+            <div id="nav_mobile" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              
+                <!-- Overlay content -->
+                <div class="nav_mobile_content">
+                    <a href="/work.html" data-i18n="header.realisation"></a>
+                    <a href="/about.html" data-i18n="header.propos"></a>
+                    <a href="/blog.html" data-i18n="header.blog"></a>
+                </div>             
+            </div>
+
         </div>
     </header>
 
@@ -34,7 +50,6 @@
         <div class="main_first">
             <div class="main_text">
                 <h1 id="main_title">5Lunes</h1>
-                <h2 data-i18n="pays.inconnu"></h2>
                 <h3 id="main_subtitle" data-i18n="main.subtitle">Techniquement artiste</h3>
             </div>
         </div> 
@@ -58,6 +73,11 @@
     
                 <div class="main_best">
                     <h2 data-i18n="main.creme"></h2>
+
+                    <div class="workgrid" id="workgridIndex">
+                    </div>
+                    <dialog id="workdetail">
+                    </dialog>
                 
                 </div>
             </div>
@@ -75,7 +95,7 @@
                 <a href="https://www.artstation.com/mevisluca7">Artstation</a>
                 <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
             </div>
-            <a href="#top">haut</a>
+            <a class="footer_top" href="#top">haut</a>
         </div>
     </footer>
 
@@ -83,6 +103,7 @@
   </body>
 </html>
 <script src="js/time.js"> </script>
+<script src="js/works.js"> </script>
 
 <script src="js\translation\node_modules\i18next\dist\umd\i18next.min.js"></script>
 <script src="js\translation\node_modules\jquery-i18next\dist\umd\jquery-i18next.min.js"></script>

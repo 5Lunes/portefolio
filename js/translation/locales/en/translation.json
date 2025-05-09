@@ -1,0 +1,224 @@
+{
+    "key":"key",
+    "header":{
+        "realisation": "Works",
+        "propos": "About",
+        "blog": "Blog"
+    },
+    "main":{
+        "subtitle": "technically an artist",
+        "creme":"Best of"
+    },
+    "works":{
+        "title":"My works",
+        "tout":"all",
+        "aucun":"none",
+        "filtrer":"Filter",
+        "tags":{
+            "props":"props",
+            "enviro":"environment",
+            "procedural":"procedural",
+            "sculpt": "sculpt",
+            "GDLD": "game & level design",
+            "prog": "development",
+            "dessin": "drawing",
+            "autre": "other"
+        }
+    },
+    "pays":{
+        "inconnu" : "Unknown",
+        "suisse": "Switzerland 🇨🇭",
+        "liechtenstein": "Liechtenstein 🇱🇮",
+        "belgique":"Belgium 🇧🇪",
+        "italie":"Italia 🇮🇹",
+        "japon":"Japan 🇯🇵",
+        "algerie":"Algeria 🇩🇿",
+        "russie":"Russia 🇷🇺",
+        "france":"France 🇫🇷",
+        "coree_sud":"South Korea 🇰🇷",
+        "pays_bas": "Netherlands 🇳🇱",
+        "birmanie":"Nyanmar 🇲🇲",
+        "egypte":"Egypt 🇪🇬",
+        "uruguay":"Uruguay 🇺🇾"
+    },
+    "1":{
+        "titre": "saber",
+        "description":"Swiss sabre planted in a mountain environment. Model, matérials and set made from scratch. I feel that this type of sword is particularly elegant."
+    },
+    "2":{
+        "titre": "mad scientist - 3D",
+        "description":"Isometric view of a mad scientist lab. My goal was to present modern chemistry equipment in a dirty medieval set."
+    },
+    "3":{
+        "titre": "mad scientist - drawing",
+        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale. <br> There were many iterations before arriving at such a dark and gloomy result. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
+    },
+    "4":{
+        "titre": "chandelier",
+        "description":"Procedural Chandelier made with Houdini. It takes inspiration from Chateau de Versailles's baroque style.<br>It's entirely configurable in every detail."
+    },
+    "5":{
+        "titre": "arcade cabinet",
+        "description":"Entirely Procedural Arcade Cabinet made with Houdini. It's fully-configurable with up to 6 different button layouts!<br>Initialy created for day 2 of Nodevember 2023"
+    },
+    "6":{
+        "titre": "kitchen",
+        "description":"Isometric Kitchen inspired by my great grandma's."
+    },
+    "7":{
+        "titre":"microphone stand",
+        "description": "Procedural microphone stand made with Houdini."
+    },
+    "8":{
+        "titre":"spas-12",
+        "description": "Some renders of the famous Italian shotgun. Procedural texture made on blender."
+    },
+    "9":{
+        "titre":"japaneses cake shop",
+        "description": "An urban cuisine of Japanese pastries. Selling daifukus, dangos, sakura mochis and anpans."
+    },
+    "10":{
+        "titre":"italian kitchen",
+        "description":"An Italian kitchen with a beautiful view over a landscape inspired by Sienne."
+    },
+    "11":{
+        "titre":"Barbarossa port",
+        "description":"An environment inspired by the Algiers coastline at the time of the Regency of Algiers. In other words, the golden age of Barbarossa and Otoman piracy."
+    },
+    "12":{
+        "titre":"belfry park",
+        "description":"Reproduction of a chapel in the Belfry Park in Mons. Modelling carried out in a short space of time."
+    },
+    "13":{
+        "titre":"train station",
+        "description":"A train station with brutalist inspiration"
+    },
+    "14":{
+        "titre":"honda civic",
+        "description":"Reproduction de la Honda Civic type R de 2020. It's the first vehicle I've managed to model completely. It's been a great learning experience on 3DS Max. <br> A series of renders at the water's edge and for a challenge asking you to imagine a travelling salesman. So it's a grandmother from Vaucleuse selling her fruit in a racing car."
+    },
+    "15":{
+        "titre":"watch",
+        "description":"Reproduction of a Citizen watch. It's the same as the one I wear every day."
+    },
+    "16":{
+        "titre": "still life 1",
+        "description":"Blue still life.<br>First render with houdini."
+    },
+    "17":{
+        "titre": "still life 2",
+        "description":"green still life inspired bu a environnement of the game control. With a second inspired by impressionist painting"
+    },
+    "18":{
+        "titre":"still life 3",
+        "description":"Still life with yellow tints following the advices of Anthony."
+    },
+    "19":{
+        "titre":"still life 4",
+        "description":"Pinky still life."
+    },
+    "20":{
+        "titre":"still life 5",
+        "description":"Final still life, on orange hue like a sunset."
+    },
+    "21":{
+        "titre":"Justin",
+        "description":"Reproduction of the character from the animated film Justin and the knight of valour. First experience of modelling a complete character."
+    },
+    "22":{
+        "titre":"vampire",
+        "description":"a vampire with the head of an asparagus"
+    },
+    "23":{
+        "titre":"turtle",
+        "description":"a loggerhead sea turtle"
+    },
+    "24":{
+        "titre":"academia Nabulio",
+        "description":"Plans for a fictional ultra-rich academy. <br>Made for Venus as part of an rp."
+    },
+    "25":{
+        "titre":"cosmo tardigrade",
+        "description":"Immaginary mocup for a platform game featuring a cosmo tardigrade, the world's smallest bard, facing off against the boss, the cosmonaut."
+    },
+    "26":{
+        "titre": "drawings 2023",
+        "description":"Compilations of drawings made in 2023. Mostly while lessons."
+    },
+    "27":{
+        "titre": "Hwaseong camp",
+        "description":"Realisation of a level design for a fictionnal stealth game highly inspired by the gameplay of the latest Hitman."
+    },
+    "28":{
+        "titre":"Diakonievene",
+        "description":"An environment inspired by the Diakonievene nature park. Cradled in a delicate autumnal light."
+    },
+    "29":{
+        "titre":"Fish Stick Protocol",
+        "description": "Reflection on a new mechanic for the fish stick protocol game and production of an animation presenting it. <br> Work carried out with Meredith R., Marc V. and Ianis S."
+    },
+    "30":{
+        "titre":"fruit survivor",
+        "description":"A survivor like blended with fruit ninja, it can only work, isn't it ? <br>Work carried out with Sandy R., Cyril N., Anthony R. et Brieux D."
+    },
+    "31":{
+        "titre":"hidden cave",
+        "description":"A cave containing a clandestine factory for manufacturing android sex toys."
+    },
+    "32":{
+        "titre":"Zelda dungeon",
+        "description":"A few chellengs to recreate a Zelda-inspired dungeon with specific mechanisms in 4H"
+    },
+    "33":{
+        "titre":"motion capture",
+        "description":"Introduction to motion capture using professional equipment <br>Done with Armand C. and Maxime F."
+    },
+    "34":{
+        "titre":"Shiptricks 3077",
+        "description": "A game about making tricks with a boat cruising through a sea of stars. Now with a real life steering helm! <br> This is a game made for school with my friends Luca Mevis, Cyril Naessens and Marc Verdonk during a 5 day workshop. We had to create an arcade game using an handmade custom controller. We decided to make a game in which you pilot a ship that can jump on waves and do tricks in the air, SSX style. All of that using a steering wheel made of papier-mache and a mouse. The game is made using Unreal Engine 5 (Blueprint). I loved working on this project, since it was using an alternative controller. Programming the player's behaviour was a totally different thing since I had to take the weird controller into account."
+    },
+    "35":{
+        "titre":"Spirate - art",
+        "description":" A web based strategy game in which you have to upgrade and buy ships to become the greatest space pirate !This is a game I made with my friends Luca Mevis and Cyril Naessens for school. We had to create a game design document and then try to make a game out of it. The game is available here. "
+    },
+    "36":{
+        "titre":"Spirate - art",
+        "description":" A web based strategy game in which you have to upgrade and buy ships to become the greatest space pirate !This is a game I made with my friends Luca Mevis and Cyril Naessens for school. We had to create a game design document and then try to make a game out of it. The game is available here. "
+    },
+    "37":{
+        "titre":"Stealth Bastard",
+        "description":"Level design exercise involving creating a level for the game Stealth Bastard. Work done in a group with Ana T. and Cyril N., in which I was in charge of the intermediate difficulty level. We tried to make the most of the mechanics of the portable portal."
+    },
+    "38":{
+        "titre":"Macrocyst - Game Jam",
+        "description":"First game jame inspired by the mobile fame tentacle war. Made with Lightbolt, Breniak, Théo D. and Neil P."
+    },
+    "39":{
+        "titre":"Overstrum - Game Jam",
+        "description":"A Wario Ware like with a guitar hero controler. A project I made with friends during Global Game Jam 2024. It is made using Unity. Over the course of the weekend, we managed to design and implement 11 mini-games exploiting all the possibilities offered by the controller."
+    },
+    "40":{
+        "titre":"Shonk - Game Jam",
+        "description":"Game from the third game jam. A platformer inspired by Celeste with bubbles and Shonk, the blue shark. Made with Meg B., Cyril N., Jules V., Rafael R., Lucas J. and Nathan A. On this project, I did all the programming and coordinated a lot of the game design."
+    },
+    "42":{
+        "titre":"Amarna - enviro",
+        "description":"Interpretation of Akhenaten's palace at Amarna. Thanks to the amrna3D project and to all the archaeologists for inspiring me. Although it's meant to be historical, the building is unrealistically large to show off its power. Made on Unreal."
+    },
+    "43":{
+        "titre":"Amarna - material",
+        "description":"Materials used in the Amarna enviro project, an interpretation of the throne room in Akhenaten's palace."
+    },
+    "44":{
+        "titre":"palace",
+        "description":"A prototype of platformer. Environment inspired by the game ECHO."
+    },
+    "45":{
+        "titre":"santa Teresa",
+        "description":"A two-season environment inspired by the Santa Teresa nature park."
+    },
+    "46":{
+        "titre":"Rickenbacker 4001",
+        "description":"Hard surface modeling of the Rickenbacker 4001 fretless. Game ready model. This is a BASS, not a guitar."
+    }
+}

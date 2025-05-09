@@ -1,94 +1,129 @@
+const filterIdsGrid1 = [1, 14, 28, 40]; 
+const filterIdsGrid2 = []; 
+
+
 fetch('/works.json')
   .then(response => response.json())
   .then(data => {
-    createImageGrid(data);
+    try {
+      const grid1 = new ImageGrid('workgridIndex');
+      grid1.createGrid(data, filterIdsGrid1);
+    }
+    catch (error) {
+      console.error('Erreur lors de la création de la grille:', error);}
+    try {
+      const grid2 = new ImageGrid('workgridWork');
+      grid2.createGrid(data, filterIdsGrid2);
+    }
+    catch (error) {
+    console.error('Erreur lors de la création de la grille:', error);}
   })
   .catch(error => console.error('Erreur lors du chargement du JSON:', error));
 
 
-  function createImageGrid(data) {
+
+class ImageGrid {
+  constructor(grid) {
+    this.container = document.getElementById(grid);
+      if (!this.container) {
+        throw new Error(`Conteneur avec l'ID "${grid}" non trouvé.`);
+      }
+  }
+
+  createGrid(data, idfilter = null) {
     data.sort((a, b) => new Date(b.date) - new Date(a.date));
-    const gridContainer = document.getElementById('workgrid');
   
     data.forEach(item => {
-      const imageElement = document.createElement('div');
-      imageElement.classList.add('image-item');
-      imageElement.setAttribute('data-tags', item.tags.join(','));
-      imageElement.setAttribute('data-soft', item.soft.join(','));
-      imageElement.setAttribute('data-date', item.date);
-  
-      const image = document.createElement('img');
-      image.src = item.mainImage;
-      image.alt = item.title_fr;
-      image.addEventListener('click', () => showImageDetails(item));
-      const imagedesc = document.createElement(`div`);
-      imagedesc.classList.add('imagedesc');
+      if (idfilter && idfilter.length > 0 &&  !idfilter.includes(item.id)) {
+        return;
+      }
 
-      const title = document.createElement(`h4`);
-      title.setAttribute('data-i18n',`${item.id}.titre`);
-
-
-      const softicon = document.createElement('div');
-      softicon.classList.add('softicons');
-      if(item.soft.includes("blender")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/blender.svg">`)
-      }
-      if(item.soft.includes("houdini")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/houdini.svg">`)
-      }
-      if(item.soft.includes("3Dmax")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/3Dmax.png">`)
-      }
-      if(item.soft.includes("unity")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/unity.svg">`)
-      }
-      if(item.soft.includes("unreal")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/unreal.svg">`)
-      }
-      if(item.soft.includes("zbrush")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/zbrush.svg">`)
-      }
-      if(item.soft.includes("painter")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/painter.svg">`)
-      }
-      if(item.soft.includes("speedtree")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/speedtree.png">`)
-      }
-      if(item.soft.includes("photoshop")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/photoshop.svg">`)
-      }
-      if(item.soft.includes("VS")){
-        softicon.insertAdjacentHTML("beforeend",`<img src="img/svg/VS.svg">`)
-      }
-  
-      imageElement.appendChild(image);
-      imageElement.appendChild(imagedesc);
-      imagedesc.appendChild(title);
-      imagedesc.appendChild(softicon)
-      gridContainer.appendChild(imageElement);
+      const imageElement = this.createImageElement(item);
+      this.container.appendChild(imageElement);
     });
-  }
+  } 
+  createImageElement(item) {
+    const imageElement = document.createElement('div');
+    imageElement.classList.add('image-item');
+    imageElement.setAttribute('data-tags', item.tags.join(','));
+    imageElement.setAttribute('data-soft', item.soft.join(','));
+    imageElement.setAttribute('data-date', item.date);
+  
+    const image = document.createElement('img');
+    image.src = item.mainImage;
+    image.alt = item._titre;
+    image.addEventListener('click', () => showImageDetails(item));
+    const imagedesc = document.createElement(`div`);
+    imagedesc.classList.add('imagedesc');
 
-  function showImageDetails(item) {
-    const detailsContainer = document.getElementById('workdetail');
-    detailsContainer.innerHTML = `
-      <h3>${item.title_fr}</h3>
-      <p>${item.description_fr}</p>
-      <p><strong>Date:</strong> ${item.date}</p>
-      <p><strong>Tag:</strong> ${item.tags}</p>
-      <p><strong>Pays:</strong> ${item.pays_fr}</p>
-      <div class="additional-images">
-        ${item.additionalImages.map(img => `<img src="${img}" alt="Additional image">`).join('')}
-      </div>
-    `;
-    if( item.additionalVideo != null){
-      detailsContainer.insertAdjacentHTML(
-        "beforeend",
-        `<iframe width="560" height="315" src="${item.additionalVideo}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-      )
-    }
-    detailsContainer.style.display = 'block';
+    const title = document.createElement(`h4`);
+    title.setAttribute('data-i18n',`${item.id}.titre`);
+
+
+    const softicon = this.createSoftIcons(item.soft);
+  
+    imageElement.appendChild(image);
+    imageElement.appendChild(imagedesc);
+    imagedesc.appendChild(title);
+    imagedesc.appendChild(softicon)
+    this.container.appendChild(imageElement);
+    return imageElement
+  };
+
+  createSoftIcons(softArray) {
+    const softicon = document.createElement('div');
+    softicon.classList.add('softicons');
+    
+    const softwareIcons = {
+      blender: 'img/svg/blender.svg',
+      houdini: 'img/svg/houdini.svg',
+      '3Dmax': 'img/svg/3Dmax.png',
+      unity: 'img/svg/unity.svg',
+      unreal: 'img/svg/unreal.svg',
+      zbrush: 'img/svg/zbrush.svg',
+      painter: 'img/svg/painter.svg',
+      speedtree: 'img/svg/speedtree.png',
+      photoshop: 'img/svg/photoshop.svg',
+      VS: 'img/svg/VS.svg'
+    };
+    
+    softArray.forEach(soft => {
+      if (softwareIcons[soft]) {
+        softicon.insertAdjacentHTML('beforeend', `<img src="${softwareIcons[soft]}" alt="${soft} icon">`);
+      }
+    });
+    
+    return softicon;
+  };
+}
+  
+
+function showImageDetails(item) {
+  const detailsContainer = document.getElementById('workdetail');
+  detailsContainer.innerHTML = `
+    <button onclick="window.workdetail.close();" aria-label="close" class="x"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+
+    <h1 data-i18n='${item.id}.titre' ></h1>
+    <p> ${item.date}</p>
+    <p data-i18n='${item.id}.description'></p>
+    <p><strong>Soft:</strong> ${item.soft}</p>
+    <p><strong>Tag:</strong> ${item.tags}</p>
+    <p data-i18n='pays.${item.pays}' ><strong>Pays:</strong> </p>
+    <div class="additional-images">
+      ${item.additionalImages.map(img => `<a href="${img}" target="_blank"><img src="${img}" alt="Additional image" ></a>`).join('')}
+    </div>
+  `;
+
+  if( item.additionalVideo != null){
+    detailsContainer.insertAdjacentHTML(
+      "beforeend",
+      `<iframe width="560" height="315" src="${item.additionalVideo}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    )
   }
+  window.workdetail.showModal();
+  //detailsContainer.style.display = 'block';
+  rerender();
+}
 
 
   function filterImagesByTags(selectedTags, selectedSoft) {
