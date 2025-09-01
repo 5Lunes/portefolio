@@ -2,7 +2,7 @@ const filterIdsGrid1 = [1, 14, 28, 40];
 const filterIdsGrid2 = []; 
 
 
-fetch('/works.json')
+fetch('works.json')
   .then(response => response.json())
   .then(data => {
     try {
