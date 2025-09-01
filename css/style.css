@@ -40,16 +40,22 @@
 
   h2{
     font-size: 3rem;
-    padding:  1.5rem 1.5rem 1.5rem 0;
+    padding:  1rem 1rem 1rem 0;
     font-weight: 300;
   }
 
   h3{
     font-size: 1.5rem;
+    padding:  1.5rem 1.5rem 1.5rem 0;
     font-weight: 300;
   }
 
   h4{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  h5{
     color: var(--background);
     font-size: 1.2rem;
   }
@@ -77,7 +83,14 @@
   input[type="checkbox"]:checked + label::before {
     background-color: var(--accent);
   }
-
+  p{
+    margin: 2rem 0;
+    letter-spacing: 0;
+    line-height: 1.25;
+  }
+  abbr{
+    text-decoration: none;
+  }
 
 
 
@@ -198,8 +211,9 @@
 
 
 
-  .mainpage{
+  main{
     background-color: var(--background);
+    overflow: clip;
   }
 
   .maincontent{
@@ -309,7 +323,10 @@ footer{
     .footer_social, .footer_top{display: none;}
   }
 
-
+  footer p{
+    margin: 0;
+    line-height: 1;
+  }
 
   .worktitle{
     padding: 2.25rem 0 0.75rem;
@@ -475,4 +492,125 @@ footer{
 
   .additional-images a:first-child{
     grid-column: 1 / span 2;
+  }
+
+
+  .aboutmain{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: start;
+    padding-bottom: 15vh;
+    border-bottom: 2px solid var(--accent);
+    align-content: space-between;
+    @media screen and (orientation : portrait){
+      flex-flow: row wrap;
+    }
+  }
+
+  #aboutmainimage{
+    height: auto;
+    width: 100%;
+    max-width: 30rem;
+    min-width: 20rem;
+  }
+
+  .aboutleft{
+    margin:1.5rem 5rem;
+    max-width: max-content;
+    @media screen and (orientation : portrait){
+      margin: 0.2rem 0rem;
+    }
+  }
+  .aboutright{
+    max-width: 700px;
+    margin-inline:auto;
+  }
+
+  .aboutCV{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 26rem;
+  }
+
+  .aboutCV button{
+    flex-wrap: nowrap;
+    background-color: var(--primary);
+    padding: 16px 24px;
+    border-radius: var(--border_radius);
+    border: none;
+    transition: background-color 0.3s ease;
+    display: block;
+  }
+  .aboutCV button:hover{
+    background-color: var(--secondary);
+  }
+  .aboutCV button:active{
+    border: solid 1px;
+    border-color: var(--accent);
+  }
+
+  .aboutexp{
+    padding-bottom: 15vh;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .aboutxpgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,0fr);
+    gap: 20px;
+  }
+
+  .aboutpath{
+    grid-column: span 2 / span 2;
+  }
+  .aboutskill_1{
+    grid-row-start: 3;
+  }.aboutskill_2{
+    grid-row-start: 3;
+  }
+
+  .aboutpath > ul,.aboutskill_1 > ul,.aboutskill_2 > ul{
+    margin-left: var(--border_distance);
+  }
+
+  .aboutxpgrid li{
+    padding: 0.35rem 0;
+  }
+
+  .exppetit {
+    font-weight: 100;
+  }
+
+  .aboutcontact{
+    padding-bottom: 15vh;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .contactall{
+    width: 90%;
+  }
+
+  .contactcontent{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .socialcontent{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sociallink{
+    background-color: var(--primary);
+    width: 8rem;
+    height: 2rem;
+    border-radius: var(--border_radius);
+  }
+
+  .sociallink abbr{
+    display: block;
+    font-weight: 700;
+    text-align: center;
   }

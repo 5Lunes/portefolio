@@ -10,41 +10,215 @@
   </head>
 
   <body>
+    <script src="js/translation/node_modules/jquery-slim/dist/jquery.slim.js"></script>
+
     <header>
       <div class="header_link">
           <a href="/index.html">5Lunes</a>
           <div class="header_empty"></div>
           <div class="header_menu">
-              <a href="/work.html">réalisations</a>
-              <a href="/about.html">à propos</a>
-              <a href="/blog.html">blog</a>
+              <div class="nav_laptop">
+                  <a href="/work.html" data-i18n="header.realisation"></a>
+                  <a href="/about.html" data-i18n="header.propos"></a>
+                  <a href="/blog.html" data-i18n="header.blog"></a>
+              </div>
+              <span class="nav_mobile_open" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
+              <select name="language" id="languageSwitcher">aaaa</select>
           </div>
-          
-      </div>
+
+
+          <div id="nav_mobile" class="overlay">
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+              <!-- Overlay content -->
+              <div class="nav_mobile_content">
+                  <a href="/work.html" data-i18n="header.realisation"></a>
+                  <a href="/about.html" data-i18n="header.propos"></a>
+                  <a href="/blog.html" data-i18n="header.blog"></a>
+              </div>             
+          </div>
+
+        </div>
     </header>
 
-    <div class="mainpage">
+    <main>
       <div class="maincontent">
-        <h1>À propos</h1>
+        <div class="worktitle">
+          <h2 data-i18n="about.title">À propos</h2>
+        </div>
+      <div class="aboutmain">
+        <figure class="aboutleft">
+          <img src="img/LucaBaltrouBig.png" id="aboutmainimage">
+          <figcaption><span data-i18n="about.fig"></span> <a href=https://you2173.github.io/siteweb/index.html>Ana T.</a> </figcaption>
+        </figure>
+        <div class="aboutright">
+          <h2 data-i18n="about.droit.1">À la recherche de la beauté technique derrière la rigueur artistique.</h2>
+          <p data-i18n="about.droit.2">
+            J'aspire à être technical artist. À cette fin, je cherche à développer une maitrise large de la production et ses techniques. Que ce soit la programmation, le game design et l'art, surtout la modélisation 3D hard surface et procédurale.
+          </p>
+          <p data-i18n="about.droit.3">
+            Actuellement, je termine mes études à la CGacademy en tant que game artist. Je souhaite continuer à me perfectionner, tout en restant à disposition pour toute offre ou collaboration. Un jour, avec des camarades et nos compétences, je cofondrai un studio.
+          </p>
+          <div class="aboutCV">
+            <a href="" target="_blank">
+              <button>Obtenez mon CV</button>
+            </a>
+            <a href="" target="_blank">
+              <button>Get my resume</button>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="aboutexp">
+        <h2 data-i18n="about.exp.title">Experience</h2>
+      <div class="aboutxpgrid">
+        <div class="aboutpath">
+          <h3 data-i18n="about.exp.parcours.title">Parcours</h3>
+          <ul>
+            <li>
+              <ul>
+                <li class="exppetit">2025</li>
+                <li><span data-i18n="about.exp.parcours.3">environement artist</span> - <a href="https://massekagame.com/">Masseka game</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="exppetit">2022-2025</li>
+                <li><span data-i18n="about.exp.parcours.2"></span> - <a href="https://cgacademy.be/">CGacademy</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="exppetit">2020-2022</li>
+                <li data-i18n="about.exp.parcours.1">autodidacte 3D</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <h3 class="aboutskill" data-i18n="about.exp.skill.title">Compétences</h3>
+        <div class="aboutskill_1">
+          <ul>
+            <li><h4 data-i18n="about.exp.skill.3d">3D</h4></li>
+            <li>
+              <ul>
+                <li data-i18n="about.exp.skill.hard">Hard surface</li>
+                <li class="exppetit">Blender, 3Dmax</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li data-i18n="about.exp.skill.procedural">Procédural</li>
+                <li class="exppetit">Blender, Houdini</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li data-i18n="about.exp.skill.sculpt">Scult</li>
+                <li class="exppetit">Zbrush</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li data-i18n="about.exp.skill.vegetation">Végétation</li>
+                <li class="exppetit">Speedtree</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li data-i18n="about.exp.skill.shading">Shading</li>
+                <li class="exppetit">Substance painter & designer, Blender</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="aboutskill_2">
+          <ul>
+            <li><h4 data-i18n="about.exp.skill.GD">Game design</h4></li>
+            <li>
+              <ul>
+                <li>Rationnal game design</li>
+                <li>Level Design</li>
+              </ul>
+            </li>
+            <li><h4 data-i18n="about.exp.skill.moteur">Moteurs</h4></li>
+            <li>
+              <ul>
+                <li>Unreal Engine</li>
+                <li>Unity</li>
+              </ul>
+            </li>
+            <li><h4 data-i18n="about.exp.skill.prog">Programation</h4></li>
+            <li>
+              <ul>
+                <li>C#, Java</li>
+                <li>web</li>
+                <li class="exppetit" >Html, CSS, JS</li>
+              </ul>
+            </li>
+            <li><h4 data-i18n="about.exp.skill.autre">Autre</h4></li>
+            <li>
+              <ul>
+                <li data-i18n="about.exp.skill.son">Design Sonore</li>
+                <li class="exppetit" >Reaper, Wwize</li>
+                <li data-i18n="about.exp.skill.dessin">Dessin numérique</li>
+                <li class="exppetit" >photoshop</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="aboutcontact">
+        <h2>Contact & social</h2>
+        <div class="contactall">
+          <div class="contactcontent">
+            <details>
+              <summary>courriel</summary>
+              <a href="mailto:lucamevis@proton.me">lucamevis@proton.me</a>
+            </details>
+            <details>
+              <summary>téléphone</summary>
+              +32 475 27 73 35
+            </details>
+          </div>
+          <div class="socialcontent">
+            <a href="https://www.artstation.com/mevisluca7" class="sociallink"><abbr title="Les meilleurs projets professionels">Artstation</abbr></a>
+            <a href="https://5lunes.itch.io/" class="sociallink"><abbr title="Les jeux de jam">Itch.io</abbr></a>
+            <a href="https://www.instagram.com/mer_partie_pour_toujours/" class="sociallink"><abbr title="mon bordel perso publique">instagram</abbr></a>
+            <a href="https://www.linkedin.com/in/m-luca/" class="sociallink"><abbr title="Bullshit corpo">Linkedin</abbr></a>
+          </div>
+        </div>
+      </div>
 
       </div>
-    </div>
+    </main>
 
     <footer>
-        <div class="bottom">
-            <div class="footer_time">
-                <p>Belgique</p>
-                <p id="clock">15h41</p>
-            </div>
-            <div class="footer_social">
-                <a href="https://www.artstation.com/mevisluca7">Artstation</a>
-                <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
-            </div>
-            <a href="#top">haut</a>
-        </div>
-    </footer>
+      <div class="bottom">
+          <div class="footer_time">
+              <p>Belgique</p>
+              <p id="clock">15h41</p>
+          </div>
+          <div class="footer_social">
+              <a href="https://www.artstation.com/mevisluca7">Artstation</a>
+              <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
+          </div>
+          <a class="footer_top" href="#top">haut</a>
+      </div>
+  </footer>
 
-
-  </body>
+  
+</body>
 </html>
 <script src="js/time.js"> </script>
+<script src="js/works.js"> </script>
+
+<script src="js\translation\node_modules\i18next\dist\umd\i18next.min.js"></script>
+<script src="js\translation\node_modules\jquery-i18next\dist\umd\jquery-i18next.min.js"></script>
+<script src="js\translation\node_modules\i18next-browser-languagedetector\dist\umd\i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+<!-- an example can be found in example/jquery/index.html -->
+
+<script src="js/translation/i18n.js"></script>

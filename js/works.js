@@ -56,7 +56,7 @@ class ImageGrid {
     const imagedesc = document.createElement(`div`);
     imagedesc.classList.add('imagedesc');
 
-    const title = document.createElement(`h4`);
+    const title = document.createElement(`h5`);
     title.setAttribute('data-i18n',`${item.id}.titre`);
 
 

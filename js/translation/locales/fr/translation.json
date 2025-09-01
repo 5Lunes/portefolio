@@ -1,5 +1,5 @@
 {
-    "key":"clé",
+    "key":"Some Text <1><0>Read more</0></1>",
     "header":{
         "realisation": "Réalisations",
         "propos": "À propos",
@@ -23,6 +23,39 @@
             "prog": "programation",
             "dessin": "dessin",
             "autre": "autre"
+        }
+    },
+    "about":{
+        "title":"À propos",
+        "droit":{
+            "1":"À la recherche de la beauté technique derrière la rigueur artistique.",
+            "2":"J'aspire à être technical artist. À cette fin, je cherche à développer une maitrise large de la production et ses techniques. Que ce soit la programmation, le game design et l'art, surtout la modélisation 3D hard surface et procédurale.",
+            "3":"Actuellement, je termine mes études à la CGacademy en tant que game artist. Je souhaite continuer à me perfectionner, tout en restant à disposition pour toute offre ou collaboration. Un jour, avec des camarades et nos compétences, je cofondrai un studio."
+        },
+        "fig":"Dessin par ",
+        "exp":{
+            "title":"Expérience",
+            "parcours":{
+                "title":"Parcours",
+                "1":"Autodidacte 3D",
+                "2":"Formation game art",
+                "3":"Stage environement artist"
+            },
+            "skill":{
+                "title":"Compétences",
+                "3d":"3D",
+                "hard":"Hard surface",
+                "procedural":"Procédural",
+                "sculpt":"sculpture",
+                "vegetation":"Végétation",
+                "shading":"Shading",
+                "GD":"Game design",
+                "moteur":"Moteurs",
+                "prog":"Programmation",
+                "autre":"Autre",
+                "son":"Design sonore",
+                "dessin":"Dessin numérique"
+            }
         }
     },
     "pays":{
@@ -222,4 +255,10 @@
         "titre":"Rickenbacker 4001",
         "description":"Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare."
     }
+
+
+
+
+
+
 }
