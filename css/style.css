@@ -40,7 +40,7 @@ h1{
 
 h2{
   font-size: 3rem;
-  padding:  1rem 1rem 1rem 0;h5
+  padding:  1rem 1rem 1rem 0;
   font-weight: 300;
 }
 
@@ -237,7 +237,7 @@ main{
   height: 55rem;
   margin-bottom: 2rem;
 
-  background-image: url(../img/montsacre-1.png);
+  background-image: url(../img/montsacre-1.webp);
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 98%);
   background-size: cover;
   background-position: center;
