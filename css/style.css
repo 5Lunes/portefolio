@@ -40,7 +40,7 @@ h1{
 
 h2{
   font-size: 3rem;
-  padding:  1rem 1rem 1rem 0;
+  padding:  1rem 1rem 1rem 0;h5
   font-weight: 300;
 }
 
@@ -315,10 +315,11 @@ main{
 
 #bestplus_butt:hover{
   background: var(--primary);
-  h5{font-size:1.5rem;}
+  span{font-size:1.5rem;}
 }
 
-#bestplus_butt h5{
+#bestplus_butt span{
+  color: var(--background);
   font-size: 1.3rem;
 }
   
@@ -525,7 +526,6 @@ footer p{
 
   .detail_titre{
     font-size: 5vw;
-    font-size-adjust: 15px;
   }
 
   .detail_date{
