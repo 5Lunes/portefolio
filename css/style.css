@@ -10,7 +10,8 @@
     --bottom:15vh;
 
     @media screen and (orientation: portrait) {
-      --border_distance:4px;
+      --border_distance:6px;
+      --bottom:10vh;
     }
   }
 
@@ -34,15 +35,21 @@
 
 
   h1{
-    font-size: 6em;
+    font-size: 6rem;
     font-weight:100;
     color: var(--text);
+    @media screen and (orientation: portrait) {
+      font-size: 5rem
+    }
   }
 
   h2{
     font-size: 3rem;
     padding:  1rem 1rem 1rem 0;
     font-weight: 300;
+    @media screen and (orientation: portrait) {
+      font-size: 2.5rem
+    }
   }
 
   h3{
@@ -59,6 +66,9 @@
   h5{
     color: var(--background);
     font-size: 1.2rem;
+    @media screen and (orientation: portrait) {
+      font-size: 1rem
+    }
   }
 
   a{
@@ -119,6 +129,9 @@
   .header_menu, .nav_laptop{
     display: flex;
     gap: 4rem;
+    @media screen and (orientation: portrait) {
+      gap: 0.5rem;
+    }
   }
 
 
@@ -166,7 +179,7 @@
 
 /* The navigation links inside the overlay */
 .overlay a {
-  padding: 8px;
+  padding: 12px;
   text-decoration: none;
   font-size: 36px;
   font-weight: 500;
@@ -309,7 +322,7 @@
     }
   }
 
-  #bestplus_butt,h5{
+  #bestplus_butt h5{
     font-size: 1.3rem;
   }
   
@@ -339,8 +352,13 @@ footer{
     gap: 4rem;
   }
 
+
+  @media screen and (orientation : landscape) {
+    #clock_mobile{display: none;}
+  }
+
   @media screen and (orientation : portrait) {
-    .footer_social, .footer_top{display: none;}
+    .footer_social,  #clock{display: none;}
   }
 
   footer p{
@@ -397,10 +415,6 @@ footer{
     overflow-y: auto;
   }
 
-  .filterselect{
-
-  }
-
   .filterselement{
     
     -webkit-user-select: none; /* Safari */
@@ -423,6 +437,9 @@ footer{
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
     gap: 5px;
     padding: 0 var(--border_distance);
+    @media screen and (max-width: 600px) {
+      grid-template-columns: repeat(2,1fr);
+    }
   }
   
   .image-item{
@@ -506,6 +523,8 @@ footer{
   }
 
   .detail_titre{
+    font-size: 5vw;
+    font-size-adjust: 15px;
   }
 
   .detail_date{
@@ -516,6 +535,9 @@ footer{
   .detail_info{
     width: 50%;
     margin-bottom: 0rem;
+    @media screen and (orientation: portrait) {
+      width: 80%;
+    }
   }
 
   .detail_cat{
@@ -550,6 +572,9 @@ footer{
   }
 
 
+
+
+
   .aboutmain{
     display: flex;
     flex-flow: row nowrap;
@@ -579,6 +604,14 @@ footer{
   .aboutright{
     max-width: 700px;
     margin-inline:auto;
+  }
+
+  #aboutdroit1{
+    font-size: 2.75rem;
+    line-height: 1.05;
+    @media screen and (orientation: portrait) {
+      font-size: 2rem
+    }
   }
 
   .aboutCV{
