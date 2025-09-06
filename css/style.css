@@ -1,74 +1,69 @@
 :root {
-    --text: oklab(19.13% 0.000 0.00);
-    --background: oklab(98.03% 0.002 0.01);
-    --primary: oklab(78.62% 0.107 -0.00);
-    --secondary: oklab(74.95% 0.094 0.03);
-    --accent: oklab(50.38% -0.082 -0.02);
+  --text: oklab(19.13% 0.000 0.00);
+  --background: oklab(98.03% 0.002 0.01);
+  --primary: oklab(78.62% 0.107 -0.00);
+  --secondary: oklab(74.95% 0.094 0.03);
+  --accent: oklab(50.38% -0.082 -0.02);
 
-    --border_distance: 10vh;
-    --border_radius: 5px;
-    --bottom:15vh;
+  --border_distance: 10vh;
+  --border_radius: 5px;
+  --bottom:15vh;
 
-    @media screen and (orientation: portrait) {
-      --border_distance:6px;
-      --bottom:10vh;
-    }
+  @media screen and (orientation: portrait) {
+    --border_distance:6px;
+    --bottom:10vh;
   }
+}
 
-  ::-moz-selection { /* Code for Firefox */
-    background: var(--primary);
-  }
+::-moz-selection { /* Code for Firefox */
+  background: var(--primary);
+}
   
-  ::selection {
-    background: var(--primary);
-  }
+::selection {
+  background: var(--primary);
+}
 
-  *{
-    
-    font-family: museo-slab;
-    font-size: 1rem;
-    font-weight: 300;
-    color: var(--text);
-    letter-spacing: -0.025rem;
-    scroll-behavior: smooth;
-  }
+*{
+  font-family: museo-slab;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text);
+  letter-spacing: -0.025rem;
+  scroll-behavior: smooth;
+}
 
+h1{
+  font-size: 6rem;
+  font-weight:100;
+  color: var(--text);
+}
 
-  h1{
-    font-size: 6rem;
-    font-weight:100;
-    color: var(--text);
-    @media screen and (orientation: portrait) {
-      font-size: 5rem
-    }
-  }
+h2{
+  font-size: 3rem;
+  padding:  1rem 1rem 1rem 0;
+  font-weight: 300;
+}
 
-  h2{
-    font-size: 3rem;
-    padding:  1rem 1rem 1rem 0;
-    font-weight: 300;
-    @media screen and (orientation: portrait) {
-      font-size: 2.5rem
-    }
-  }
+h3{
+  font-size: 1.5rem;
+  padding:  1.5rem 1.5rem 1.5rem 0;
+  font-weight: 300;
+}
 
-  h3{
-    font-size: 1.5rem;
-    padding:  1.5rem 1.5rem 1.5rem 0;
-    font-weight: 300;
-  }
+h4{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
 
-  h4{
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
+h5{
+  color: var(--background);
+  font-size: 1.2rem;
+}
 
-  h5{
-    color: var(--background);
-    font-size: 1.2rem;
-    @media screen and (orientation: portrait) {
-      font-size: 1rem
-    }
+  @media screen and (orientation: portrait) {
+    h1{font-size: 5rem;}
+    h2{font-size: 2.5rem;}
+    h5{font-size: 1rem;}
   }
 
   a{
@@ -94,11 +89,13 @@
   input[type="checkbox"]:checked + label::before {
     background-color: var(--accent);
   }
+
   p{
     margin: 2rem 0;
     letter-spacing: 0;
     line-height: 1.25;
   }
+
   abbr{
     text-decoration: none;
   }
@@ -129,9 +126,10 @@
   .header_menu, .nav_laptop{
     display: flex;
     gap: 4rem;
-    @media screen and (orientation: portrait) {
-      gap: 0.5rem;
-    }
+  }
+
+  @media screen and (orientation: portrait) {
+    .header_menu, .nav_laptop{gap: 0.5rem;}
   }
 
 
@@ -218,196 +216,196 @@
   @media screen and (orientation : landscape) {
     .nav_laptop{ display: flex;}
     .nav_mobile_open{display: none;}
-  }
+}
 
 
 
 
 
 
-  main{
-    background-color: var(--background);
-    overflow: clip;
-  }
+main{
+  background-color: var(--background);
+  overflow: clip;
+}  
 
-  .maincontent{
-    padding: 0 var(--border_distance);
-  }
+.maincontent{
+  padding: 0 var(--border_distance);
+}
 
-  .main_first{
-    width: 100%;
-    height: 55rem;
-    margin-bottom: 2rem;
+.main_first{
+  width: 100%;
+  height: 55rem;
+  margin-bottom: 2rem;
+
+  background-image: url(../img/montsacre-1.png);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 98%);
+  background-size: cover;
+  background-position: center;
+}
+
+.main_text{
+  position: relative;
+  top: 20%;
+  right: 21%;
+  text-align: center;
+}
+@media screen and (orientation : portrait) {
+  .main_text{right: 0%;}
+}
+
+#main_subtitle{
+  position: relative;
+  top: 8%;
+  left: 4%;
+}
+
+.main_about{
+  text-align: center;
+  padding-bottom: var(--bottom);
+}
+
+.main_best{
+  padding-bottom: var(--bottom);
+}
 
 
-    background-image: url(../img/montsacre-1.png);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 98%);
-    background-size: cover;
-    background-position: center;
-  }
+#workgridIndex{
+  padding: 0 0;
+  grid-template-columns: repeat(5, 1fr);
+}
 
-  .main_text{
-    position: relative;
-    top: 20%;
-    right: 21%;
-    text-align: center;
-    @media screen and (orientation : portrait) {
-      right: 0%;
-    }
-  }
-
-  
-
-  #main_subtitle{
-    position: relative;
-    top: 8%;
-    left: 4%;
-  }
-
-  .main_about{
-    text-align: center;
-    padding-bottom: var(--bottom);
-  }
-
-  .main_best{
-    padding-bottom: var(--bottom);
-    @media screen and (orientation : portrait){
-      width:100%
-    }
-  }
-
+@media screen and (max-width:1150px){
+  .main_best{width:100%}
   #workgridIndex{
-    padding: 0 0;
-    grid-template-columns: repeat(5, 1fr);
-    @media screen and (max-width:1150px){
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-    }
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   }
+}
 
+.bestplus {
+  background-image: url(../img/works/8/spas-12-scene.webp);
+  background-size: cover;
+  backdrop-filter: blur(10px);
 
-  .bestplus {
-    background-image: url(../img/works/8/spas-12-scene.webp);
-    background-size: cover;
-    backdrop-filter: blur(10px);
-
-    grid-column-start: 5;
-    grid-row: 1;
-    @media screen and (max-width:1150px){
-      grid-column: span 2 / span 2;
-      grid-row-start: 3;
-    }
+  grid-column-start: 5;
+  grid-row: 1;
+}
+@media screen and (max-width:1150px){
+  .bestplus{
+  grid-column: span 2 / span 2;
+  grid-row-start: 3;
   }
+}
 
-  #bestplus{
-    display: block;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(15px);
-  }
+#bestplus{
+  display: block;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+}
 
-  #bestplus_butt{
-    width: 100%;
-    height: 100%;
-    background:none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.4s ease-out;
-  }
+#bestplus_butt{
+  width: 100%;
+  height: 100%;
+  background:none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
 
-  #bestplus_butt:hover{
-    background: var(--primary);
-    #bestplus_butt,h5{
-      font-size:1.5rem;
-    }
-  }
+#bestplus_butt:hover{
+  background: var(--primary);
+  h5{font-size:1.5rem;}
+}
 
-  #bestplus_butt h5{
-    font-size: 1.3rem;
-  }
+#bestplus_butt h5{
+  font-size: 1.3rem;
+}
   
 
 footer{
-    position: fixed;
-    padding: 0.25rem 0;
-    width: 100%;
-    bottom: 0rem;
-    z-index: 4;
-    background-color: var(--background);
-  }
+  position: fixed;
+  padding: 0.25rem 0;
+  width: 100%;
+  bottom: 0rem;
+  z-index: 4;
+  background-color: var(--background);
+}
 
-  .bottom{
-    display: flex;
-    margin-inline: var(--border_distance);
-    justify-content: space-between;
-  }
+.bottom{
+  display: flex;
+  margin-inline: var(--border_distance);
+  justify-content: space-between;
+}
 
-  .footer_time{
-    display: flex;
-    gap: 4rem;
-  }
+.footer_time{
+  display: flex;
+  gap: 4rem;
+}
 
-  .footer_social{
-    display: flex;
-    gap: 4rem;
-  }
-
-
-  @media screen and (orientation : landscape) {
-    #clock_mobile{display: none;}
-  }
-
-  @media screen and (orientation : portrait) {
-    .footer_social,  #clock{display: none;}
-  }
-
-  footer p{
-    margin: 0;
-    line-height: 1;
-  }
-
-  .worktitle{
-    padding: 2.6rem 0 0.75rem;
-  }
+.footer_social{
+  display: flex;
+  gap: 4rem;
+}
 
 
-  .workfilter{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.25rem calc(var(--border_distance)/2);
-    margin: 0.75rem calc(var(--border_distance)/2);
-    background-color: var(--primary);
-    border-radius: var(--border_radius);
-  }
+@media screen and (orientation : landscape) {
+  #clock_mobile{display: none;}
+}
 
-  .workfilter-left{
-    display: flex;
-    gap: 0.75rem;
-  }
+@media screen and (orientation : portrait) {
+  .footer_social,  #clock{display: none;}
+  .bottom{margin-inline: calc(var(--border_distance)*4)}
+}
 
-  .buttonfilter{
-    font-weight: 700;
-    padding: 0.75rem 1rem;
-    border: 0;
-    background-color: var(--primary);
-    border-radius: var(--border_radius);
-  }
+footer p{
+  margin: 0;
+  line-height: 1;
+}
 
-  .buttonfilter:hover{
-    background-color: var(--secondary);
-  }
 
-  .filters{
-    display: none;
-    position: absolute;
-    z-index: 4;
-    padding:0.75rem;
-    background-color: var(--primary);
-    max-height: 500px;
-    box-shadow: 10px 14px 14px 4px rgba(0,0,0,0.49);
 
-    flex-flow: column;
-  }
+.worktitle{
+  padding: 2.6rem 0 0.75rem;
+}
+
+
+.workfilter{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem calc(var(--border_distance)/2);
+  margin: 0.75rem calc(var(--border_distance)/2);
+  background-color: var(--primary);
+  border-radius: var(--border_radius);
+}
+
+.workfilter-left{
+  display: flex;
+  gap: 0.75rem;
+}
+
+.buttonfilter{
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  border: 0;
+  background-color: var(--primary);
+  border-radius: var(--border_radius);
+}
+
+.buttonfilter:hover{
+  background-color: var(--secondary);
+}
+
+.filters{
+  display: none;
+  position: absolute;
+  z-index: 4;
+  padding:0.75rem;
+  background-color: var(--primary);
+  max-height: 500px;
+  box-shadow: 10px 14px 14px 4px rgba(0,0,0,0.49);
+  flex-flow: column;
+}
 
   .filterslist{
     display: flex;
@@ -432,28 +430,31 @@ footer{
     padding: 0.33rem 0.2rem;
   }
 
-  .workgrid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-    gap: 5px;
-    padding: 0 var(--border_distance);
-    @media screen and (max-width: 600px) {
-      grid-template-columns: repeat(2,1fr);
-    }
-  }
-  
-  .image-item{
-    position: relative;
-    display: inherit
-  }
+.workgrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 5px;
+  padding: 0 var(--border_distance);
+}
 
-  .image-item img {
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-  }
+@media screen and (max-width: 600px) {
+  .workgrid{grid-template-columns: repeat(2,1fr);}
+}
+
+
+
+.image-item{
+  position: relative;
+  display: inherit
+}
+
+.image-item img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
 
   .imagedesc {
     position: absolute;
@@ -532,18 +533,19 @@ footer{
     font-weight: 100;
   }
 
-  .detail_info{
-    width: 50%;
-    margin-bottom: 0rem;
-    @media screen and (orientation: portrait) {
-      width: 80%;
-    }
-  }
+.detail_info{
+  width: 50%;
+  margin-bottom: 0rem;
+}
 
-  .detail_cat{
-    display: flex;
-    gap: 10vw;
-  }
+@media screen and (orientation: portrait) {
+  .detail_info{width: 80%;}
+}
+
+.detail_cat{
+  display: flex;
+  gap: 10vw;
+}
 
   .detail_spec{
     display: flex;
@@ -554,8 +556,6 @@ footer{
     font-weight: 700;
     
   }
-
-  .detail_spec_info{}
 
   .additional-images{
     display: grid;
@@ -575,61 +575,58 @@ footer{
 
 
 
-  .aboutmain{
-    display: flex;
-    flex-flow: row nowrap;
-    align-content: start;
-    padding-bottom: var(--bottom);
-    border-bottom: 2px solid var(--accent);
-    align-content: space-between;
-    @media screen and (orientation : portrait){
-      flex-flow: row wrap;
-    }
-  }
+.aboutmain{
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: start;
+  padding-bottom: var(--bottom);
+  border-bottom: 2px solid var(--accent);
+  align-content: space-between;
+}
 
-  #aboutmainimage{
-    height: auto;
-    width: 100%;
-    max-width: 30rem;
-    min-width: 20rem;
-  }
+#aboutmainimage{
+  height: auto;
+  width: 100%;
+  max-width: 30rem;
+  min-width: 20rem;
+}
 
-  .aboutleft{
-    margin:1.5rem 5rem;
-    max-width: max-content;
-    @media screen and (orientation : portrait){
-      margin: 0.2rem 0rem;
-    }
-  }
-  .aboutright{
-    max-width: 700px;
-    margin-inline:auto;
-  }
+.aboutleft{
+  margin:1.5rem 5rem;
+  max-width: max-content;
+}
+.aboutright{
+  max-width: 700px;
+  margin-inline:auto;
+}
 
-  #aboutdroit1{
-    font-size: 2.75rem;
-    line-height: 1.05;
-    @media screen and (orientation: portrait) {
-      font-size: 2rem
-    }
-  }
+#aboutdroit1{
+  font-size: 2.75rem;
+  line-height: 1.05;
+}
 
-  .aboutCV{
-    display: inline-flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 26rem;
-  }
+@media screen and (orientation : portrait){
+  .aboutmain{flex-flow: row wrap;}
+  .aboutleft{margin: 0.2rem 0rem;}
+  #aboutdroit1{font-size: 2rem}
+}
 
-  .aboutCV button{
-    flex-wrap: nowrap;
-    background-color: var(--primary);
-    padding: 16px 24px;
-    border-radius: var(--border_radius);
-    border: none;
-    transition: background-color 0.3s ease;
-    display: block;
-  }
+.aboutCV{
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 26rem;
+}
+
+.aboutCV button{
+  flex-wrap: nowrap;
+  background-color: var(--primary);
+  padding: 16px 24px;
+  border-radius: var(--border_radius);
+  border: none;
+  transition: background-color 0.3s ease;
+  display: block;
+}
   .aboutCV button:hover{
     background-color: var(--secondary);
   }
@@ -687,26 +684,26 @@ footer{
     flex-flow: row nowrap;
     gap: 1rem;
     max-width: 32rem;
-    @media screen and (orientation : portrait) {
-      flex-flow: column wrap;
-    }
-  }
+}
+@media screen and (orientation : portrait) {
+  .socialcontent{flex-flow: column wrap;}
+}
 
-  .sociallink{
-    background-color: var(--primary);
-    border-radius: var(--border_radius);
-    width: fit-content;
-    transition: background-color 0.3s ease;
-  }
+.sociallink{
+  background-color: var(--primary);
+  border-radius: var(--border_radius);
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
 
-  .sociallink:hover{
-    background-color: var(--secondary);
-  }
+.sociallink:hover{
+  background-color: var(--secondary);
+}
 
-  .sociallink abbr{
-    display: block;
-    font-weight: 700;
-    padding: 0.25rem 0em;
-    width: 6.5rem;
-    text-align: center;
-  }
+.sociallink abbr{
+  display: block;
+  font-weight: 700;
+  padding: 0.25rem 0em;
+  width: 6.5rem;
+  text-align: center;
+}
