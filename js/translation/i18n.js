@@ -22,7 +22,7 @@ $(function () {
 
   i18next
 
-    .use(i18nextBrowserLanguageDetector)
+    //.use(i18nextBrowserLanguageDetector)
     .use(i18nextHttpBackend)
 
     // init i18next
@@ -33,7 +33,7 @@ $(function () {
       debug: true,
       fallbackLng: 'fr',
       backend: {
-        loadPath: 'https://5lunes.github.io/portefolio/js/translation/locales/{{lng}}/{{ns}}.json'
+        loadPath: 'js/translation/locales/{{lng}}/{{ns}}.json'
       },
 
     }, (err, t) => {
