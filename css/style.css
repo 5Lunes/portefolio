@@ -7,6 +7,7 @@
 
     --border_distance: 10vh;
     --border_radius: 5px;
+    --bottom:15vh;
 
     @media screen and (orientation: portrait) {
       --border_distance:4px;
@@ -250,49 +251,68 @@
     left: 4%;
   }
 
-
-  .main_second{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items:flex-start;
-    justify-content: space-between;
-    margin-inline: var(--border_distance);
-    padding-bottom: 3rem;
-  }
-
-
-
-  .redirection_list{
-    font-size: 1.1rem;
-    margin-left: calc(var(--border_distance)/2);
-  }
-
-  .redirection_list li{
-    margin: 0.24rem;
-    padding: 0.33rem;
-    border-radius: 5px;
-  }
-
-  .redirection_list li:hover{
-    background-color: var(--primary);
-  }
-
-  .redirection_list_mode li{
-    margin-left: 1.5rem;
+  .main_about{
+    text-align: center;
+    padding-bottom: var(--bottom);
   }
 
   .main_best{
-    width: 50%;
+    padding-bottom: var(--bottom);
     @media screen and (orientation : portrait){
       width:100%
     }
   }
 
   #workgridIndex{
-    padding: 0 calc(var(--border_distance)/2);
+    padding: 0 0;
+    grid-template-columns: repeat(5, 1fr);
+    @media screen and (max-width:1150px){
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
   }
 
+
+  .bestplus {
+    background-image: url(../img/works/8/spas-12-scene.webp);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+
+    grid-column-start: 5;
+    grid-row: 1;
+    @media screen and (max-width:1150px){
+      grid-column: span 2 / span 2;
+      grid-row-start: 3;
+    }
+  }
+
+  #bestplus{
+    display: block;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(15px);
+  }
+
+  #bestplus_butt{
+    width: 100%;
+    height: 100%;
+    background:none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+  }
+
+  #bestplus_butt:hover{
+    background: var(--primary);
+    #bestplus_butt,h5{
+      font-size:1.5rem;
+    }
+  }
+
+  #bestplus_butt,h5{
+    font-size: 1.3rem;
+  }
+  
 
 footer{
     position: fixed;
@@ -329,7 +349,7 @@ footer{
   }
 
   .worktitle{
-    padding: 2.25rem 0 0.75rem;
+    padding: 2.6rem 0 0.75rem;
   }
 
 
@@ -442,7 +462,7 @@ footer{
   #workdetail {
     position: fixed;
     border: none;
-    background-color: var(--primary);
+    background-color: var(--background);
     padding: calc(var(--border_distance)/2) calc(var(--border_distance)*1.5);
     width: 95%;
     height: 97.5%;
@@ -451,7 +471,7 @@ footer{
     overflow: scroll;
     overflow-x: hidden;
     scrollbar-width:thin;
-    scrollbar-color: var(--accent) var(--primary);
+    scrollbar-color: var(--accent) var(--background);
 
     border-radius: var(--border_radius);
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.39);
@@ -480,6 +500,41 @@ footer{
 		backdrop-filter: blur(20px);
   }
 
+  .detail_pays{
+    margin-bottom: 0;
+    font-weight: 100;
+  }
+
+  .detail_titre{
+  }
+
+  .detail_date{
+    margin: 0 0 0 1rem;
+    font-weight: 100;
+  }
+
+  .detail_info{
+    width: 50%;
+    margin-bottom: 0rem;
+  }
+
+  .detail_cat{
+    display: flex;
+    gap: 10vw;
+  }
+
+  .detail_spec{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .detail_spec_title{
+    font-weight: 700;
+    
+  }
+
+  .detail_spec_info{}
+
   .additional-images{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -499,7 +554,7 @@ footer{
     display: flex;
     flex-flow: row nowrap;
     align-content: start;
-    padding-bottom: 15vh;
+    padding-bottom: var(--bottom);
     border-bottom: 2px solid var(--accent);
     align-content: space-between;
     @media screen and (orientation : portrait){
@@ -551,7 +606,7 @@ footer{
   }
 
   .aboutexp{
-    padding-bottom: 15vh;
+    padding-bottom: var(--bottom);
     border-bottom: 2px solid var(--accent);
   }
 
@@ -584,33 +639,41 @@ footer{
   }
 
   .aboutcontact{
-    padding-bottom: 15vh;
+    padding-bottom: var(--bottom);
     border-bottom: 2px solid var(--accent);
   }
 
-  .contactall{
-    width: 90%;
-  }
-
   .contactcontent{
-    display: flex;
-    justify-content: space-around;
+    margin-left: var(--border_distance);
   }
 
   .socialcontent{
+    margin-left: var(--border_distance);
+    margin-top: 1vh;
     display: flex;
-    justify-content: space-around;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    max-width: 32rem;
+    @media screen and (orientation : portrait) {
+      flex-flow: column wrap;
+    }
   }
 
   .sociallink{
     background-color: var(--primary);
-    width: 8rem;
-    height: 2rem;
     border-radius: var(--border_radius);
+    width: fit-content;
+    transition: background-color 0.3s ease;
+  }
+
+  .sociallink:hover{
+    background-color: var(--secondary);
   }
 
   .sociallink abbr{
     display: block;
     font-weight: 700;
+    padding: 0.25rem 0em;
+    width: 6.5rem;
     text-align: center;
   }

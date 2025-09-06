@@ -5,9 +5,14 @@
         "propos": "À propos",
         "blog": "Blog"
     },
+    "footer":{
+        "haut":"↿ haut"
+    },
     "main":{
         "subtitle": "techniquement artiste",
-        "creme":"La crème"
+        "creme":"La crème",
+        "plus":"lire plus ›",
+        "voir":"Voir plus ›"
     },
     "works":{
         "title":"Mes réalisations",
@@ -56,10 +61,16 @@
                 "son":"Design sonore",
                 "dessin":"Dessin numérique"
             }
+        },
+        "contact":{
+            "contact":"Contact",
+            "social":"Réseaux",
+            "mail":"courriel",
+            "phone":"téléphone"
         }
     },
     "pays":{
-        "inconnu" : "Inconnu",
+        "inconnu" : "Pays inconnu",
         "suisse": "Suisse 🇨🇭",
         "liechtenstein": "Liechtenstein 🇱🇮",
         "belgique":"Belgique 🇧🇪",

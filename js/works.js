@@ -103,12 +103,17 @@ function showImageDetails(item) {
   detailsContainer.innerHTML = `
     <button onclick="window.workdetail.close();" aria-label="close" class="x"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
 
-    <h1 data-i18n='${item.id}.titre' ></h1>
-    <p> ${item.date}</p>
-    <p data-i18n='${item.id}.description'></p>
-    <p><strong>Soft:</strong> ${item.soft}</p>
-    <p><strong>Tag:</strong> ${item.tags}</p>
-    <p data-i18n='pays.${item.pays}' ><strong>Pays:</strong> </p>
+    <p data-i18n='pays.${item.pays}' class="detail_pays"><strong>Pays:</strong> </p>
+    <h1 data-i18n='${item.id}.titre' class="detail_titre"></h1>
+    <p class="detail_info">
+      <span data-i18n='${item.id}.description'></span> <br>
+      <span class="detail_date"> ${item.date}</span>
+    </p>
+    <div class="detail_cat">
+    <p class="detail_spec"><span class="detail_spec_title">Soft</span><span class="detail_spec_info">${item.soft}</span></p>
+    <p class="detail_spec"><span class="detail_spec_title">Tags</span><span class="detail_spec_info">${item.tags}</span></p>
+    </div>
+    
     <div class="additional-images">
       ${item.additionalImages.map(img => `<a href="${img}" target="_blank"><img src="${img}" alt="Additional image" ></a>`).join('')}
     </div>

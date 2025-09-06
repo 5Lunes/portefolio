@@ -5,9 +5,14 @@
         "propos": "About",
         "blog": "Blog"
     },
+    "footer":{
+        "haut":"↿ up"
+    },
     "main":{
         "subtitle": "technically an artist",
-        "creme":"Best of"
+        "creme":"Best of",
+        "plus":"read more ›",
+        "voir":"See more ›"
     },
     "works":{
         "title":"My works",
@@ -57,9 +62,16 @@
                 "dessin":"Digital drawing"
             }
         }
+        ,
+        "contact":{
+            "contact":"Contact",
+            "social":"Social",
+            "mail":"mail",
+            "phone":"phone"
+        }
     },
     "pays":{
-        "inconnu" : "Unknown",
+        "inconnu" : "Unknown country",
         "suisse": "Switzerland 🇨🇭",
         "liechtenstein": "Liechtenstein 🇱🇮",
         "belgique":"Belgium 🇧🇪",
@@ -84,7 +96,7 @@
     },
     "3":{
         "titre": "mad scientist - drawing",
-        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale. <br> There were many iterations before arriving at such a dark and gloomy result. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
+        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale.<br>There were many iterations before arriving at such a dark and gloomy result. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
     },
     "4":{
         "titre": "chandelier",
