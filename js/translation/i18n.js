@@ -33,7 +33,7 @@ $(function () {
       debug: true,
       fallbackLng: 'fr',
       backend: {
-        loadPath: 'js/translation/locales/{{lng}}/{{ns}}.json'
+        loadPath: 'https://5lunes.github.io/portefolio/js/translation/locales/{{lng}}/{{ns}}.json'
       },
 
     }, (err, t) => {
