@@ -96,15 +96,15 @@
     },
     "3":{
         "titre": "mad scientist - drawing",
-        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale.<br>There were many iterations before arriving at such a dark and gloomy result. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
+        "description":"Preliminary drawings for the mad scientist's environment. The aim was to present modern chemistry equipment but with a medieval and dirty aesthetic..\nThere were many iterations before arriving at such a dark and gloomy result. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
     },
     "4":{
         "titre": "chandelier",
-        "description":"Procedural Chandelier made with Houdini. It takes inspiration from Chateau de Versailles's baroque style.<br>It's entirely configurable in every detail."
+        "description":"Procedural Chandelier made with Houdini. It takes inspiration from Chateau de Versailles's baroque style.\nIt's entirely configurable in every detail."
     },
     "5":{
         "titre": "arcade cabinet",
-        "description":"Entirely Procedural Arcade Cabinet made with Houdini. It's fully-configurable with up to 6 different button layouts!<br>Initialy created for day 2 of Nodevember 2023"
+        "description":"Entirely Procedural Arcade Cabinet made with Houdini. It's fully-configurable with up to 6 different button layouts!\nInitialy created for day 2 of Nodevember 2023"
     },
     "6":{
         "titre": "kitchen",
@@ -140,7 +140,7 @@
     },
     "14":{
         "titre":"honda civic",
-        "description":"Reproduction de la Honda Civic type R de 2020. It's the first vehicle I've managed to model completely. It's been a great learning experience on 3DS Max. <br> A series of renders at the water's edge and for a challenge asking you to imagine a travelling salesman. So it's a grandmother from Vaucleuse selling her fruit in a racing car."
+        "description":"Reproduction de la Honda Civic type R de 2020. It's the first vehicle I've managed to model completely. It's been a great learning experience on 3DS Max. \n A series of renders at the water's edge and for a challenge asking you to imagine a travelling salesman. So it's a grandmother from Vaucleuse selling her fruit in a racing car."
     },
     "15":{
         "titre":"watch",
@@ -148,7 +148,7 @@
     },
     "16":{
         "titre": "still life 1",
-        "description":"Blue still life.<br>First render with houdini."
+        "description":"Blue still life.\nFirst render with houdini."
     },
     "17":{
         "titre": "still life 2",
@@ -180,7 +180,7 @@
     },
     "24":{
         "titre":"academia Nabulio",
-        "description":"Plans for a fictional ultra-rich academy. <br>Made for Venus as part of an rp."
+        "description":"Plans for a fictional ultra-rich academy. \nMade for Venus as part of an rp."
     },
     "25":{
         "titre":"cosmo tardigrade",
@@ -200,11 +200,11 @@
     },
     "29":{
         "titre":"Fish Stick Protocol",
-        "description": "Reflection on a new mechanic for the fish stick protocol game and production of an animation presenting it. <br> Work carried out with Meredith R., Marc V. and Ianis S."
+        "description": "Reflection on a new mechanic for the fish stick protocol game and production of an animation presenting it. \n Work carried out with Meredith R., Marc V. and Ianis S."
     },
     "30":{
         "titre":"fruit survivor",
-        "description":"A survivor like blended with fruit ninja, it can only work, isn't it ? <br>Work carried out with Sandy R., Cyril N., Anthony R. et Brieux D."
+        "description":"A survivor like blended with fruit ninja, it can only work, isn't it ? \nWork carried out with Sandy R., Cyril N., Anthony R. et Brieux D."
     },
     "31":{
         "titre":"hidden cave",
@@ -216,11 +216,11 @@
     },
     "33":{
         "titre":"motion capture",
-        "description":"Introduction to motion capture using professional equipment <br>Done with Armand C. and Maxime F."
+        "description":"Introduction to motion capture using professional equipment \nDone with Armand C. and Maxime F."
     },
     "34":{
         "titre":"Shiptricks 3077",
-        "description": "A game about making tricks with a boat cruising through a sea of stars. Now with a real life steering helm! <br> This is a game made for school with my friends Ana T., Cyril N. and Marc V. during a 5 day workshop. We had to create an arcade game using an handmade custom controller. We decided to make a game in which you pilot a ship that can jump on waves and do tricks in the air, SSX style. All of that using a steering wheel made of papier-mache and a mouse. The game is made using Unreal Engine 5 (Blueprint). I loved working on this project, since it was using an alternative controller. Programming the player's behaviour was a totally different thing since I had to take the weird controller into account."
+        "description": "A game about making tricks with a boat cruising through a sea of stars. Now with a real life steering helm! \n This is a game made for school with my friends Ana T., Cyril N. and Marc V. during a 5 day workshop. We had to create an arcade game using an handmade custom controller. We decided to make a game in which you pilot a ship that can jump on waves and do tricks in the air, SSX style. All of that using a steering wheel made of papier-mache and a mouse. The game is made using Unreal Engine 5 (Blueprint). I loved working on this project, since it was using an alternative controller. Programming the player's behaviour was a totally different thing since I had to take the weird controller into account."
     },
     "35":{
         "titre":"Spirate - art",

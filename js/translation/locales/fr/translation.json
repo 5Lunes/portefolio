@@ -95,15 +95,15 @@
     },
     "3":{
         "titre": "scientifique fou - dessin",
-        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale. <br> Il y a eu de nombreuses itérations avant d'arriver à un résultat aussi sombre et glauque. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
+        "description":"Dessins préparatoire pour l'environnement du scientifique fou. L'objectif a été de présenter du matériel de chimie moderne mais avec une esthétique moyenâgeuse et sale.\n Il y a eu de nombreuses itérations avant d'arriver à un résultat aussi sombre et glauque. Les premières versions mettant bien plus en avant le meuble central dans un style bien plus propre."
     },
     "4":{
         "titre": "chandelier",
-        "description":"Chandelier procédural conçu avec Houdini, s'inspirant du style baroque du château de Versailles.<br>Il est entièrement configurable dans les détails."
+        "description":"Chandelier procédural conçu avec Houdini, s'inspirant du style baroque du château de Versailles.\nIl est entièrement configurable dans les détails."
     },
     "5":{
         "titre": "borne d'arcade",
-        "description":"Borne d'arcade procédurale réalisée sur Houdini<br>complétement configurables avec 6 pressets de layout de boutons<br>Réalisée à la base pour le challenge 2 du nodevember 2023"
+        "description":"Borne d'arcade procédurale réalisée sur Houdini\ncomplétement configurables avec 6 pressets de layout de boutons\nRéalisée à la base pour le challenge 2 du nodevember 2023"
     },
     "6":{
         "titre": "cuisine mamy",
@@ -135,11 +135,11 @@
     },
     "13":{
         "titre":"gare",
-        "description":"Une gare aux inspirations brutaliste <br>C'était la période bianuelle de minecraft donc j'ai rajouté des portails."
+        "description":"Une gare aux inspirations brutaliste \nC'était la période bianuelle de minecraft donc j'ai rajouté des portails."
     },
     "14":{
         "titre":"honda civic",
-        "description":"Reproduction de la Honda Civic type R de 2020. C'est le premier véhicule que j'arrive à modéliser entièrement. Ca aura été très formateur sur 3DS Max <br> Série de rendus au bord de l'eau et pour un challenge demandant d'immaginer un marchant ambulant. C'est donc une grand mère du Vaucleuse qui vend ses fruits en voiture de course."
+        "description":"Reproduction de la Honda Civic type R de 2020. C'est le premier véhicule que j'arrive à modéliser entièrement. Ca aura été très formateur sur 3DS Max \n Série de rendus au bord de l'eau et pour un challenge demandant d'immaginer un marchant ambulant. C'est donc une grand mère du Vaucleuse qui vend ses fruits en voiture de course."
     },
     "15":{
         "titre":"montre",
@@ -147,7 +147,7 @@
     },
     "16":{
         "titre": "nature morte 1",
-        "description":"Nature morte bleue.<br>Premier rendu avec Houdini."
+        "description":"Nature morte bleue.\nPremier rendu avec Houdini."
     },
     "17":{
         "titre": "nature morte 2",
@@ -179,7 +179,7 @@
     },
     "24":{
         "titre":"academia Nabulio",
-        "description":"Les plans d'une académie pour ultra-riche fictive. <br>Réalisé pour Vénus dans le cadre d'un rp."
+        "description":"Les plans d'une académie pour ultra-riche fictive. \nRéalisé pour Vénus dans le cadre d'un rp."
     },
     "25":{
         "titre":"cosmo tardigrade",
@@ -199,11 +199,11 @@
     },
     "29":{
         "titre":"Fish Stick Protocol",
-        "description": "Réflexion sur une nouvelle mécanique pour le jeu fish stick protocol et réalisation d'une animation la présentant. <br>Travail éffectué avec Meredith R., Marc V. et Ianis S."
+        "description": "Réflexion sur une nouvelle mécanique pour le jeu fish stick protocol et réalisation d'une animation la présentant. \nTravail éffectué avec Meredith R., Marc V. et Ianis S."
     },
     "30":{
         "titre":"fruit survivor",
-        "description":"Un suvivor like mêlé avec fruit ninja, ca ne peut que bien marcher non ? <br>Travail effectué avec Sandy R., Cyril N., Anthony R. et Brieux D."
+        "description":"Un suvivor like mêlé avec fruit ninja, ca ne peut que bien marcher non ? \nTravail effectué avec Sandy R., Cyril N., Anthony R. et Brieux D."
     },
     "31":{
         "titre":"grotte clandestine",
@@ -215,11 +215,11 @@
     },
     "33":{
         "titre":"motion capture",
-        "description":"Ititiation à la motion capture avec du matériel professionel <br>Réalisé avec Armand C. et Maxime F."
+        "description":"Ititiation à la motion capture avec du matériel professionel \nRéalisé avec Armand C. et Maxime F."
     },
     "34":{
         "titre":"Shiptricks 3077",
-        "description":"Un jeu où l'on fait des tricks avec un bateau à tarvers une mer d'étoile. Désormais avec un véritable gouvernail <br> C'est un jeu réalisé pour l'école avec mes amis Ana T., Cyril N. et Marc V. Nous avons dû créer un jeu d'arcade utilisant un périphérique alternatif."
+        "description":"Un jeu où l'on fait des tricks avec un bateau à tarvers une mer d'étoile. Désormais avec un véritable gouvernail \n C'est un jeu réalisé pour l'école avec mes amis Ana T., Cyril N. et Marc V. Nous avons dû créer un jeu d'arcade utilisant un périphérique alternatif."
     },
     "35":{
         "titre":"Spirate - game",
@@ -236,7 +236,7 @@
     },
     "38":{
         "titre":"Macrocyst - Game Jam",
-        "description":"Première game jam. Jeu inspiré par tentacle war <br>Réalisé avec Lightbolt, Breniak, Théo D. et Neil P."
+        "description":"Première game jam. Jeu inspiré par tentacle war \nRéalisé avec Lightbolt, Breniak, Théo D. et Neil P."
     },
     "39":{
         "titre":"Overstrum - Game Jam",
@@ -264,7 +264,7 @@
     },
     "46":{
         "titre":"Rickenbacker 4001",
-        "description":"Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.<br>Ceci est une basse, pas une guitare."
+        "description":"Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.\nCeci est une basse, pas une guitare."
     }
 
 

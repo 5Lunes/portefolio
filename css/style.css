@@ -536,6 +536,7 @@ footer p{
 .detail_info{
   width: 50%;
   margin-bottom: 0rem;
+  white-space: pre-line; /* Respecte les \n */
 }
 
 @media screen and (orientation: portrait) {
