@@ -265,6 +265,42 @@
     "46":{
         "titre":"Rickenbacker 4001",
         "description":"Modélisation hard surface de la Rickenbacker 4001 de 1980 Fretless. Modèle game ready.\nCeci est une basse, pas une guitare."
+    },
+    "47":{
+        "titre":"arbres procéduraux",
+        "description":"Travail de recherche sur la modélisation procédurale. Création d'un graphe et de fonctions from scratch en géometry nodes basé sur le fonctionnement de Speedtree."
+    },
+    "48":{
+        "titre":"chêne",
+        "description":"Chêne réalisé procéduralement dans blender utilisant le graphe que j'ai créé from scratch.\n Version préliminaire dans Speedtree."
+    },
+    "49":{
+        "titre":"saule",
+        "description":"Saule réalisé procéduralement dans blender utilisant le graphe que j'ai créé from scratch. C'était l'occasion d'utiliser les frond pour rendre chaque branche individuellement\n Version préliminaire dans Speedtree."
+    },
+    "50":{
+        "titre":"magnolia",
+        "description":"Magnolia réalisé procéduralement dans blender utilisant le graphe que j'ai créé from scratch. Implémentation de raycast pour la mousse.\n Version préliminaire dans Speedtree."
+    },
+    "51":{
+        "titre":"rosier",
+        "description":"Rose réalisé procéduralement dans blender utilisant le graphe que j'ai créé from scratch.\n Version préliminaire dans Speedtree."
+    },
+    "52":{
+        "titre":"herbe",
+        "description":"Herbe réalisé procéduralement dans blender utilisant le graphe que j'ai créé from scratch.\n Version préliminaire dans Speedtree."
+    },
+    "53":{
+        "titre":"jardin",
+        "description":"Quatres environnements identiques donnant l'opportunté d'intégrer les plantes procédurales. Une fois dans Unreal (2 premières images) et une fois dans Godot (2 dernières images)."
+    },
+    "54":{
+        "titre":"âmes",
+        "description":"Quatres environnements identiques donnant l'opportunté d'intégrer les plantes procédurales. Une fois dans Unreal (2 premières images) et une fois dans Godot (2 dernières images)."
+    },
+    "55":{
+        "titre":"chambre 3",
+        "description":"Second remake de l'un de mes tous premiers rendus. Cette scène permet de me rendre compte de l'évolution de mon style et mes capacités. Cette fois-ci, j'ai pensé à ajouter la soeurette."
     }
 
 

@@ -690,6 +690,145 @@
           "img/works/46/Rickenbacker_poignee_post.webp",
           "img/works/46/Rickenbacker_wireframe_post.webp"
         ]
+      },
+      {
+        "id": 47,
+        "_titre": "Arbes proceduraux",
+        "pays":"inconnu",
+        "date": "2025-08-10",
+        "tags": ["procedural"],
+        "soft":["blender"],
+        "mainImage": "img/works/47/graphe_square_cropped.webp",
+        "additionalImages": [
+          "img/works/47/chene.png",
+          "img/works/47/all_group.png",
+          "img/works/47/gen_bark.png",
+          "img/works/47/gen_frond.png",
+          "img/works/47/gen_generation.png",
+          "img/works/47/gen_graszone.png",
+          "img/works/47/gen_leafgen.png",
+          "img/works/47/gen_raycast.png",
+          "img/works/47/gen_trunckbase.png"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/6x7VH8rfIb8?si=HOUbhr1Mi4bGv4yY"
+      },
+      {
+        "id": 48,
+        "_titre": "chene",
+        "pays":"inconnu",
+        "date": "2025-08-11",
+        "tags": ["procedural"],
+        "soft":["blender","speedtree"],
+        "mainImage": "img/works/48/chene_blend.webp",
+        "additionalImages": [
+          "img/works/48/chene_3.webp",
+          "img/works/48/chene_blend.webp",
+          "img/works/48/chene_blend_detail.webp",
+          "img/works/48/chene_ST.webp",
+          "img/works/48/chene_ST_detail.webp"
+        ]
+      },
+      {
+        "id": 49,
+        "_titre": "saule",
+        "pays":"inconnu",
+        "date": "2025-08-11",
+        "tags": ["procedural"],
+        "soft":["blender","speedtree"],
+        "mainImage": "img/works/49/saule_blend.webp",
+        "additionalImages": [
+          "img/works/49/saule_blend_3.webp",
+          "img/works/49/saule_blend.webp",
+          "img/works/49/saule_blend_detail.webp",
+          "img/works/49/saule_ST_3.webp",
+          "img/works/49/saule_ST_detail.webp"
+        ]
+      },
+      {
+        "id": 50,
+        "_titre": "magnolia",
+        "pays":"inconnu",
+        "date": "2025-08-11",
+        "tags": ["procedural"],
+        "soft":["blender","speedtree"],
+        "mainImage": "img/works/50/magnolia_blend.webp",
+        "additionalImages": [
+          "img/works/50/magnolia_blend_3.webp",
+          "img/works/50/magnolia_blend.webp",
+          "img/works/50/magnolia_blend_detail.webp",
+          "img/works/50/magnolia_ST_3.webp",
+          "img/works/50/magnolia_ST_detail.webp"
+        ]
+      },
+      {
+        "id": 51,
+        "_titre": "rosier",
+        "pays":"inconnu",
+        "date": "2025-08-11",
+        "tags": ["procedural"],
+        "soft":["blender","speedtree"],
+        "mainImage": "img/works/51/rosier_blend.webp",
+        "additionalImages": [
+          "img/works/51/rosier_blend_3.webp",
+          "img/works/51/rosier_blend.webp",
+          "img/works/51/rosier_blend_detail.webp",
+          "img/works/51/rosier_ST_3.webp"
+        ]
+      },
+      {
+        "id": 52,
+        "_titre": "grass",
+        "pays":"inconnu",
+        "date": "2025-08-11",
+        "tags": ["procedural"],
+        "soft":["blender","speedtree"],
+        "mainImage": "img/works/52/herbe_blend.webp",
+        "additionalImages": [
+          "img/works/52/herbe_blend.webp",
+          "img/works/52/herbe_ST.webp"        ]
+      },
+      {
+        "id": 53,
+        "_titre": "jardin",
+        "pays":"inconnu",
+        "date": "2025-08-12",
+        "tags": ["environnement"],
+        "soft":["unreal","godot"],
+        "mainImage": "img/works/53/Un_Speedtree_enviro.webp",
+        "additionalImages": [
+          "img/works/53/Un_Blender_enviro.webp",
+          "img/works/53/Un_Speedtree_enviro.webp",
+          "img/works/53/Go_Blender_enviro.webp",
+          "img/works/53/Go_Speedtree_enviro.webp"
+        ]
+      },
+      {
+        "id": 54,
+        "_titre": "jardin",
+        "pays":"inconnu",
+        "date": "2025-09-05",
+        "tags": ["environnement"],
+        "soft":["unreal","godot"],
+        "mainImage": "img/works/54/ames_cropped.webp",
+        "additionalImages": [
+          "img/works/54/ames.webp"
+        ]
+      },
+      {
+        "id": 55,
+        "_titre": "chambre",
+        "pays":"inconnu",
+        "date": "2025-07-18",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "mainImage": "img/works/55/chambre3_cropped.webp",
+        "additionalImages": [
+          "img/works/55/chambre3_final.webp",
+          "img/works/55/chambre3_detail1.webp",
+          "img/works/55/chambre3_detail2.webp",
+          "img/works/55/chambre3_detail3.webp",
+          "img/works/55/chambre3_detail4.webp"          
+        ]
       }
 ]
   

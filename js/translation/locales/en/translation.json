@@ -265,5 +265,41 @@
     "46":{
         "titre":"Rickenbacker 4001",
         "description":"Hard surface modeling of the Rickenbacker 4001 fretless. Game ready model. This is a BASS, not a guitar."
+    },
+    "47":{
+        "titre":"procedural trees",
+        "description":"Research work on procedural modelling. Creation of a graph and functions from scratch in geometry nodes based on how Speedtree works."
+    },
+    "48":{
+        "titre":"oak",
+        "description":"Oak tree procedurally generated in Blender using the graph I created from scratch.\n Preliminary version in Speedtree."
+    },
+    "49":{
+        "titre":"willow",
+        "description":"Willow tree procedurally generated in Blender using the graph I created from scratch. It was an opportunity to use fronds to make each branch individually.\n Preliminary version in Speedtree."
+    },
+    "50":{
+        "titre":"magnolia",
+        "description":"Magnolia tree procedurally generated in Blender using the graph I created from scratch. Implementation of raycast for foam.\n Preliminary version in Speedtree."
+    },
+    "51":{
+        "titre":"rose",
+        "description":"Rose tree procedurally generated in Blender using the graph I created from scratch.\n Preliminary version in Speedtree."
+    },
+    "52":{
+        "titre":"grass",
+        "description":"Grass procedurally generated in Blender using the graph I created from scratch.\n Preliminary version in Speedtree."
+    },
+    "53":{
+        "titre":"garden",
+        "description":"Four identical environments providing the opportunity to integrate procedural plants. Once in Unreal (first two images) and once in Godot (last two images)."
+    },
+    "54":{
+        "titre":"souls",
+        "description":"Four identical environments providing the opportunity to integrate procedural plants. Once in Unreal (first two images) and once in Godot (last two images)."
+    },
+    "55":{
+        "titre":"room 3",
+        "description":"Second remake of one of my very first renderings. This scene allows me to see how my style and abilities have evolved. This time, I thought I'd add the little sister."
     }
 }
