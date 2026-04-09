@@ -1,15 +1,21 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Luca Mevis - blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>blog — 5Lunes</title>
+    <meta name="description" content="Luca Mevis portefolio. My plog to post whatever I want">
+    <meta name="author" content="Luca Mevis">
+    <meta name="keywords" content="HTML, CSS, JavaScript,Jquerry">
+    <link rel="icon" href="img/Favicon.ico">
     <link rel="stylesheet" href="css/reset_helha.css">
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/hin3izn.css">
   </head>
 
   <body>
+    <script src="js/translation/node_modules/jquery-slim/dist/jquery.slim.js"></script>
+
     <header>
         <div class="header_link">
             <a href="index.html">5Lunes</a>
@@ -40,25 +46,34 @@
         </div>
     </header>
 
-    <div class="mainpage">
-        <h1>Blog</h1>
+    <div class="maincontent">
+        <div class="worktitle">
+          <h2 data-i18n="Blog.title">Blog</h2>
+        </div>
     </div>
 
     <footer>
-        <div class="bottom">
-            <div class="footer_time">
-                <p>Belgique</p>
-                <p id="clock">15h41</p>
-                <p id="clock_mobile">15h41</p>
-            </div>
-            <div class="footer_social">
-                <a href="https://www.artstation.com/mevisluca7">Artstation</a>
-                <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
-            </div>
-            <a class="footer_top" href="#top" data-i18n="footer.haut">haut</a>
-        </div>
-    </footer>
-
-
+      <div class="bottom">
+          <div class="footer_time">
+              <p>Belgique</p>
+              <p id="clock">15h41</p>
+              <p id="clock_mobile">15h41</p>
+          </div>
+          <div class="footer_social">
+              <a href="https://www.artstation.com/mevisluca7">Artstation</a>
+              <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
+          </div>
+          <a class="footer_top" href="#top" data-i18n="footer.haut">haut</a>
+      </div>
+  </footer>  
   </body>
+  <script src="js/time.js"> </script>
+
+    <script src="js\translation\node_modules\i18next\dist\umd\i18next.min.js"></script>
+    <script src="js\translation\node_modules\jquery-i18next\dist\umd\jquery-i18next.min.js"></script>
+    <script src="js\translation\node_modules\i18next-browser-languagedetector\dist\umd\i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.2.1/i18nextHttpBackend.min.js"></script>
+    <!-- an example can be found in example/jquery/index.html -->
+
+    <script src="js/translation/i18n.js"></script>
 </html>
