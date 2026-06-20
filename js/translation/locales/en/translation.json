@@ -28,6 +28,10 @@
             "prog": "development",
             "dessin": "drawing",
             "autre": "other"
+        },
+        "soft":{
+            "3D":"3D Modeling",
+            "engine":"Engines"
         }
     },
     "about":{
@@ -300,10 +304,26 @@
     },
     "54":{
         "titre":"souls",
-        "description":"Four identical environments providing the opportunity to integrate procedural plants. Once in Unreal (first two images) and once in Godot (last two images)."
+        "description":"What appear to be human figures emerging from the mist."
     },
     "55":{
         "titre":"room 3",
         "description":"Second remake of one of my very first renderings. This scene allows me to see how my style and abilities have evolved. This time, I thought I'd add the little sister."
+    },
+    "56":{
+        "titre":"The roads of Rèves",
+        "description":"Restoring a landscape that is close to my heart. The roads of Rèves offer a chance to step away from the daily grind and enjoy nature. The game simulates the changing seasons, plant growth and crop rotation."
+    },
+    "57":{
+        "titre":"Star Fashion Generation",
+        "description":"A game created in one week. A ‘dress to impress’ game with a little twist. I tried to add some post-processing, but it turned out to be a failure.\nCreated with Héloïse D., Antonio G., François I. and Théo M."
+    },
+    "58":{
+        "titre":"Bones Below",
+        "description":"A game developed in two weeks. A catacomb exploration game. I used a lot of procedural generation, both for the materials and for the level generation.\nDeveloped with Dylan D., Gabriel A., Luca R., Loïd B. A., Youssef B.T.A., Doryann S., Adrien F. and Anakin D."
+    },
+    "59":{
+        "titre":"Smoothie mask adventure - Game Jam",
+        "description":"4th GGJ. Put on a mask, change the room, make it your weapon. As always, I help on everything for this first project on Godot.\nDeveloped with Baptiste B., Agathe B., Danaé, Hiboudu68, Menherina et Valentin D."
     }
 }

@@ -804,11 +804,11 @@
       },
       {
         "id": 54,
-        "_titre": "jardin",
+        "_titre": "ame",
         "pays":"inconnu",
         "date": "2025-09-05",
         "tags": ["environnement"],
-        "soft":["unreal","godot"],
+        "soft":["blender"],
         "mainImage": "img/works/54/ames_cropped.webp",
         "additionalImages": [
           "img/works/54/ames.webp"
@@ -828,6 +828,72 @@
           "img/works/55/chambre3_detail2.webp",
           "img/works/55/chambre3_detail3.webp",
           "img/works/55/chambre3_detail4.webp"          
+        ]
+      },
+      {
+        "id": 56,
+        "_titre": "RoutesDeReves",
+        "pays":"belgique",
+        "date": "2026-01-21",
+        "tags": ["environnement","procedural"],
+        "soft":["unreal", "speedtree"],
+        "mainImage": "img/works/56/reve_cropped.webp",
+        "additionalImages": [
+          "img/works/56/reve_2.webp",
+          "img/works/56/reve_1.webp",
+          "img/works/56/reve_3.webp",
+          "img/works/56/reve_4.webp",
+          "img/works/56/reve_5.webp",
+          "img/works/56/reve_6.webp",
+          "img/works/56/reve_7.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/8Ty3h-q2MTM?si=79hTbNlEe9yixJzB"
+      },
+      {
+        "id": 57,
+        "_titre": "StarFashionGeneration",
+        "pays":"inconnu",
+        "date": "2025-10-03",
+        "tags": ["environnement"],
+        "soft":["unreal"],
+        "mainImage": "img/works/57/sfw_cropped.webp",
+        "additionalImages": [
+          "img/works/57/sfg_1.webp",
+          "img/works/57/sfg_2.webp",
+          "img/works/57/sfg_blazer.webp",
+          "img/works/57/sfg_uniforme.webp"
+        ]
+      },
+      {
+        "id": 58,
+        "_titre": "BonesBelow",
+        "pays":"inconnu",
+        "date": "2025-12-05",
+        "tags": ["procedural"],
+        "soft":["unreal"],
+        "mainImage": "img/works/58/BB_cropped.webp",
+        "additionalImages": [
+          "img/works/58/BB_1.webp",
+          "img/works/58/BB_2.webp",
+          "img/works/58/BB_3.webp",
+          "img/works/58/BB_Skullexr.jpg",
+          "img/works/58/BB_Floor.jpg",
+          "img/works/58/BB_BrickWall.jpg"
+        ]
+      },
+      {
+        "id": 59,
+        "_titre": "SmoothieMaskAdventure",
+        "pays":"inconnu",
+        "date": "2026-02-01",
+        "tags": ["dessin"],
+        "soft":["godot"],
+        "mainImage": "img/works/59/SMA_cropped.webp",
+        "additionalImages": [
+          "img/works/59/SMA_1.webp",
+          "img/works/59/SMA_2.webp",
+          "img/works/59/SMA_3.webp",
+          "img/works/59/SMA_4.webp"
         ]
       }
 ]

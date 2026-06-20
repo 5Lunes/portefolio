@@ -84,7 +84,8 @@ class ImageGrid {
       painter: 'img/svg/painter.svg',
       speedtree: 'img/svg/speedtree.png',
       photoshop: 'img/svg/photoshop.svg',
-      VS: 'img/svg/VS.svg'
+      VS: 'img/svg/VS.svg',
+      godot: 'img/svg/godot.svg'
     };
     
     softArray.forEach(soft => {

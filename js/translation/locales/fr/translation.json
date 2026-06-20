@@ -28,6 +28,10 @@
             "prog": "programation",
             "dessin": "dessin",
             "autre": "autre"
+        },
+        "soft":{
+            "3D":"Modélisation",
+            "engine":"Moteurs"
         }
     },
     "about":{
@@ -300,11 +304,27 @@
     },
     "54":{
         "titre":"âmes",
-        "description":"Quatres environnements identiques donnant l'opportunté d'intégrer les plantes procédurales. Une fois dans Unreal (2 premières images) et une fois dans Godot (2 dernières images)."
+        "description":"Des silhouettes vraisemblablement humaines qui surgissent de la brume"
     },
     "55":{
         "titre":"chambre 3",
         "description":"Second remake de l'un de mes tous premiers rendus. Cette scène permet de me rendre compte de l'évolution de mon style et mes capacités. Cette fois-ci, j'ai pensé à ajouter la soeurette."
+    },
+    "56":{
+        "titre":"Les routes de Rèves",
+        "description":"Remediation d'un paysage qui me tiens à coeur. Les routes de rèves donnent l'occasion de sortir du flux quotidien et de profiter de la nature. Le jeu simule l'évolution du temps dans l'année, la croissance des plantes ainsi que la rotation des cultures."
+    },
+    "57":{
+        "titre":"Star Fashion Generation",
+        "description":"Jeu réalié en 1 semaine. Un dress to inpress avec un petit twist. J'ai essayé de faire un post process qui s'est avéré être un échec.\nRéalisé avec Héloïse D., Antonio G., Francois I. et Théo M."
+    },
+    "58":{
+        "titre":"Bones Below",
+        "description":"Jeu réalié en 2 semaine. Un jeu d'exploration de catacombes. J'ai fait beaucoup de procédural, que ce soit pour les matériaux ou pour la génération des niveaux.\nRéalisé avec Dylan D., Gabriel A, Luca R., Loïd B. A., Youssef B.T.A., Doryann S., Adrien F. et Anakin D."
+    },
+    "59":{
+        "titre":"Smoothie mask adventure \n - Game Jam",
+        "description":"4eme GGJ sur le thème des masques. Mettez un masque, transformez la pièce, faites en une arme. Comme souvent, j'ai donné un coup de main sur pleins d'aspects de cette douloureuse expérience.\nRéalisé avec Baptiste B., Agathe B., Danaé, Hiboudu68, Menherina et Valentin D."
     }
 
 
