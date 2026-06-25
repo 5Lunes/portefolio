@@ -59,6 +59,7 @@ h5{
   color: var(--background);
   font-size: 1.2rem;
   text-align: center;
+  text-shadow: 0 0 15px rgba(0,0,0,.25);
 }
 
   @media screen and (orientation: portrait) {
@@ -376,7 +377,7 @@ footer p{
   display: flex;
   justify-content: space-between;
   padding: 0.25rem calc(var(--border_distance)/2);
-  margin: 0.75rem calc(var(--border_distance)/2);
+  margin: 0.75rem 0;
   background-color: var(--primary);
   border-radius: var(--border_radius);
 }
@@ -436,7 +437,6 @@ footer p{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   gap: 5px;
-  padding: 0 var(--border_distance);
 }
 
 @media screen and (max-width: 600px) {
@@ -538,6 +538,7 @@ footer p{
   width: 50%;
   margin-bottom: 0rem;
   white-space: pre-line; /* Respecte les \n */
+  text-align: justify;
 }
 
 @media screen and (orientation: portrait) {
@@ -589,7 +590,7 @@ footer p{
 #aboutmainimage{
   height: auto;
   width: 100%;
-  max-width: 30rem;
+  max-width: 25rem;
   min-width: 20rem;
 }
 

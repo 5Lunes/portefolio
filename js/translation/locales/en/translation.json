@@ -31,7 +31,9 @@
         },
         "soft":{
             "3D":"3D Modeling",
-            "engine":"Engines"
+            "engine":"Engines",
+            "tool":"Tools",
+            "autre":"Other"
         }
     },
     "about":{
@@ -92,7 +94,10 @@
         "pays_bas": "Netherlands 🇳🇱",
         "birmanie":"Nyanmar 🇲🇲",
         "egypte":"Egypt 🇪🇬",
-        "uruguay":"Uruguay 🇺🇾"
+        "uruguay":"Uruguay 🇺🇾",
+        "allemagne":"Germany 🇩🇪",
+        "indonesie":"Indonesia 🇮🇩",
+        "moon":"Moon"
     },
     "1":{
         "titre": "saber",
@@ -323,7 +328,55 @@
         "description":"A game developed in two weeks. A catacomb exploration game. I used a lot of procedural generation, both for the materials and for the level generation.\nDeveloped with Dylan D., Gabriel A., Luca R., Loïd B. A., Youssef B.T.A., Doryann S., Adrien F. and Anakin D."
     },
     "59":{
-        "titre":"Smoothie mask adventure - Game Jam",
+        "titre":"Smoothie mask adventure",
         "description":"4th GGJ. Put on a mask, change the room, make it your weapon. As always, I help on everything for this first project on Godot.\nDeveloped with Baptiste B., Agathe B., Danaé, Hiboudu68, Menherina et Valentin D."
+    },
+    "60":{
+        "titre":"lunar base",
+        "description":"A small adventure prototype set on a lunar base. You play as an astronaut who must reach a spacecraft in orbit. The focus has been on visual quality and the variety of gameplay mechanics rather than the fun of the experience.\nFeatures cutscenes"
+    },
+    "61":{
+        "titre":"Roure's room",
+        "description":"Small scene composition with gameplay features. Inspired by the palace of the Roure in Avignon, France."
+    },
+    "62":{
+        "titre":"Lily Vs Elena",
+        "description":"A fan-made animation featuring characters from Street Fighter 6. Includes an attack and defence sequence for each character.\nUses complex VFX such as fire simulations, VATs for the flowers and other particle systems.\nIncorporates a physics simulation for the sand and grass, which react to the impact of blows. "
+    },
+    "63":{
+        "titre":"Wankel engine",
+        "description":"Model of a rotary piston engine.\nEngine and control panel modelled and animated in Maya. Scene composed in Unreal using FAB assets"
+    },
+    "64":{
+        "titre":"Smite trailer",
+        "description":"Sound design exercice based on the trailer of the game Smite. Made with Reaper."
+    },
+    "65":{
+        "titre":"Baiturrahman - enviro",
+        "description":"A reinterpretation of the interior of the Baiturrahman Mosque."
+    },
+    "66":{
+        "titre":"Baiturrahman - matériaux",
+        "description":"Materials used for the interior of Baiturrahman. Consists of three texture sets.\nThe first is a trip sheet featuring intricate Islamic patterns.\nThe second is a fully procedural cluster generator. The system is based on a reverse L-system. Points are defined within a given area and branches are created from the valid points. The clusters are fully configurable.\nFinally, an animated water caustic material within the engine."
+    },
+    "67":{
+        "titre":"Baiturrahman - VFX",
+        "description":"First VFX for a serious project. They all use procedurals textures.\nOne VFX of crow inspired by Artist from Dead By Daylight, raecting to player inputs.\nA fireball and a healing VFX."
+    },
+    "68":{
+        "titre":"PCG roads",
+        "description":""
+    },
+    "69":{
+        "titre":"bridge",
+        "description":"Render of a evening. A mystical bridge."
+    },
+    "70":{
+        "titre":"stelar portal",
+        "description":"A mysterious gateway on an unknown planet."
+    },
+    "71":{
+        "titre":"You",
+        "description":"Elle est ma plus vieille compagne, le temps qui passe la cultive."
     }
 }

@@ -31,7 +31,9 @@
         },
         "soft":{
             "3D":"Modélisation",
-            "engine":"Moteurs"
+            "engine":"Moteurs",
+            "tool":"Outils",
+            "autre":"Autre"
         }
     },
     "about":{
@@ -91,7 +93,10 @@
         "pays_bas": "Pays-Bas 🇳🇱",
         "birmanie":"Birmanie 🇲🇲",
         "egypte":"Égypte 🇪🇬",
-        "uruguay":"Uruguay 🇺🇾"
+        "uruguay":"Uruguay 🇺🇾",
+        "allemagne":"Allemagne 🇩🇪",
+        "indonesie":"Indonésie 🇮🇩",
+        "moon":"Lune"
     },
     "1":{
         "titre": "sabre",
@@ -323,13 +328,56 @@
         "description":"Jeu réalié en 2 semaine. Un jeu d'exploration de catacombes. J'ai fait beaucoup de procédural, que ce soit pour les matériaux ou pour la génération des niveaux.\nRéalisé avec Dylan D., Gabriel A, Luca R., Loïd B. A., Youssef B.T.A., Doryann S., Adrien F. et Anakin D."
     },
     "59":{
-        "titre":"Smoothie mask adventure \n - Game Jam",
+        "titre":"Smoothie mask adventure",
         "description":"4eme GGJ sur le thème des masques. Mettez un masque, transformez la pièce, faites en une arme. Comme souvent, j'ai donné un coup de main sur pleins d'aspects de cette douloureuse expérience.\nRéalisé avec Baptiste B., Agathe B., Danaé, Hiboudu68, Menherina et Valentin D."
+    },
+    "60":{
+        "titre":"base lunaire",
+        "description":"Petit prototype d'aventure sur une base lunaire. On incarne une astronaute qui doit rejoindre un vaisseau en orbite. L'accent a été mis sur la qualité visuelle et la diversité des mécaniques plutôt que le fun de l'exprience.\nPrésence de cinématiques"
+    },
+    "61":{
+        "titre":"chambre du Roure",
+        "description":"Petite composition de scène avec quelques mécaniques de jeu. Inspiré par une des pièces du palais du Roure à Avignon."
+    },
+    "62":{
+        "titre":"Lily Vs Elena",
+        "description":"Animation fan-made reprenant les personnages de Street Fighter 6. Contiens une séquence d'attaque et de défense pour chaque personnage.\nUtilise des VFX complexes comme des simulations de feu, des VAT pour les fleurs et autre systèmes de particules.\nIntègre une simulation physique pour le sable et l'herbe réagissant aux impacts des coups. "
+    },
+    "63":{
+        "titre":"moteur Wankel",
+        "description":"Reproduction d'un moteur à pistion rotatif.\nMoteur et panneau de contrôle modélisés et animés dans Maya. Scène composée dans unreal avec des assets fab."
+    },
+    "64":{
+        "titre":"cinematique Smite",
+        "description":"Exercice de sonorisation d'une cinématique issue du jeu Smite sur Reaper."
+    },
+    "65":{
+        "titre":"Baiturrahman - enviro",
+        "description":"Réinterpetation de l'interieur de la mosquée de Baiturrahman. "
+    },
+    "66":{
+        "titre":"Baiturrahman - matériaux",
+        "description":"Matériaux utilisés pour l'intérieur de Baiturrahman. Consiste en 3 set de texture.\nLa première est une trip sheet reprenant les motifs islamiques complexes.\nLa seconde est un générateur de cluster entièrement procédural. La système se base sur un L-system en reverse. Donc des points sont défini dans une zone donnée et les branches sont créées à partir des points valides. Les clusters sont entièrement configurables.\nEnfin, un matériaux de caustique d'eau animé dans le moteur."
+    },
+    "67":{
+        "titre":"Baiturrahman - VFX",
+        "description":"Premiers VFX pour un projet sérieux. Ils utilisent tous des textures procédurales.\nUn VFX de corbeau inspiré de Artist du jeu dead by daylight, répondant aux actions du joueur.\nUn VFX de boule de feu et un VFX de halo de soin."
+    },
+    "68":{
+        "titre":"routes PCG",
+        "description":""
+    },
+    "69":{
+        "titre":"pont",
+        "description":"Rendu sur une soirée. Un pont mystique."
+    },
+    "70":{
+        "titre":"portail stelaire",
+        "description":"Un portail mystérieux sur une planète étrangère."
+    },
+    "71":{
+        "titre":"Tu",
+        "description":"Elle est ma plus vieille compagne, le temps qui passe la cultive."
     }
-
-
-
-
-
 
 }

@@ -82,6 +82,7 @@ class ImageGrid {
       unreal: 'img/svg/unreal.svg',
       zbrush: 'img/svg/zbrush.svg',
       painter: 'img/svg/painter.svg',
+      designer:'img/svg/designer.svg',
       speedtree: 'img/svg/speedtree.png',
       photoshop: 'img/svg/photoshop.svg',
       VS: 'img/svg/VS.svg',

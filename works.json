@@ -16,22 +16,22 @@
       "additionalVideo": ""
     },
     {
-        "id": 2,
-        "_titre": "scientifique fou - 3D",
-        "pays":"inconnu",
-        "date": "2024-06-02",
-        "tags": ["environnement"],
-        "soft":["blender","paint.net"],
-        "mainImage": "img/works/2/scientifique_fou.webp",
-        "additionalImages": [
-          "img/works/2/scientifique_fou.webp",
-          "img/works/2/scientifique_fou_alt1.webp",
-          "img/works/2/scientifique_fou_alt2.webp",
-          "img/works/2/scientifique_fou_alt3.webp",
-          "img/works/2/MEVIS_Diorama_3D_Clay.webp",
-          "img/works/2/MEVIS_Diorama_3D_Closeup_01_wireframe.webp"
-        ]
-      },
+      "id": 2,
+      "_titre": "scientifique fou - 3D",
+      "pays":"inconnu",
+      "date": "2024-06-02", 
+      "tags": ["environnement"],
+      "soft":["blender","paint.net"],
+      "mainImage": "img/works/2/scientifique_fou.webp",
+      "additionalImages": [
+        "img/works/2/scientifique_fou.webp",
+        "img/works/2/scientifique_fou_alt1.webp",
+        "img/works/2/scientifique_fou_alt2.webp",
+        "img/works/2/scientifique_fou_alt3.webp",
+        "img/works/2/MEVIS_Diorama_3D_Clay.webp",
+        "img/works/2/MEVIS_Diorama_3D_Closeup_01_wireframe.webp"
+      ]
+    },
       {
         "id": 3,
         "_titre": "scientifique fou - dessin",
@@ -870,7 +870,7 @@
         "pays":"inconnu",
         "date": "2025-12-05",
         "tags": ["procedural"],
-        "soft":["unreal"],
+        "soft":["unreal","designer"],
         "mainImage": "img/works/58/BB_cropped.webp",
         "additionalImages": [
           "img/works/58/BB_1.webp",
@@ -894,6 +894,176 @@
           "img/works/59/SMA_2.webp",
           "img/works/59/SMA_3.webp",
           "img/works/59/SMA_4.webp"
+        ]
+      },
+      {
+        "id": 60,
+        "_titre": "baselunaire",
+        "pays":"moon",
+        "date": "2025-12-22",
+        "tags": ["prog"],
+        "soft":["unreal"],
+        "mainImage": "img/works/60/moon_cropped.webp",
+        "additionalImages": [
+          "img/works/60/moon_1.webp",
+          "img/works/60/moon_2.webp",
+          "img/works/60/moon_3.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/oEVryt1ArH8?si=20vCksJjBhDlZkIh"
+      },
+      {
+        "id": 61,
+        "_titre": "roure",
+        "pays":"france",
+        "date": "2025-10-29",
+        "tags": ["prog"],
+        "soft":["unity"],
+        "mainImage": "img/works/61/roure_cropped.webp",
+        "additionalImages": [
+          "img/works/61/roure_1.webp",
+          "img/works/61/roure_2.webp",
+          "img/works/61/roure_3.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/8C0ZPzPVyZA?si=DtQPm-dIGXWNZcbS"
+      },
+      {
+        "id": 62,
+        "_titre": "duel",
+        "pays":"inconnu",
+        "date": "2026-05-11",
+        "tags": ["VFX"],
+        "soft":["unreal","EmberGen","designer"],
+        "mainImage": "img/works/62/duel_cropped.webp",
+        "additionalImages": [
+          "img/works/62/duel_1.webp",
+          "img/works/62/duel_2.webp",
+          "img/works/62/duel_3.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/NmZrFH1uEkg?si=9oeb-powFVvAXj96"
+      },
+      {
+        "id": 63,
+        "_titre": "wankel",
+        "pays":"allemagne",
+        "date": "2026-05-19",
+        "tags": ["props"],
+        "soft":["maya","unreal"],
+        "mainImage": "img/works/63/wankel_cropped.webp",
+        "additionalImages": [
+          "img/works/63/wanker_1.webp",
+          "img/works/63/wanker_2.webp",
+          "img/works/63/wanker_3.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/9xLvIS6mgq8?si=b1R_DJ2NhCk82Mqf"
+      },
+      {
+        "id": 64,
+        "_titre": "smite",
+        "pays":"inconnu",
+        "date": "2025-12-14",
+        "tags": ["sound"],
+        "soft":["reaper"],
+        "mainImage": "img/works/64/smite.webp","additionalImages": [
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/9xLvIS6mgq8?si=b1R_DJ2NhCk82Mqf"
+      },
+      {
+        "id": 65,
+        "_titre": "Baiturrahman - enviro",
+        "pays":"indonesie",
+        "date": "2026-01-14",
+        "tags": ["environnement"],
+        "soft":["unreal"],
+        "mainImage": "img/works/65/env_cropped.webp",
+        "additionalImages": [
+          "img/works/65/env1.webp",
+          "img/works/65/env2.webp",
+          "img/works/65/env3.webp",
+          "img/works/65/env4.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/9Ne4Ur24-f8?si=RMm_h2K8L9WuwBoR"
+      },
+      {
+        "id": 66,
+        "_titre": "Baiturrahman - material",
+        "pays":"indonesie",
+        "date": "2026-01-12",
+        "tags": ["procedural"],
+        "soft":["designer"],
+        "mainImage": "img/works/66/mat_cropped.webp",
+        "additionalImages": [
+          "img/works/65/env1.webp",
+          "img/works/66/mat1.webp",
+          "img/works/66/mat2.webp",
+          "img/works/66/mat3.webp",
+          "img/works/66/mat4.webp",
+          "img/works/66/mat5.webp",
+          "img/works/66/mat6.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/9Ne4Ur24-f8?si=RMm_h2K8L9WuwBoR"
+      },
+      {
+        "id": 67,
+        "_titre": "Baiturrahman - VFX",
+        "pays":"indonesie",
+        "date": "2026-01-13",
+        "tags": ["environnement"],
+        "soft":["unreal","designer","EmberGen"],
+        "mainImage": "img/works/67/VFX_cropped.webp",
+        "additionalImages": [
+          "img/works/67/VFX_1.webp",
+          "img/works/67/VFX_2.webp",
+          "img/works/67/VFX_3.webp",
+          "img/works/67/VFX_4.webp",
+          "img/works/67/VFX_5.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/hPc5R4R8GfE?si=wMcN-LsEE9ys1JWL"
+      },
+      {
+        "id": 68,
+        "_titre": "PCG road",
+        "pays":"inconnu",
+        "date": "2026-06-02",
+        "tags": ["environnement","procedural"],
+        "soft":["unreal"],
+        "mainImage": "img/works/68/PCG_cropped.webp",
+        "additionalImages": [
+        ]
+      },
+      {
+        "id": 69,
+        "_titre": "bridge",
+        "pays":"inconnu",
+        "date": "2025-05-13",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "mainImage": "img/works/69/bridge.webp",
+        "additionalImages": [
+          "img/works/69/bridge.webp"
+        ]
+      },
+      {
+        "id": 70,
+        "_titre": "portal",
+        "pays":"inconnu",
+        "date": "2025-04-26",
+        "tags": ["environnement"],
+        "soft":["blender"],
+        "mainImage": "img/works/70/portal_cropped.webp",
+        "additionalImages": [
+          "img/works/70/portal.webp"
+        ]
+      },
+      {
+        "id": 71,
+        "_titre": "solitude",
+        "pays":"inconnu",
+        "date": "2026-05-10",
+        "tags": ["dessin"],
+        "soft":["Affinity"],
+        "mainImage": "img/works/71/tu_cropped.webp",
+        "additionalImages": [
+          "img/works/71/tu.webp"
         ]
       }
 ]

@@ -43,8 +43,8 @@
               </div>             
           </div>
 
-      </div>
-  </header>
+        </div>
+    </header>
 
     <main>
       <div class="maincontent">
@@ -107,51 +107,73 @@
                   <button class="buttonfilterselect" onclick="desactivecheckbox('soft-filters')" data-i18n="works.aucun"></button>
                 </div>
                 <ul class="filterslist" >
-                  <li><h4 data-i18n="works.soft.3D">Mode</h4></li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-blender" value="blender" checked>
-                    <label for="filter-blender">Blender</label>
+                  <li>
+                    <h4 data-i18n="works.soft.3D">Mode</h4>
+                    <ul>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-blender" value="blender" checked>
+                        <label for="filter-blender">Blender</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-houdini" value="houdini" checked>
+                        <label for="filter-houdini">Houdini</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-3Dmax" value="3Dmax" checked>
+                        <label for="filter-3Dmax">3DS Max</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-zbrush" value="zbrush" checked>
+                        <label for="filter-zbrush">ZBrush</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-st" value="speedtree" checked>
+                        <label for="filter-st">SpeedTree</label>
+                      </li>
+                    </ul>
                   </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-houdini" value="houdini" checked>
-                    <label for="filter-houdini">Houdini</label>
+                  <li>
+                    <h4 data-i18n="works.soft.engine">Engine</h4>
+                    <ul>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-unreal" value="unreal" checked>
+                        <label for="filter-unreal">Unreal Engine</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-unity" value="unity" checked>
+                        <label for="filter-unity">Unity Engine</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-godot" value="godot" checked>
+                        <label for="filter-godot">Godot</label>
+                      </li>
+                    </ul>
                   </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-3Dmax" value="3Dmax" checked>
-                    <label for="filter-3Dmax">3DS Max</label>
+                  <li>
+                    <h4 data-i18n="works.soft.tool">tool</h4>
+                    <ul>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-painter" value="painter" checked>
+                        <label for="filter-painter">Substance Painter</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-designer" value="designer" checked>
+                        <label for="filter-designer">Substance Designer</label>
+                      </li>
+                    </ul>
                   </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-zbrush" value="zbrush" checked>
-                    <label for="filter-zbrush">ZBrush</label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-st" value="speedtree" checked>
-                    <label for="filter-st">SpeedTree</label>
-                  </li>
-                  <li><h4 data-i18n="works.soft.engine">Engine</h4></li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-unreal" value="unreal" checked>
-                    <label for="filter-unreal">Unreal Engine</label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-unity" value="unity" checked>
-                    <label for="filter-unity">Unity Engine</label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-godot" value="godot" checked>
-                    <label for="filter-godot">Godot</label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-painter" value="painter" checked>
-                    <label for="filter-painter">Substance Painter</label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-PS" value="photoshop" checked>
-                    <label for="filter-PS">photoshop</label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-VS" value="VS" checked>
-                    <label for="filter-VS">Visual Studio Code</label>
+                  <li>
+                    <h4 data-i18n="works.soft.autre">Autre</h4>
+                    <ul>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-PS" value="photoshop" checked>
+                        <label for="filter-PS">Photoshop</label>
+                      </li>
+                      <li class="filterselement">
+                        <input type="checkbox" id="filter-VS" value="VS" checked>
+                        <label for="filter-VS">Visual Studio Code</label>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>   
