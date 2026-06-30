@@ -24,9 +24,11 @@
             "enviro":"environment",
             "procedural":"procedural",
             "sculpt": "sculpt",
+            "vfx": "VFX",
             "GDLD": "game & level design",
             "prog": "development",
             "dessin": "drawing",
+            "sound":"sound",
             "autre": "other"
         },
         "soft":{
@@ -97,6 +99,7 @@
         "uruguay":"Uruguay 🇺🇾",
         "allemagne":"Germany 🇩🇪",
         "indonesie":"Indonesia 🇮🇩",
+        "cote_ivoir":"Ivory Coast 🇨🇮",
         "moon":"Moon"
     },
     "1":{
@@ -378,5 +381,9 @@
     "71":{
         "titre":"You",
         "description":"Elle est ma plus vieille compagne, le temps qui passe la cultive."
+    },
+    "72":{
+        "titre":"Junkyard - Jabari",
+        "description":"Beach arena for the game Jabari while my internship at Masseka Game Studio. Jabari is a mobile fighting game featuring africans stars.\nThe ocean use a procedural shader. I didn't expect sand have so much tint diversity.\nThanks to Salman for his support."
     }
 }

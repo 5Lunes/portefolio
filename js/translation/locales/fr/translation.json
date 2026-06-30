@@ -24,9 +24,11 @@
             "enviro":"environnement",
             "procedural":"procédural",
             "sculpt": "sculpture",
+            "vfx": "VFX",
             "GDLD": "game & level design",
             "prog": "programation",
             "dessin": "dessin",
+            "sound":"son",
             "autre": "autre"
         },
         "soft":{
@@ -96,6 +98,7 @@
         "uruguay":"Uruguay 🇺🇾",
         "allemagne":"Allemagne 🇩🇪",
         "indonesie":"Indonésie 🇮🇩",
+        "cote_ivoir":"Côte d'Ivoire 🇨🇮",
         "moon":"Lune"
     },
     "1":{
@@ -378,6 +381,14 @@
     "71":{
         "titre":"Tu",
         "description":"Elle est ma plus vieille compagne, le temps qui passe la cultive."
+    },
+    "72":{
+        "titre":"décharge - Jabari",
+        "description":"Arène dans un dépotoir réalisée pour le jeu Jabari lors de mon stage au sein du Masséka Game studio. Jabari est un jeu de combat sur mobile mettant en avant des star d'origines africaines.\nLes voitures sont des objets configurables (positions des portières, présences d'accesoire, couleur, ...) pour créer de la variété à partir de peu d'objets.\nMerci à Salman pour l'accompagnement."
+    },
+    "73":{
+        "titre":"plage - Jabari",
+        "description":"Arène sur une plage réalisée pour le jeu Jabari lors de mon stage au sein du Masséka Game studio. Jabari est un jeu de combat sur mobile mettant en avant des star d'origines africaines.\nL'océan utilise un shader procédural. Je ne pensais pas que le sable pouvait avoir autant de teintes différentes.\nMerci à Salman pour l'accompagnement."
     }
 
 }

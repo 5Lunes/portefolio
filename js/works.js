@@ -75,18 +75,21 @@ class ImageGrid {
     softicon.classList.add('softicons');
     
     const softwareIcons = {
-      blender: 'img/svg/blender.svg',
-      houdini: 'img/svg/houdini.svg',
+      Blender: 'img/svg/blender.svg',
+      Houdini: 'img/svg/houdini.svg',
       '3Dmax': 'img/svg/3Dmax.png',
-      unity: 'img/svg/unity.svg',
-      unreal: 'img/svg/unreal.svg',
-      zbrush: 'img/svg/zbrush.svg',
-      painter: 'img/svg/painter.svg',
-      designer:'img/svg/designer.svg',
-      speedtree: 'img/svg/speedtree.png',
-      photoshop: 'img/svg/photoshop.svg',
-      VS: 'img/svg/VS.svg',
-      godot: 'img/svg/godot.svg'
+      Unity: 'img/svg/unity.svg',
+      Unreal_Engine: 'img/svg/unreal.svg',
+      ZBrush: 'img/svg/zbrush.svg',
+      Substance_Painter: 'img/svg/painter.svg',
+      Substance_Designer:'img/svg/designer.svg',
+      SpeedTree: 'img/svg/speedtree.png',
+      Photoshop: 'img/svg/photoshop.svg',
+      Affinity: 'img/svg/affinity.svg',
+      Reaper:'img/svg/reaper.svg',
+      EmberGen: 'img/svg/embergen-seeklogo.svg',
+      Visual_Studio: 'img/svg/VS.svg',
+      Godot: 'img/svg/godot.svg'
     };
     
     softArray.forEach(soft => {
@@ -105,15 +108,27 @@ function showImageDetails(item) {
   detailsContainer.innerHTML = `
     <button onclick="window.workdetail.close();" aria-label="close" class="x"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
 
-    <p data-i18n='pays.${item.pays}' class="detail_pays"><strong>Pays:</strong> </p>
-    <h1 data-i18n='${item.id}.titre' class="detail_titre"></h1>
-    <p class="detail_info">
-      <span data-i18n='${item.id}.description'></span> <br>
+    <p class="detail_top">
       <span class="detail_date"> ${item.date}</span>
+      <span>✧</span>
+      <span data-i18n='pays.${item.pays}'></span>    
+    </p>
+    <h1 data-i18n='${item.id}.titre' class="detail_titre"></h1>
+    <p class="detail_info" data-i18n='${item.id}.description'>>
     </p>
     <div class="detail_cat">
-    <p class="detail_spec"><span class="detail_spec_title">Soft</span><span class="detail_spec_info">${item.soft}</span></p>
-    <p class="detail_spec"><span class="detail_spec_title">Tags</span><span class="detail_spec_info">${item.tags}</span></p>
+      <p class="detail_spec">
+        <span class="detail_spec_title">Tag</span>
+        <span>
+          ${item.tags.map(tag => `<span class="detail_spec_info" data-i18n='works.tags.${tag}'></span>`).join('')}
+        </span>
+      </p>
+      <p class="detail_spec">
+        <span class="detail_spec_title">Soft</span>
+        <span>
+          ${item.soft.map(soft => `<span class="detail_spec_info">${soft.replace(/_/g, " ")}</span>`).join('')}
+        </span>
+      </p>
     </div>
     
     <div class="additional-images">

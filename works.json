@@ -5,7 +5,7 @@
       "pays":"suisse",
       "date": "2024-09-01",
       "tags": ["props"],
-      "soft":["blender","painter"],
+      "soft":["Blender","Substance_Painter"],
       "mainImage": "img/works/1/sabre_suisse_rouge_cropped.webp",
       "additionalImages": [
         "img/works/1/sabre_suisse_rouge5.webp",
@@ -20,8 +20,8 @@
       "_titre": "scientifique fou - 3D",
       "pays":"inconnu",
       "date": "2024-06-02", 
-      "tags": ["environnement"],
-      "soft":["blender","paint.net"],
+      "tags": ["enviro"],
+      "soft":["Blender","paint.net"],
       "mainImage": "img/works/2/scientifique_fou.webp",
       "additionalImages": [
         "img/works/2/scientifique_fou.webp",
@@ -37,8 +37,8 @@
         "_titre": "scientifique fou - dessin",
         "pays": "inconnu",
         "date": "2024-06-01",
-        "tags": ["environnement","dessin"],
-        "soft":["photoshop"],
+        "tags": ["enviro","dessin"],
+        "soft":["Photoshop"],
         "description_en":" ",
         "mainImage": "img/works/3/MEVIS_Diorama_Iso.webp",
         "additionalImages": [
@@ -53,7 +53,7 @@
         "pays":"liechtenstein",
         "date": "2023-09-01",
         "tags": ["procedural"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/4/chandelier2_postprod_crop.webp",
         "additionalImages": [
           "img/works/4/chandelier2_postprod.webp",
@@ -67,7 +67,7 @@
         "pays":"inconnu",
         "date": "2024-01-01",
         "tags": ["procedural"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/5/borne2.webp",
         "additionalImages": [
           "img/works/5/bornes2.webp"
@@ -78,8 +78,8 @@
         "_titre": "cuisine mamy",
         "pays":"belgique",
         "date": "2023-09-01",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/6/cuisine_hornu.webp",
         "additionalImages": [
           "img/works/6/cuisine_hornu.webp",
@@ -93,7 +93,7 @@
         "pays":"inconnu",
         "date": "2024-01-15",
         "tags": ["procedural"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/7/pied_de_micro_postprod_2.webp",
         "additionalImages": [
           "img/works/7/pied_de_micro_postprod_2.webp"
@@ -106,7 +106,7 @@
         "pays":"italie",
         "date": "2023-02-19",
         "tags": ["props"],
-        "soft":["blender"],
+        "soft":["Blender"],
         "mainImage": "img/works/8/spas-12-scene.webp",
         "additionalImages": [
           "img/works/8/spas-12-scene.webp",
@@ -120,8 +120,8 @@
         "_titre": "pâtisseries japonaises",
         "pays":"japon",
         "date": "2023-05-15",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/9/cuitzine_postprod.webp",
         "additionalImages": [
           "img/works/9/cuisine.webp",
@@ -134,8 +134,8 @@
         "_titre": "cuisine italienne",
         "pays":"italie",
         "date": "2023-08-22",
-        "tags": ["environnement","dessin"],
-        "soft":["blender","photoshop"],
+        "tags": ["enviro","dessin"],
+        "soft":["Blender","Photoshop"],
         "mainImage": "img/works/10/italian_cuisine_final.webp",
         "additionalImages": [
           "img/works/10/italian_cuisine_final.webp",
@@ -150,8 +150,8 @@
         "titre":"port barberousse",
         "pays":"algerie",
         "date": "2023-01-08",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/11/pirat_final_crop.webp",
         "additionalImages": [
           "img/works/11/pirat_final.webp",
@@ -167,8 +167,8 @@
         "title_en": "belfry park",
         "pays":"belgique",
         "date": "2024-07-01",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/12/beffroi.webp",
         "additionalImages": [
           "img/works/12/beffroi.webp",
@@ -181,8 +181,8 @@
         "_titre": "gare",
         "pays":"inconnu",
         "date": "2025-02-23",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/13/gare.webp",
         "additionalImages": [
           "img/works/13/gare.webp"
@@ -194,7 +194,7 @@
         "pays":"france",
         "date": "2024-11-21",
         "tags": ["props"],
-        "soft":["3Dmax","painter"],
+        "soft":["3Dmax","Substance_Painter"],
         "mainImage": "img/works/14/CivicFinal_crop.webp",
         "additionalImages": [
           "img/works/14/CivicFinal_1.webp",
@@ -213,7 +213,7 @@
         "pays":"japon",
         "date": "2023-02-12",
         "tags": ["props"],
-        "soft":["blender"],
+        "soft":["Blender"],
         "mainImage": "img/works/15/montre_final_crop.webp",
         "additionalImages": [
           "img/works/15/montre_final.webp",
@@ -226,7 +226,7 @@
         "pays":"inconnu",
         "date": "2022-11-01",
         "tags": ["props"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/16/nature1_crop.webp",
         "additionalImages": [
           "img/works/16/nature1.webp"
@@ -238,7 +238,7 @@
         "pays":"inconnu",
         "date": "2023-01-16",
         "tags": ["props"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/17/nature2_crop.webp",
         "additionalImages": [
           "img/works/17/nature2.webp",
@@ -252,7 +252,7 @@
         "pays":"inconnu",
         "date": "2023-05-29",
         "tags": ["props"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/18/nature3.webp",
         "additionalImages": [
           "img/works/18/nature3.webp",
@@ -266,7 +266,7 @@
         "pays":"inconnu",
         "date": "2023-08-03",
         "tags": ["props"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/19/nature4.webp",
         "additionalImages": [
           "img/works/19/nature4.webp",
@@ -279,7 +279,7 @@
         "_titre": "nature morte 5",
         "date": "2023-10-25",
         "tags": ["props"],
-        "soft":["houdini"],
+        "soft":["Houdini"],
         "mainImage": "img/works/20/nature5_crop.webp",
         "additionalImages": [
           "img/works/20/nature5.webp",
@@ -293,7 +293,7 @@
         "pays":"france",
         "date": "2024-05-24",
         "tags": ["sculpt"],
-        "soft":["zbrush"],
+        "soft":["ZBrush"],
         "mainImage": "img/works/21/JUSTIN_crop.webp",
         "additionalImages": [
           "img/works/21/MEVIS_screenshot.webp"
@@ -305,7 +305,7 @@
         "pays":"inconnu",
         "date": "2024-01-06",
         "tags": ["sculpt"],
-        "soft":["zbrush"],
+        "soft":["ZBrush"],
         "mainImage": "img/works/22/asperge_crop.webp",
         "additionalImages": [
           "img/works/22/asperge.webp"
@@ -318,7 +318,7 @@
         "pays":"inconnu",
         "date": "2023-12-01",
         "tags": ["sculpt"],
-        "soft":["zbrush"],
+        "soft":["ZBrush"],
         "description_fr": "une tortue caouanne",
         "description_en":"",
         "mainImage": "img/works/23/tortue_crop.webp",
@@ -333,7 +333,7 @@
         "pays":"france",
         "date": "2024-04-01",
         "tags": ["dessin"],
-        "soft":["photoshop"],
+        "soft":["Photoshop"],
         "mainImage": "img/works/24/academia_nabulio_crop.webp",
         "additionalImages": [
           "img/works/24/academia_nabulio_ext.webp",
@@ -348,7 +348,7 @@
         "pays":"russie",
         "date": "2023-01-05",
         "tags": ["dessin"],
-        "soft":["photoshop"],
+        "soft":["Photoshop"],
         "mainImage": "img/works/25/cosmo_tardigrade.webp",
         "additionalImages": [
           "img/works/25/cosmo_tardigrade.webp",
@@ -362,7 +362,7 @@
         "pays":"inconnu",
         "date": "2023-12-31",
         "tags": ["dessin"],
-        "soft":["photoshop"],
+        "soft":["Photoshop"],
         "mainImage": "img/works/26/crop.webp",
         "additionalImages": [
           "img/works/26/1.webp",
@@ -386,7 +386,7 @@
         "pays":"coree_sud",
         "date": "2024-05-16",
         "tags": ["GDLD","dessin"],
-        "soft":["photoshop","unreal"],
+        "soft":["Photoshop","Unreal_Engine"],
         "mainImage": "img/works/27/forteresse_crop.webp",
         "additionalImages": [
           "img/works/27/Plan_LD_forteresse.webp",
@@ -401,8 +401,8 @@
         "_titre": "Diakonievene",
         "pays":"pays_bas",
         "date": "2025-01-12",
-        "tags": ["environnement"],
-        "soft":["unreal","blender","speedtree"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine","Blender","SpeedTree"],
         "description_fr": "environnement inspiré du parc naturel Diakonievene. Berçé dans une délicate lumière automnale",
         "description_en":"",
         "mainImage": "img/works/28/diako_crop.webp",
@@ -421,7 +421,7 @@
         "date": "2024-12-10",
         "pays":"inconnu",
         "tags": ["GDLD"],
-        "soft":["unreal"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/29/FSP.webp","additionalImages": [
         ],
         "additionalVideo": "https://www.youtube.com/embed/S0hJ_4glc54?si=VysXIYeZy9fOsCWC"
@@ -432,7 +432,7 @@
         "pays":"inconnu",
         "date": "2024-04-25",
         "tags": ["GDLD","prog"],
-        "soft":["unity"],
+        "soft":["Unity"],
         "mainImage": "img/works/30/FS_crop.webp",
         "additionalImages": [
           "img/works/30/FS_game.webp",
@@ -447,8 +447,8 @@
         "_titre": "grotte clandestine",
         "pays":"birmanie",
         "date": "2023-10-12",
-        "tags": ["environnement"],
-        "soft":["unreal","zbrush"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine","ZBrush"],
         "mainImage": "img/works/31/mockup_grotte.webp",
         "additionalImages": [
           "img/works/31/haut.webp",
@@ -464,7 +464,7 @@
         "pays":"inconnu",
         "date": "2023-01-11",
         "tags": ["GDLD"],
-        "soft":["photoshop"],
+        "soft":["Photoshop"],
         "mainImage": "img/works/32/triforce.webp",
         "additionalImages": [
           "img/works/32/monde2.webp",
@@ -477,7 +477,7 @@
         "pays":"belgique",
         "date": "2024-11-29",
         "tags": ["autre"],
-        "soft":["unreal"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/33/tout.webp",
         "additionalImages": [
           "img/works/33/groupe.webp",
@@ -493,7 +493,7 @@
         "pays":"inconnu",
         "date": "2024-04-09",
         "tags": ["GDLD","prog"],
-        "soft":["unreal"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/34/ST3077.png",
         "additionalImages": [
           "img/works/34/SomeonePlayingShipTrick.jpg",
@@ -508,7 +508,7 @@
         "pays":"inconnu",
         "date": "2023-11-15",
         "tags": ["GDLD","prog"],
-        "soft":["VS"],
+        "soft":["Visual_Studio"],
         "mainImage": "img/works/35/crop.webp",
         "additionalImages": [
           "img/works/35/spaceship.webp",
@@ -525,7 +525,7 @@
         "date": "2023-11-14",
         "pays":"inconnu",
         "tags": ["props"],
-        "soft":["blender"],
+        "soft":["Blender"],
         "mainImage": "img/works/36/key-art-spirates_crop.webp",
         "additionalImages": [
           "img/works/36/key-art-spirates.webp",
@@ -546,7 +546,7 @@
         "pays":"inconnu",
         "date": "2024-05-18",
         "tags": ["GDLD"],
-        "soft":["In game editor"],
+        "soft":["Unity"],
         "mainImage": "img/works/37/SB_crop.webp",
         "additionalImages": [
           "img/works/37/level1.webp",
@@ -561,7 +561,7 @@
         "pays":"inconnu",
         "date": "2023-01-27",
         "tags": ["GDLD"],
-        "soft":["unity"],
+        "soft":["Unity"],
         "mainImage": "img/works/38/macrocyst_crop.webp",
         "additionalImages": [
           "img/works/38/macrocyst_CA.webp",
@@ -574,7 +574,7 @@
         "pays":"inconnu",
         "date": "2024-01-27",
         "tags": ["GDLD"],
-        "soft":["unity"],
+        "soft":["Unity"],
         "mainImage": "img/works/39/overstrum_crop.webp",
         "additionalImages": [
           "img/works/39/ggj2024_theoplay.webp",
@@ -590,7 +590,7 @@
         "date": "2025-01-27",
         "pays":"inconnu",
         "tags": ["prog"],
-        "soft":["unreal"],
+        "soft":["Unreal_Engine"],
         "description_fr": "Troisieme game jam. Un platformer inspriré de celeste avec des bulles <br>Réalisé avec Meg B., Cyril N., Jules V., Rafael R., Lucas J. et Nathan A.",
         "description_en":"",
         "mainImage": "img/works/40/shonk_crop.webp",
@@ -604,8 +604,8 @@
         "_titre": "Amarna - enviro",
         "pays":"egypte",
         "date": "2025-01-12",
-        "tags": ["environnement"],
-        "soft":["unreal"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine"],
         "description_fr": "Iterprétation du palais d'Akhénaton à Amarna",
         "description_en":"",
         "mainImage": "img/works/42/MEVIS_Luca_WideShot01.webp",
@@ -628,7 +628,7 @@
         "date": "2025-01-11",
         "pays":"egypte",
         "tags": ["procedural"],
-        "soft":["designer"],
+        "soft":["Substance_Designer"],
         "description_fr": "Iterprétation du palais d'Akhénaton à Amarna",
         "description_en":"",
         "mainImage": "img/works/43/MEVIS_Luca_BeautyShot_Trim01.webp",
@@ -652,7 +652,7 @@
         "pays":"inconnu",
         "date": "2024-01-05",
         "tags": ["prog"],
-        "soft":["unreal","painter"],
+        "soft":["Unreal_Engine","Substance_Painter"],
         "mainImage": "img/works/44/crop.webp",
         "additionalImages": [
           "img/works/44/1.webp",
@@ -668,8 +668,8 @@
         "_titre": "santa Teresa",
         "pays":"uruguay",
         "date": "2024-05-26",
-        "tags": ["environnement"],
-        "soft":["unreal"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/45/santa.webp",
         "additionalImages": [
         ],
@@ -681,7 +681,7 @@
         "pays":"inconnu",
         "date": "2024-04-07",
         "tags": ["props"],
-        "soft":["blender","painter"],
+        "soft":["Blender","Substance_Painter"],
         "mainImage": "img/works/46/Rickenbacker_cropped.webp",
         "additionalImages": [
           "img/works/46/Rickenbacker_large.webp",
@@ -697,7 +697,7 @@
         "pays":"inconnu",
         "date": "2025-08-10",
         "tags": ["procedural"],
-        "soft":["blender"],
+        "soft":["Blender"],
         "mainImage": "img/works/47/graphe_square_cropped.webp",
         "additionalImages": [
           "img/works/47/chene.png",
@@ -718,7 +718,7 @@
         "pays":"inconnu",
         "date": "2025-08-11",
         "tags": ["procedural"],
-        "soft":["blender","speedtree"],
+        "soft":["Blender","SpeedTree"],
         "mainImage": "img/works/48/chene_blend.webp",
         "additionalImages": [
           "img/works/48/chene_3.webp",
@@ -734,7 +734,7 @@
         "pays":"inconnu",
         "date": "2025-08-11",
         "tags": ["procedural"],
-        "soft":["blender","speedtree"],
+        "soft":["Blender","SpeedTree"],
         "mainImage": "img/works/49/saule_blend.webp",
         "additionalImages": [
           "img/works/49/saule_blend_3.webp",
@@ -750,7 +750,7 @@
         "pays":"inconnu",
         "date": "2025-08-11",
         "tags": ["procedural"],
-        "soft":["blender","speedtree"],
+        "soft":["Blender","SpeedTree"],
         "mainImage": "img/works/50/magnolia_blend.webp",
         "additionalImages": [
           "img/works/50/magnolia_blend_3.webp",
@@ -766,7 +766,7 @@
         "pays":"inconnu",
         "date": "2025-08-11",
         "tags": ["procedural"],
-        "soft":["blender","speedtree"],
+        "soft":["Blender","SpeedTree"],
         "mainImage": "img/works/51/rosier_blend.webp",
         "additionalImages": [
           "img/works/51/rosier_blend_3.webp",
@@ -781,7 +781,7 @@
         "pays":"inconnu",
         "date": "2025-08-11",
         "tags": ["procedural"],
-        "soft":["blender","speedtree"],
+        "soft":["Blender","SpeedTree"],
         "mainImage": "img/works/52/herbe_blend.webp",
         "additionalImages": [
           "img/works/52/herbe_blend.webp",
@@ -792,8 +792,8 @@
         "_titre": "jardin",
         "pays":"inconnu",
         "date": "2025-08-12",
-        "tags": ["environnement"],
-        "soft":["unreal","godot"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine","Godot"],
         "mainImage": "img/works/53/Un_Speedtree_enviro.webp",
         "additionalImages": [
           "img/works/53/Un_Blender_enviro.webp",
@@ -807,8 +807,8 @@
         "_titre": "ame",
         "pays":"inconnu",
         "date": "2025-09-05",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/54/ames_cropped.webp",
         "additionalImages": [
           "img/works/54/ames.webp"
@@ -819,8 +819,8 @@
         "_titre": "chambre",
         "pays":"inconnu",
         "date": "2025-07-18",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/55/chambre3_cropped.webp",
         "additionalImages": [
           "img/works/55/chambre3_finale.webp",
@@ -835,8 +835,8 @@
         "_titre": "RoutesDeReves",
         "pays":"belgique",
         "date": "2026-01-21",
-        "tags": ["environnement","procedural"],
-        "soft":["unreal", "speedtree"],
+        "tags": ["enviro","procedural"],
+        "soft":["Unreal_Engine", "SpeedTree"],
         "mainImage": "img/works/56/reve_cropped.webp",
         "additionalImages": [
           "img/works/56/reve_2.webp",
@@ -854,8 +854,8 @@
         "_titre": "StarFashionGeneration",
         "pays":"inconnu",
         "date": "2025-10-03",
-        "tags": ["environnement"],
-        "soft":["unreal"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/57/sfw_cropped.webp",
         "additionalImages": [
           "img/works/57/sfg_1.webp",
@@ -870,7 +870,7 @@
         "pays":"inconnu",
         "date": "2025-12-05",
         "tags": ["procedural"],
-        "soft":["unreal","designer"],
+        "soft":["Unreal_Engine","Substance_Designer"],
         "mainImage": "img/works/58/BB_cropped.webp",
         "additionalImages": [
           "img/works/58/BB_1.webp",
@@ -887,7 +887,7 @@
         "pays":"inconnu",
         "date": "2026-02-01",
         "tags": ["dessin"],
-        "soft":["godot"],
+        "soft":["Godot"],
         "mainImage": "img/works/59/SMA_cropped.webp",
         "additionalImages": [
           "img/works/59/SMA_1.webp",
@@ -902,7 +902,7 @@
         "pays":"moon",
         "date": "2025-12-22",
         "tags": ["prog"],
-        "soft":["unreal"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/60/moon_cropped.webp",
         "additionalImages": [
           "img/works/60/moon_1.webp",
@@ -917,7 +917,7 @@
         "pays":"france",
         "date": "2025-10-29",
         "tags": ["prog"],
-        "soft":["unity"],
+        "soft":["Unity"],
         "mainImage": "img/works/61/roure_cropped.webp",
         "additionalImages": [
           "img/works/61/roure_1.webp",
@@ -931,8 +931,8 @@
         "_titre": "duel",
         "pays":"inconnu",
         "date": "2026-05-11",
-        "tags": ["VFX"],
-        "soft":["unreal","EmberGen","designer"],
+        "tags": ["vfx"],
+        "soft":["Unreal_Engine","EmberGen","Substance_Designer"],
         "mainImage": "img/works/62/duel_cropped.webp",
         "additionalImages": [
           "img/works/62/duel_1.webp",
@@ -947,7 +947,7 @@
         "pays":"allemagne",
         "date": "2026-05-19",
         "tags": ["props"],
-        "soft":["maya","unreal"],
+        "soft":["maya","Unreal_Engine"],
         "mainImage": "img/works/63/wankel_cropped.webp",
         "additionalImages": [
           "img/works/63/wanker_1.webp",
@@ -962,7 +962,7 @@
         "pays":"inconnu",
         "date": "2025-12-14",
         "tags": ["sound"],
-        "soft":["reaper"],
+        "soft":["Reaper"],
         "mainImage": "img/works/64/smite.webp","additionalImages": [
         ],
         "additionalVideo":"https://www.youtube.com/embed/9xLvIS6mgq8?si=b1R_DJ2NhCk82Mqf"
@@ -972,8 +972,8 @@
         "_titre": "Baiturrahman - enviro",
         "pays":"indonesie",
         "date": "2026-01-14",
-        "tags": ["environnement"],
-        "soft":["unreal"],
+        "tags": ["enviro"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/65/env_cropped.webp",
         "additionalImages": [
           "img/works/65/env1.webp",
@@ -989,7 +989,7 @@
         "pays":"indonesie",
         "date": "2026-01-12",
         "tags": ["procedural"],
-        "soft":["designer"],
+        "soft":["Substance_Designer"],
         "mainImage": "img/works/66/mat_cropped.webp",
         "additionalImages": [
           "img/works/65/env1.webp",
@@ -1007,8 +1007,8 @@
         "_titre": "Baiturrahman - VFX",
         "pays":"indonesie",
         "date": "2026-01-13",
-        "tags": ["environnement"],
-        "soft":["unreal","designer","EmberGen"],
+        "tags": ["vfx"],
+        "soft":["Unreal_Engine","Substance_Designer","EmberGen"],
         "mainImage": "img/works/67/VFX_cropped.webp",
         "additionalImages": [
           "img/works/67/VFX_1.webp",
@@ -1024,10 +1024,11 @@
         "_titre": "PCG road",
         "pays":"inconnu",
         "date": "2026-06-02",
-        "tags": ["environnement","procedural"],
-        "soft":["unreal"],
+        "tags": ["enviro","procedural"],
+        "soft":["Unreal_Engine"],
         "mainImage": "img/works/68/PCG_cropped.webp",
         "additionalImages": [
+          "img/works/67/VFX_1.webp"
         ]
       },
       {
@@ -1035,8 +1036,8 @@
         "_titre": "bridge",
         "pays":"inconnu",
         "date": "2025-05-13",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/69/bridge.webp",
         "additionalImages": [
           "img/works/69/bridge.webp"
@@ -1047,8 +1048,8 @@
         "_titre": "portal",
         "pays":"inconnu",
         "date": "2025-04-26",
-        "tags": ["environnement"],
-        "soft":["blender"],
+        "tags": ["enviro"],
+        "soft":["Blender"],
         "mainImage": "img/works/70/portal_cropped.webp",
         "additionalImages": [
           "img/works/70/portal.webp"
@@ -1064,6 +1065,35 @@
         "mainImage": "img/works/71/tu_cropped.webp",
         "additionalImages": [
           "img/works/71/tu.webp"
+        ]
+      },
+      {
+        "id": 72,
+        "_titre": "Jabari junk",
+        "pays":"cote_ivoir",
+        "date": "2025-03-21",
+        "tags": ["enviro"],
+        "soft":["Unity","Blender","Substance_Painter"],
+        "mainImage": "img/works/72/junk_cropped.webp",
+        "additionalImages": [
+          "img/works/72/junk_1.webp",
+          "img/works/72/junk_2.webp",
+          "img/works/72/junk_3.webp"
+        ]
+      },
+      {
+        "id": 73,
+        "_titre": "Jabari beach",
+        "pays":"cote_ivoir",
+        "date": "2025-04-24",
+        "tags": ["enviro"],
+        "soft":["Unity","Blender","Substance_Painter"],
+        "mainImage": "img/works/73/plage_cropped.webp",
+        "additionalImages": [
+          "img/works/73/plage_1.webp",
+          "img/works/73/plage_2.webp",
+          "img/works/73/plage_3.webp",
+          "img/works/73/plage_4.webp"
         ]
       }
 ]
