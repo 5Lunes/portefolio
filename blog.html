@@ -15,57 +15,60 @@
 
   <body>
     <script src="js/translation/node_modules/jquery-slim/dist/jquery.slim.js"></script>
-
     <header>
-        <div class="header_link">
-            <a href="index.html">5Lunes</a>
-            <div class="header_empty"></div>
-            <div class="header_menu">
-                <div class="nav_laptop">
-                    <a href="work.html" data-i18n="header.realisation"></a>
-                    <a href="about.html" data-i18n="header.propos"></a>
-                    <a href="blog.html" data-i18n="header.blog"></a>
-                </div>
-                <span class="nav_mobile_open" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>burger menu</svg></span>
-                <select aria-label="language : " name="language" id="languageSwitcher"></select>
-            </div>
-  
-  
-            <div id="nav_mobile" class="overlay">
-                <!-- Button to close the overlay navigation -->
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              
-                <!-- Overlay content -->
-                <div class="nav_mobile_content">
-                    <a href="work.html" data-i18n="header.realisation"></a>
-                    <a href="about.html" data-i18n="header.propos"></a>
-                    <a href="blog.html" data-i18n="header.blog"></a>
-                </div>             
-            </div>
-  
+      <div class="header_link">
+        <a href="index.html">5Lunes</a>
+        <div class="header_empty"></div>
+        <div class="header_menu">
+          <div class="nav_laptop">
+            <a href="work.html" data-i18n="header.realisation"></a>
+            <a href="about.html" data-i18n="header.propos"></a>
+            <a href="blog.html" data-i18n="header.blog"></a>
+          </div>
+            <span class="nav_mobile_open" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>burger menu</svg></span>
+            <select aria-label="language : " name="language" id="languageSwitcher"></select>
         </div>
+        <div id="nav_mobile" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+          <!-- Overlay content -->
+          <div class="nav_mobile_content">
+            <a href="work.html" data-i18n="header.realisation"></a>
+            <a href="about.html" data-i18n="header.propos"></a>
+            <a href="blog.html" data-i18n="header.blog"></a>
+          </div>             
+        </div>
+      </div>
     </header>
-
-    <div class="maincontent">
+    <main>
+      <div class="maincontent">
         <div class="worktitle">
-          <h2 data-i18n="Blog.title">Blog</h2>
+          <h2 data-i18n="blog.title">Blog</h2>
         </div>
-    </div>
-
+        <div class="bloglist">
+          <div id="blogempty">
+            <p data-i18n="blog.rien">lorem</p>
+            <p>₍^. .^₎⟆</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
     <footer>
       <div class="bottom">
-          <div class="footer_time">
-              <p>Belgique</p>
-              <p id="clock">15h41</p>
-              <p id="clock_mobile">15h41</p>
-          </div>
-          <div class="footer_social">
-              <a href="https://www.artstation.com/mevisluca7">Artstation</a>
-              <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
-          </div>
-          <a class="footer_top" href="#top" data-i18n="footer.haut">haut</a>
+        <div class="footer_time">
+          <p>Belgique</p>
+          <p id="clock">15h41</p>
+          <p id="clock_mobile">15h41</p>
+        </div>
+        <div class="footer_social">
+          <a href="https://www.artstation.com/mevisluca7">Artstation</a>
+          <a href="https://www.linkedin.com/in/m-luca/">Linkedin</a>
+        </div>
+        <a class="footer_top" href="#top" data-i18n="footer.haut">haut</a>
       </div>
-  </footer>  
+    </footer>  
   </body>
   <script src="js/time.js"> </script>
 

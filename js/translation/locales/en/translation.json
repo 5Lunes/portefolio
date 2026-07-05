@@ -76,11 +76,13 @@
             "contact":"Contact",
             "social":"Social",
             "mail":"mail",
-            "phone":"phone"
+            "phone":"phone",
+            "moi":"Contact me ›"
         }
     },
     "blog":{
-        "title":"Blog"
+        "title":"Blog",
+        "rien":"Nothing, for the moment"
     },
     "pays":{
         "inconnu" : "Unknown country",

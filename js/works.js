@@ -1,4 +1,4 @@
-const filterIdsGrid1 = [1, 14, 28, 40]; 
+const filterIdsGrid1 = [56, 40, 14, 65]; 
 const filterIdsGrid2 = []; 
 
 

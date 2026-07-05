@@ -75,11 +75,13 @@
             "contact":"Contact",
             "social":"Réseaux",
             "mail":"courriel",
-            "phone":"téléphone"
+            "phone":"téléphone",
+            "moi":"Me contacter ›"
         }
     },
     "blog":{
-        "title":"Blog"
+        "title":"Blog",
+        "rien":"Il n'y a rien pour le moment"
     },
     "pays":{
         "inconnu" : "Pays inconnu",

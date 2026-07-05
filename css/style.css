@@ -285,7 +285,7 @@ main{
 }
 
 .bestplus {
-  background-image: url(../img/works/8/spas-12-scene.webp);
+  background-image: url(../img/works/55/chambre3_cropped.webp);
   background-size: cover;
   backdrop-filter: blur(10px);
 
@@ -320,6 +320,10 @@ main{
 #bestplus_butt span{
   color: var(--background);
   font-size: 1.3rem;
+}
+
+#contactme{
+  font-weight: 700;
 }
   
 
@@ -681,7 +685,7 @@ footer p{
   }
 
 .socialcontent{
-  margin-top: 1vh;
+  margin: 1vh 0 2vh;
   display: flex;
   flex-flow: row nowrap;
   gap: 1rem;
@@ -708,4 +712,14 @@ footer p{
   padding: 0.75rem 0em;
   width: 6.5rem;
   text-align: center;
+}
+
+#blogempty{
+  width: 100%;
+  padding-top: calc(var(--border_distance)*2);
+  & p{
+    text-align: center;
+    color: var(--primary);
+    margin: 1rem;
+  }
 }
