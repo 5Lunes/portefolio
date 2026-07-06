@@ -173,53 +173,10 @@ function showImageDetails(item) {
   }
 
 
-
-
-
-
-
-
-
-  document.getElementById('toggletag').addEventListener('click', function() {
-    var filters = document.querySelectorAll('.filters');
-    filters.forEach(function(filter) {
-        if (filter.id !== 'tag-filters') {
-            filter.style.display = 'none';
-        }
-    });
-
-
-    var element = document.getElementById('tag-filters');
-    if (element.style.display === 'none' || element.style.display === '') {
-        element.style.display = 'flex'; // Afficher l'élément
-    } else {
-        element.style.display = 'none'; // Masquer l'élément
-    }
-});
-
-
-document.getElementById('togglesoft').addEventListener('click', function() {
-    var filters = document.querySelectorAll('.filters');
-    filters.forEach(function(filter) {
-        if (filter.id !== 'soft-filters') {
-            filter.style.display = 'none';
-        }
-    });
-
-    var element = document.getElementById('soft-filters');
-    if (element.style.display === 'none' || element.style.display === '') {
-        element.style.display = 'flex'; // Afficher l'élément
-    } else {
-        element.style.display = 'none'; // Masquer l'élément
-    }
-});
-
-
 function activecheckbox(type) {
     var divElement = document.getElementById(type);
     // Sélectionner tous les checkboxes
     var checkboxes = divElement.querySelectorAll('input[type="checkbox"]');
-
     // Cocher ou décocher tous les checkboxes
     checkboxes.forEach(function(checkbox) {
         checkbox.checked = true;

@@ -55,149 +55,154 @@
 
         <div class="workfilter">
           <div class="workfilter-left">
-            <div id="tag-menu">
-              <button class="buttonfilter" id="toggletag">Tags</button>
-              <div class="filters" id="tag-filters">
-                <div class="filterselect">
-                  <button class="buttonfilterselect" onclick="activecheckbox('tag-filters')" data-i18n="works.tout"></button>
-                  <button class="buttonfilterselect" onclick="desactivecheckbox('tag-filters')" data-i18n="works.aucun"></button>
-                </div>
-                <ul class="filterslist" >
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-props" value="props" checked>
-                    <label for="filter-props" data-i18n="works.tags.props"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-environnement" value="enviro" checked>
-                    <label for="filter-environnement" data-i18n="works.tags.enviro"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-procedural" value="procedural" checked>
-                    <label for="filter-procedural" data-i18n="works.tags.procedural"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-sculpt" value="sculpt" checked>
-                    <label for="filter-sculpt" data-i18n="works.tags.sculpt"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-vfx" value="vfx" checked>
-                    <label for="filter-vfx" data-i18n="works.tags.vfx"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-GDLD" value="GDLD" checked>
-                    <label for="filter-GDLD" data-i18n="works.tags.GDLD"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-prog" value="prog" checked>
-                    <label for="filter-prog" data-i18n="works.tags.prog"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-dessin" value="dessin" checked>
-                    <label for="filter-dessin" data-i18n="works.tags.dessin"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-sound" value="sound" checked>
-                    <label for="filter-sound" data-i18n="works.tags.sound"></label>
-                  </li>
-                  <li class="filterselement">
-                    <input type="checkbox" id="filter-autre" value="autre" checked>
-                    <label for="filter-autre" data-i18n="works.tags.autre"></label>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <div id="soft-menu">
-              <button class="buttonfilter" id="togglesoft">Soft</button>
-              <div class="filters" id="soft-filters">
-                <div class="filterselect">
-                  <button class="buttonfilterselect" onclick="activecheckbox('soft-filters')" data-i18n="works.tout"></button>
-                  <button class="buttonfilterselect" onclick="desactivecheckbox('soft-filters')" data-i18n="works.aucun"></button>
-                </div>
-                <ul class="filterslist" >
-                  <li>
-                    <h4 data-i18n="works.soft.3D">Mode</h4>
-                    <ul>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-blender" value="Blender" checked>
-                        <label for="filter-blender">Blender</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-houdini" value="Houdini" checked>
-                        <label for="filter-houdini">Houdini</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-3Dmax" value="3Dmax" checked>
-                        <label for="filter-3Dmax">3DS Max</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-zbrush" value="ZBrush" checked>
-                        <label for="filter-zbrush">ZBrush</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-st" value="SpeedTree" checked>
-                        <label for="filter-st">SpeedTree</label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <h4 data-i18n="works.soft.engine">Engine</h4>
-                    <ul>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-unreal" value="Unreal_Engine" checked>
-                        <label for="filter-unreal">Unreal Engine</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-unity" value="Unity" checked>
-                        <label for="filter-unity">Unity Engine</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-godot" value="Godot" checked>
-                        <label for="filter-godot">Godot</label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <h4 data-i18n="works.soft.tool">tool</h4>
-                    <ul>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-painter" value="Substance_Painter" checked>
-                        <label for="filter-painter">Substance Painter</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-designer" value="Substance_Designer" checked>
-                        <label for="filter-designer">Substance Designer</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-EmberGen" value="EmberGen" checked>
-                        <label for="filter-EmberGen">EmberGen</label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <h4 data-i18n="works.soft.autre">Autre</h4>
-                    <ul>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-reaper" value="Reaper" checked>
-                        <label for="filter-reaper">Reaper</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-PS" value="Photoshop" checked>
-                        <label for="filter-PS">Photoshop</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-affinity" value="Affinity" checked>
-                        <label for="filter-affinity">Affinity</label>
-                      </li>
-                      <li class="filterselement">
-                        <input type="checkbox" id="filter-VS" value="Visual_Studio" checked>
-                        <label for="filter-VS">Visual Studio Code</label>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>   
-            </div>
+            <details  class="dropdownfilter"" id="toggletag">
+              <summary>
+                <a class="buttonfilter">Tags</a>
+              </summary>
+              <ul class="filterslist" id="tag-filters">
+                <li>
+                  <div class="filterselect">
+                    <button class="buttonfilterselect" onclick="activecheckbox('tag-filters')" data-i18n="works.tout"></button>
+                    <button class="buttonfilterselect" onclick="desactivecheckbox('tag-filters')" data-i18n="works.aucun"></button>
+                  </div>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-props" value="props" checked>
+                  <label for="filter-props" data-i18n="works.tags.props"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-environnement" value="enviro" checked>
+                  <label for="filter-environnement" data-i18n="works.tags.enviro"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-procedural" value="procedural" checked>
+                  <label for="filter-procedural" data-i18n="works.tags.procedural"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-sculpt" value="sculpt" checked>
+                  <label for="filter-sculpt" data-i18n="works.tags.sculpt"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-vfx" value="vfx" checked>
+                  <label for="filter-vfx" data-i18n="works.tags.vfx"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-GDLD" value="GDLD" checked>
+                  <label for="filter-GDLD" data-i18n="works.tags.GDLD"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-prog" value="prog" checked>
+                  <label for="filter-prog" data-i18n="works.tags.prog"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-dessin" value="dessin" checked>
+                  <label for="filter-dessin" data-i18n="works.tags.dessin"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-sound" value="sound" checked>
+                  <label for="filter-sound" data-i18n="works.tags.sound"></label>
+                </li>
+                <li class="filterselement">
+                  <input type="checkbox" id="filter-autre" value="autre" checked>
+                  <label for="filter-autre" data-i18n="works.tags.autre"></label>
+                </li>
+              </ul>
+            </details>
+
+            <details  class="dropdownfilter"" id="togglesoft">
+              <summary>
+                <a class="buttonfilter">Softs</a>
+              </summary>
+              <ul class="filterslist" id="soft-filters">
+                <li>
+                  <div class="filterselect">
+                    <button class="buttonfilterselect" onclick="activecheckbox('soft-filters')" data-i18n="works.tout"></button>
+                    <button class="buttonfilterselect" onclick="desactivecheckbox('soft-filters')" data-i18n="works.aucun"></button>
+                  </div>
+                </li>
+                <li>
+                  <h4 data-i18n="works.soft.3D">Mode</h4>
+                  <ul>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-blender" value="Blender" checked>
+                      <label for="filter-blender">Blender</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-houdini" value="Houdini" checked>
+                      <label for="filter-houdini">Houdini</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-3Dmax" value="3Dmax" checked>
+                      <label for="filter-3Dmax">3DS Max</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-zbrush" value="ZBrush" checked>
+                      <label for="filter-zbrush">ZBrush</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-st" value="SpeedTree" checked>
+                      <label for="filter-st">SpeedTree</label>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h4 data-i18n="works.soft.engine">Engine</h4>
+                  <ul>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-unreal" value="Unreal_Engine" checked>
+                      <label for="filter-unreal">Unreal Engine</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-unity" value="Unity" checked>
+                      <label for="filter-unity">Unity Engine</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-godot" value="Godot" checked>
+                      <label for="filter-godot">Godot</label>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h4 data-i18n="works.soft.tool">tool</h4>
+                  <ul>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-painter" value="Substance_Painter" checked>
+                      <label for="filter-painter">Substance Painter</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-designer" value="Substance_Designer" checked>
+                      <label for="filter-designer">Substance Designer</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-EmberGen" value="EmberGen" checked>
+                      <label for="filter-EmberGen">EmberGen</label>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h4 data-i18n="works.soft.autre">Autre</h4>
+                  <ul>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-reaper" value="Reaper" checked>
+                      <label for="filter-reaper">Reaper</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-PS" value="Photoshop" checked>
+                      <label for="filter-PS">Photoshop</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-affinity" value="Affinity" checked>
+                      <label for="filter-affinity">Affinity</label>
+                    </li>
+                    <li class="filterselement">
+                      <input type="checkbox" id="filter-VS" value="Visual_Studio" checked>
+                      <label for="filter-VS">Visual Studio Code</label>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </details>
+
           </div>
           <div class="workfilter-right">
             <button class="buttonfilter" onclick="applyTagFilters()" data-i18n="works.filtrer"></button>
