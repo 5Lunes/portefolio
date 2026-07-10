@@ -102,6 +102,12 @@
         "allemagne":"Germany 🇩🇪",
         "indonesie":"Indonesia 🇮🇩",
         "cote_ivoir":"Ivory Coast 🇨🇮",
+        "usa":"United States of America 🇺🇸",
+        "uk":"United Kingdoms 🇬🇧",
+        "nepal":"Nepal 🇳🇵",
+        "norvege":"Norway 🇳🇴",
+        "inde":"India 🇮🇳",
+        "ecosse":"Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "moon":"Moon"
     },
     "1":{
@@ -387,5 +393,126 @@
     "72":{
         "titre":"Junkyard - Jabari",
         "description":"Beach arena for the game Jabari while my internship at Masseka Game Studio. Jabari is a mobile fighting game featuring africans stars.\nThe ocean use a procedural shader. I didn't expect sand have so much tint diversity.\nThanks to Salman for his support."
+    },
+    "74":{
+        "titre":"room 1",
+        "description":"First complex scene on Blender. This one has been created for my youtube channel. It represents the duality between my brother and I."
+    },
+    "75":{
+        "titre":"katana",
+        "description":"After making the katana for room 1, I decided to make another one properly because the first one was really bad."
+    },
+    "76":{
+        "titre":"cyberpunk street",
+        "description":"Complex night scene. Despite being a greate exercice with tons of new techniques, the final result is meh.\nFirst appearance of the red cat."
+    },
+    "77":{
+        "titre":"bonheur",
+        "description":"Work based on a old turoriel. Bonheur mean happiness in french."
+    },
+    "78":{
+        "titre":"telephone box",
+        "description":"I've descoverd the bump, maybe a little too much."
+    },
+    "79":{
+        "titre":"silent shoot",
+        "description":"A scene largely inspired by the imagery of Hitman, my favourite game."
+    },
+    "80":{
+        "titre":"cyber",
+        "description":"A figure wearing a helmet against a neon purple backdrop. Probably largely inspired by a creation by someone else whose name I’ve forgotten."
+    },
+    "81":{
+        "titre":"eye",
+        "description":"It was my first time working with organic material, and it wasn’t an easy task, either. It was from that day onwards that I realised I wouldn’t enjoy making characters."
+    },
+    "82":{
+        "titre":"Abondance Universelle",
+        "description":"Concept for a science-fiction animated series set in the near future. It is based on a simple premise: following the development of a Dyson sphere, a super-intelligent artificial intelligence and the widespread availability of molecular manipulation, humanity will have unlimited power. Abundance will be so great that it will be accessible to everyone. Given that, what sort of world will we be living in?"
+    },
+    "83":{
+        "titre":"lightsaber",
+        "description":"One more weapon. I realy like the material of the display stand."
+    },
+    "84":{
+        "titre":"spiral",
+        "description":"I drew a lot of inspiration from an online tutorial, but hey, it makes for a nice wallpaper."
+    },
+    "85":{
+        "titre":"Kiyu",
+        "description":"At that time, I was in a fan group of the troll youtuber Paulok. He has a stuffed cat named Kiyu who was the mascot of the groupe. I made a serie of render of him."
+    },
+    "86":{
+        "titre":"pokemon",
+        "description":"I’d been given the chance to create 3D Pokémon to help with a fan project. They weren’t chosen. And don’t ask me why Heliatronc has that name."
+    },
+    "87":{
+        "titre":"sushi basket",
+        "description":"Based on a tutorial explaining how to make rice, I created this scene, taking care to ensure it looked realistic."
+    },
+    "88":{
+        "titre":"crystal",
+        "description":"The crystal uses a complex material with displacement to achieve this effect."
+    },
+    "89":{
+        "titre":"unicorn",
+        "description":"Yet another projet that starts with a tutoriel and ends up as a complete project.\nUnicorn is a reference to the strip club in GTA V."
+    },
+    "90":{
+        "titre":"preparation desk",
+        "description":"A scene inspired by the set-up shots in Call of Duty: Modern Warfare. Analysing the composition and lighting is important."
+    },
+    "91":{
+        "titre":"moon set",
+        "description":"It comes in two versions, which one do you prefer?"
+    },
+    "92":{
+        "titre":"divine mountain",
+        "description":"The very first version of the image that I now use as my homepage image. Seas of clouds hold a special fascination for me.\nThe second image is a work-in-progress version that had a certain beauty to it."
+    },
+    "93":{
+        "titre":"nodevember 2020",
+        "description":"First time taking part in Nodevember. It’s tough.\nIn ordre: grain, draw, tiramisu and fluffy."
+    },
+    "94":{
+        "titre":"war axe",
+        "description":"The aura of power with the grass is fascinating."
+    },
+    "95":{
+        "titre":"Mumbai",
+        "description":"A tribute to my favourite location in my favourite game, Hitman WOA. It’s a distillation of everything I love about this map.\nThe poem below is a bilingual alexandrine, in which the English and French text can stand on their own. It was as difficult to write as it is for you to understand the logic behind it."
+    },
+    "96":{
+        "titre":"room 2",
+        "description":"Remake of the room to see my progress. There are more and more detailed references, but the overall composition remains the same."
+    },
+    "97":{
+        "titre":"suicide",
+        "description":"Dear english readers, don't worry for me."
+    },
+    "98":{
+        "titre":"the death and the developer",
+        "description":"A reinterpretation of the painting ‘Death and the Gravedigger’ by the Symbolist painter Carlos Schwabe. This painting is fascinating.\nThis time, Death surrounds a developer who seems to be stuck in a never-ending cycle."
+    },
+    "99":{
+        "titre":"tea set",
+        "description":"It's tea time.\nThe reason the teapot’s handle has such a distinctive shape is that I don’t know how to close it."
+    },
+    "100":{
+        "titre":"For Eternity - clip",
+        "description":"Video clip made for an old friend. It was the first time I worked for someone else, it was a particular experience."
+    },
+    "101":{
+        "titre":"gusset watch",
+        "description":"A watch fit for a true dandy. I’ve never had one, but it would be rather stylish."
+    },
+    "102":{
+        "titre":"Endless - clip",
+        "description":"Second video clip for Laird Tom. After that, nothing. But the times still passes."
+    },
+    "103":{
+        "titre":"Wavremont",
+        "description":"Wavremont is a monastery situated in the Belgian Ardennes. This corridor has nothing but a special aura."
     }
+
 }

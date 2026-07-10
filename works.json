@@ -1095,6 +1095,379 @@
           "img/works/73/plage_3.webp",
           "img/works/73/plage_4.webp"
         ]
+      },
+      {
+        "id": 74,
+        "_titre": "chambre 1",
+        "pays":"belgique",
+        "date": "2019-04-08",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/74/chambre.webp",
+        "additionalImages": [
+          "img/works/74/chambre.webp"
+        ]
+      },
+      {
+        "id": 75,
+        "_titre": "katana",
+        "pays":"japon",
+        "date": "2019-08-04",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/75/katana.webp",
+        "additionalImages": [
+          "img/works/75/katana.webp"
+        ]
+      },
+      {
+        "id": 76,
+        "_titre": "cyberpunk",
+        "pays":"usa",
+        "date": "2019-09-03",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/76/cyberpunk_cropped.webp",
+        "additionalImages": [
+          "img/works/76/cyberpunk.webp"
+        ]
+      },
+      {
+        "id": 77,
+        "_titre": "bonheur",
+        "pays":"inconnu",
+        "date": "2019-12-09",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/77/bonheur_cropped.webp",
+        "additionalImages": [
+          "img/works/77/bonheur.webp"
+        ]
+      },
+      {
+        "id": 78,
+        "_titre": "telephone",
+        "pays":"uk",
+        "date": "2019-12-14",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/78/telephone.webp",
+        "additionalImages": [
+          "img/works/78/telephone.webp"
+        ]
+      },
+      {
+        "id": 79,
+        "_titre": "hitman",
+        "pays":"italie",
+        "date": "2020-01-17",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/79/hitman.webp",
+        "additionalImages": [
+          "img/works/79/hitman.webp"
+        ]
+      },
+      {
+        "id": 80,
+        "_titre": "cyber",
+        "pays":"japon",
+        "date": "2020-01-21",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/80/cyber.webp",
+        "additionalImages": [
+          "img/works/80/cyber.webp"
+        ]
+      },
+      {
+        "id": 81,
+        "_titre": "eye",
+        "pays":"inconnu",
+        "date": "2020-01-29",
+        "tags": ["sculpt"],
+        "soft":["Blender"],
+        "mainImage": "img/works/81/eye_cropped.webp",
+        "additionalImages": [
+          "img/works/81/eye.webp"
+        ]
+      },
+      {
+        "id": 82,
+        "_titre": "AU",
+        "pays":"inconnu",
+        "date": "2020-03-16",
+        "tags": ["autre"],
+        "soft":["Blender"],
+        "mainImage": "img/works/82/AU_cropped.webp",
+        "additionalImages": [
+          "img/works/82/AU_1.webp",
+          "img/works/82/AU_2.webp",
+          "img/works/82/AU_3.webp",
+          "img/works/82/AU_4.webp",
+          "img/works/82/AU_5.webp"
+        ],
+        "additionalVideo":"https://www.youtube.com/embed/moqGkmr6VIg?si=TI84Z6H4Dz75Gw7K"
+      },
+      {
+        "id": 83,
+        "_titre": "sabre laser",
+        "pays":"inconnu",
+        "date": "2020-03-23",
+        "tags": ["autre"],
+        "soft":["Blender"],
+        "mainImage": "img/works/83/sabre_laser.webp",
+        "additionalImages": [
+          "img/works/83/sabre_laser.webp"
+        ]
+      },
+      {
+        "id": 84,
+        "_titre": "spiral",
+        "pays":"inconnu",
+        "date": "2020-03-26",
+        "tags": ["autre"],
+        "soft":["Blender"],
+        "mainImage": "img/works/84/spiral.webp",
+        "additionalImages": [
+          "img/works/84/spiral.webp"
+        ]
+      },
+      {
+        "id": 85,
+        "_titre": "Kiyu",
+        "pays":"france",
+        "date": "2020-05-20",
+        "tags": ["autre"],
+        "soft":["Blender"],
+        "mainImage": "img/works/85/Kiyu_cropped.webp",
+        "additionalImages": [
+          "img/works/85/Kiyu_1.webp",
+          "img/works/85/Kiyu_2.webp",
+          "img/works/85/Kiyu_3.webp"
+        ]
+      },
+      {
+        "id": 86,
+        "_titre": "pokemon",
+        "pays":"inconnu",
+        "date": "2020-06-12",
+        "tags": ["sculpt"],
+        "soft":["Blender"],
+        "mainImage": "img/works/86/pkmn_cropped.webp",
+        "additionalImages": [
+          "img/works/86/bitengrain.webp",
+          "img/works/86/lainergie.webp"
+        ]
+      },
+      {
+        "id": 87,
+        "_titre": "sushi",
+        "pays":"japon",
+        "date": "2020-06-21",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/87/sushi_cropped.webp",
+        "additionalImages": [
+          "img/works/87/sushi.webp"
+        ]
+      },
+      {
+        "id": 88,
+        "_titre": "cristal",
+        "pays":"inconnu",
+        "date": "2020-07-17",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/88/cristal.webp",
+        "additionalImages": [
+          "img/works/88/cristal.webp"
+        ]
+      },
+      {
+        "id": 89,
+        "_titre": "unicorn",
+        "pays":"usa",
+        "date": "2020-08-20",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/89/unicorn.webp",
+        "additionalImages": [
+          "img/works/89/unicorn.webp"
+        ]
+      },
+      {
+        "id": 90,
+        "_titre": "cod",
+        "pays":"russie",
+        "date": "2020-11-09",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/90/cod_cropped.webp",
+        "additionalImages": [
+          "img/works/90/cod.webp"
+        ]
+      },
+      {
+        "id": 91,
+        "_titre": "coucher lune",
+        "pays":"moon",
+        "date": "2020-10-13",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/91/couche_1.webp",
+        "additionalImages": [
+          "img/works/91/couche_2.webp",
+          "img/works/91/couche_1.webp"
+        ]
+      },
+      {
+        "id": 92,
+        "_titre": "montagne",
+        "pays":"nepal",
+        "date": "2021-03-14",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/92/montagne.webp",
+        "additionalImages": [
+          "img/works/92/montagne.webp",
+          "img/works/92/montagne_2.webp"
+        ]
+      },
+      {
+        "id": 93,
+        "_titre": "nodevember",
+        "pays":"inconnu",
+        "date": "2020-11-01",
+        "tags": ["procedural"],
+        "soft":["Blender"],
+        "mainImage": "img/works/93/nodevember_3.webp",
+        "additionalImages": [
+          "img/works/93/nodevember_1.webp", 
+          "img/works/93/day 6 draw_avi.gif",
+          "img/works/93/nodevember_3.webp",
+          "img/works/93/nodevember_4.webp"
+        ]
+      },
+      {
+        "id": 94,
+        "_titre": "hache",
+        "pays":"norvege",
+        "date": "2021-03-20",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/94/hache.webp",
+        "additionalImages": [
+          "img/works/94/hache.webp"
+        ]
+      },
+      {
+        "id": 95,
+        "_titre": "mumbai",
+        "pays":"inde",
+        "date": "2021-05-02",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/95/mumbai_cropped.webp",
+        "additionalImages": [
+          "img/works/95/mumbai.webp"
+        ]
+      },
+      {
+        "id": 96,
+        "_titre": "chambre 2",
+        "pays":"belgique",
+        "date": "2021-05-16",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/96/chambre2.webp",
+        "additionalImages": [
+          "img/works/96/chambre2.webp"
+        ]
+      },
+      {
+        "id": 97,
+        "_titre": "suicide",
+        "pays":"inconnu",
+        "date": "2021-05-22",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/97/suicide_cropped.webp",
+        "additionalImages": [
+          "img/works/97/suicide.webp"
+        ]
+      },
+      {
+        "id": 98,
+        "_titre": "la mort",
+        "pays":"usa",
+        "date": "2021-06-09",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/98/lamort_cropped.webp",
+        "additionalImages": [
+          "img/works/98/lamort.webp"
+        ]
+      },
+      {
+        "id": 99,
+        "_titre": "the",
+        "pays":"uk",
+        "date": "2021-06-30",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/99/service a the.webp",
+        "additionalImages": [
+          "img/works/99/service a the.webp"
+        ]
+      },
+      {
+        "id": 100,
+        "_titre": "clip",
+        "pays":"ecosse",
+        "date": "2021-09-06",
+        "tags": ["autre"],
+        "soft":["Blender"],
+        "mainImage": "img/works/100/clip.webp",
+        "additionalImages":[],
+        "additionalVideo":"https://www.youtube.com/embed/zcFV4TJTZjw?si=W8eUvR6Uh-qUTrxI"
+      },
+      {
+        "id": 101,
+        "_titre": "montre",
+        "pays":"france",
+        "date": "2021-09-21",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/101/montre_01.webp",
+        "additionalImages":[
+          "img/works/101/montre_01.webp",
+          "img/works/101/montre_02.webp",
+          "img/works/101/montre_03.webp"
+        ]
+      },
+      {
+        "id": 102,
+        "_titre": "clip 2",
+        "pays":"ecosse",
+        "date": "2021-09-28",
+        "tags": ["autre"],
+        "soft":["Blender"],
+        "mainImage": "img/works/102/endlessly.webp",
+        "additionalImages":[],
+        "additionalVideo":"https://www.youtube.com/embed/J36JR0df8xU?si=fAMghJjMuFWrzGnl"
+      },
+      {
+        "id": 103,
+        "_titre": "couloir",
+        "pays":"belgique",
+        "date": "2021-10-25",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/103/couloir.webp",
+        "additionalImages":[
+          "img/works/103/couloir.webp"
+        ]
       }
 ]
   

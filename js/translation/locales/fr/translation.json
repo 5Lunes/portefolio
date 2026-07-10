@@ -101,6 +101,12 @@
         "allemagne":"Allemagne 🇩🇪",
         "indonesie":"Indonésie 🇮🇩",
         "cote_ivoir":"Côte d'Ivoire 🇨🇮",
+        "usa":"États-Unis d'Amérique 🇺🇸",
+        "uk":"Royaumes Unis 🇬🇧",
+        "nepal":"Népal 🇳🇵",
+        "norvege":"Norvège 🇳🇴",
+        "inde":"Inde 🇮🇳",
+        "ecosse":"Ecosse 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "moon":"Lune"
     },
     "1":{
@@ -391,6 +397,127 @@
     "73":{
         "titre":"plage - Jabari",
         "description":"Arène sur une plage réalisée pour le jeu Jabari lors de mon stage au sein du Masséka Game studio. Jabari est un jeu de combat sur mobile mettant en avant des star d'origines africaines.\nL'océan utilise un shader procédural. Je ne pensais pas que le sable pouvait avoir autant de teintes différentes.\nMerci à Salman pour l'accompagnement."
+    },
+    "74":{
+        "titre":"chambre 1",
+        "description":"Première scène complexe sur Blender. Celle-ci a été créée pour servir d'intro à ma chaine youtube. Elle représente la dualité entre mon frère et moi."
+    },
+    "75":{
+        "titre":"katana",
+        "description":"Après avoir fait le katana pour la chambre 1, j'ai décidé d'en refaire un proprement car il était vraiment moche."
+    },
+    "76":{
+        "titre":"ruelle cyberpunk",
+        "description":"Tentative d'une scène complexe de nuit. Bien que ça aie été l'occasion de mettre en oeuvre des techniques variées, le rendu est un peu bancal.\nPremière apparition du chat roux."
+    },
+    "77":{
+        "titre":"bonheur",
+        "description":"Mise en application d'un tutoriel. J'éspère pouvoir mettre un peu de bonheur dans votre vie ^^"
+    },
+    "78":{
+        "titre":"cabine téléphoniques",
+        "description":"J'ai découvert le bump. J'ai peut être un peu exagéré"
+    },
+    "79":{
+        "titre":"tir urbain",
+        "description":"Scène largement inspirée de l'imaginaire de Hitman, mon jeu préféré."
+    },
+    "80":{
+        "titre":"cyber",
+        "description":"Une figure casquée dans un décors mauve néon. Probablement largement inspiré d'un création d'une autre personne dont j'ai oublié le nom."
+    },
+    "81":{
+        "titre":"Œil",
+        "description":"Première fois sur de l'organique, et pas une partie facile qui plus est. C'est à partir de ce jour que j'ai compris que je n'aimerai pas faire des personnages."
+    },
+    "82":{
+        "titre":"Abondance Universelle",
+        "description":"Concept pour une série d'animation de science-fiction d'anticipation. Elle part d'un postulat simple; après le développement d'une sphère de dyson, d'une super inteligence artificielle et de la manipulation moléculaire accessible, l'humanité aura des pouvoir illimités. L'abondance sera si grande qu'elle sera accessible à tout le monde. À partir de là, dans quel monde on vit ?"
+    },
+    "83":{
+        "titre":"sabre laser",
+        "description":"Une nouvelle arme. J'aime vraiment le matériaux du présentoir."
+    },
+    "84":{
+        "titre":"spirale",
+        "description":"Fortement inspiré d'un tutoriel en ligne mais he, ça fait un chouette fond d'écran."
+    },
+    "85":{
+        "titre":"Kiyu",
+        "description":"À cette époque, j'atais sur un groupe de fan du youtubeur troll Paulok. Il avait un petit chat en peluche du nom de Kiyu qui était en quelque sorte la mascotte. J'ai réalisé une série de rendu 3D le mettant en scène de différentes façons."
+    },
+    "86":{
+        "titre":"pokemon",
+        "description":"On m'avait donné l'occasion de faire des pokemon en 3D pour aider un projet de fan. Ils n'ont pas été retenus. Et ne me demandez pas pourquoi de héliatronc a ce nom là."
+    },
+    "87":{
+        "titre":"panier à sushi",
+        "description":"À partir d'un tuto sur du riz, j'ai construit tout ce décors dans un effort de faire quelque chose de réaliste."
+    },
+    "88":{
+        "titre":"cristal",
+        "description":"Le cristal utilise un materiau complexe avec du displacement pour avoir ce rendu."
+    },
+    "89":{
+        "titre":"unicorn",
+        "description":"Au autre projet qui part d'un tutoriel vers une idée complète.\nLe Unicorn est une référence au club de strip-tease de GTA V."
+    },
+    "90":{
+        "titre":"table de préparation",
+        "description":"Scène inspirée des tables de préparation de Call Of Duty Modern Warfare. L'analyse des compositions et de l'éclairage c'est important."
+    },
+    "91":{
+        "titre":"couché de Lune",
+        "description":"Existe en deux versions, laquelle préférez vous ?"
+    },
+    "92":{
+        "titre":"montagne divine",
+        "description":"Tout première version de l'image qui me sert aujourd'hui d'image d'acceuil. Les mers de nuages exercent sur moi une attraction toute paticulière.\nLa seconde image est une version wip qui avait une certaine beauté."
+    },
+    "93":{
+        "titre":"nodevember 2020",
+        "description":"Premiere participation au Nodevember. C'est dur.\nDans l'ordre, grain, draw, tiramisu et fluffy."
+    },
+    "94":{
+        "titre":"hache de guerre",
+        "description":"La capacité à faire une aura de puissance en bougeant les herbes est fascinant."
+    },
+    "95":{
+        "titre":"Mumbai",
+        "description":"Hommage à ma destiation préférée de mon jeu préféré, Hitman WOA. C'est un condensé de ce que j'aime dans cette map.\nLe poème en dessous est un Alexendrin bilingue où le texte en anglais et français peut fonctionner de manière indépendante. Ce fut aussi difficile à écrire que ça ne l'est de comprendre ma logique derrière."
+    },
+    "96":{
+        "titre":"chambre 2",
+        "description":"Remake de la chambre pour constater ma progression au fil du temps. Les références sont plus nombreuses et détaillées, mais la composition globale reste la même."
+    },
+    "97":{
+        "titre":"suicide",
+        "description":"Je peux vous assurer qu'à ce moment, j'allais plutôt bien, enfin, je crois. Mes seules pensées suicidaires sont arrivées 1 an plus tard. Mais j'avais 16 ans, j'ai eu des pensées un peu edgy, ça arrive à tout le monde, non ?"
+    },
+    "98":{
+        "titre":"la mort et le développeur",
+        "description":"Réinterprétation de l'oeuvre 'la mort et le fossoyeur' du peintre symboliste Carlos Schwabe. Cette peinture est fascinante.\nCette fois-ci, la mort entoure un développeur qui semble n'en voir jamais le bout."
+    },
+    "99":{
+        "titre":"service à thé",
+        "description":"It's tea time.\nSi la hanse de la théière a cette forme si particulière, c'est parce que je ne sais pas comment faire pour refermer."
+    },
+    "100":{
+        "titre":"For Eternity - clip",
+        "description":"Clip vidéo réalisé pour un ancien ami. C'était la première fois que je mettais mes compétences à profit comme ça, c'était une expérence particulière."
+    },
+    "101":{
+        "titre":"montre à gousset",
+        "description":"La montre d'un vrai dandy. Je n'en ai jamais eu, ce serait classe pourtant"
+    },
+    "102":{
+        "titre":"Endless - clip",
+        "description":"Second clip réalisé pour Laird Tom. Après celà, il n'y aura plus rien. Mais le temps s'écoule toujours."
+    },
+    "103":{
+        "titre":"Wavremont",
+        "description":"Wavremont est un monastère situé dans les Ardennes belges. J'y suis allé avec l'école dans le cadre d'une retraite. En me promenant une fois la nuit dans la batisse, je me suis arrêté dans ce couloir. Il avait une esthétique si particulière que j'ai eu le besoin de le refaire en 3D.\nPlus tard, je suis revenu dans ce monastère en solo. Le couloir n'avait plus bougé, mais l'aura qu'il dégagait n'était plus là."
     }
+
 
 }
