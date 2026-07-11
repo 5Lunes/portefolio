@@ -80,7 +80,7 @@
         "date": "2023-09-01",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/6/cuisine_hornu.webp",
+        "mainImage": "img/works/6/cuisine_hornu_cropped.webp",
         "additionalImages": [
           "img/works/6/cuisine_hornu.webp",
           "img/works/6/cuisine_hornu_alt.webp",
@@ -107,7 +107,7 @@
         "date": "2023-02-19",
         "tags": ["props"],
         "soft":["Blender"],
-        "mainImage": "img/works/8/spas-12-scene.webp",
+        "mainImage": "img/works/8/spas-12-cropped.webp",
         "additionalImages": [
           "img/works/8/spas-12-scene.webp",
           "img/works/8/spas-12_1.webp",
@@ -136,7 +136,7 @@
         "date": "2023-08-22",
         "tags": ["enviro","dessin"],
         "soft":["Blender","Photoshop"],
-        "mainImage": "img/works/10/italian_cuisine_final.webp",
+        "mainImage": "img/works/10/italian_cuisine_cropped.webp",
         "additionalImages": [
           "img/works/10/italian_cuisine_final.webp",
           "img/works/10/MEVIS_diorama2D.webp",
@@ -253,7 +253,7 @@
         "date": "2023-05-29",
         "tags": ["props"],
         "soft":["Houdini"],
-        "mainImage": "img/works/18/nature3.webp",
+        "mainImage": "img/works/18/nature3_cropped.webp",
         "additionalImages": [
           "img/works/18/nature3.webp",
           "img/works/18/nature3_filaire.webp",
@@ -349,7 +349,7 @@
         "date": "2023-01-05",
         "tags": ["dessin"],
         "soft":["Photoshop"],
-        "mainImage": "img/works/25/cosmo_tardigrade.webp",
+        "mainImage": "img/works/25/cosmo_tardigrade_cropped.webp",
         "additionalImages": [
           "img/works/25/cosmo_tardigrade.webp",
           "img/works/25/chara1.webp",
@@ -449,7 +449,7 @@
         "date": "2023-10-12",
         "tags": ["enviro"],
         "soft":["Unreal_Engine","ZBrush"],
-        "mainImage": "img/works/31/mockup_grotte.webp",
+        "mainImage": "img/works/31/mockup_grotte_cropped.webp",
         "additionalImages": [
           "img/works/31/haut.webp",
           "img/works/31/bas.webp",
@@ -494,7 +494,7 @@
         "date": "2024-04-09",
         "tags": ["GDLD","prog"],
         "soft":["Unreal_Engine"],
-        "mainImage": "img/works/34/ST3077.png",
+        "mainImage": "img/works/34/ST3077.webp",
         "additionalImages": [
           "img/works/34/SomeonePlayingShipTrick.jpg",
           "img/works/34/gouvernail.jpg",
