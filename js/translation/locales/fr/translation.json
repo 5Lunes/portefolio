@@ -517,6 +517,30 @@
     "103":{
         "titre":"Wavremont",
         "description":"Wavremont est un monastère situé dans les Ardennes belges. J'y suis allé avec l'école dans le cadre d'une retraite. En me promenant une fois la nuit dans la batisse, je me suis arrêté dans ce couloir. Il avait une esthétique si particulière que j'ai eu le besoin de le refaire en 3D.\nPlus tard, je suis revenu dans ce monastère en solo. Le couloir n'avait plus bougé, mais l'aura qu'il dégagait n'était plus là."
+    },
+    "104":{
+        "titre":"compilation de rose",
+        "description":"Différentes roses réalisés à différents moment. Ces dernières ne sont pas procédurales mais constituent les premières plantes 'complexes' réalisées."
+    },
+    "105":{
+        "titre":"boule à neige",
+        "description":"Le décors de la boule à neige est inspiré de la peinture 'L'île des morts' du peintre symboliste Arnold Böcklin. La danceuse en tutu remplace le passeur sur la barque."
+    },
+    "106":{
+        "titre":"étrange",
+        "description":"Une ouevre que j'ai ressenti dans a chair.\nLa seconde image n'est que la version dézoomée."
+    },
+    "107":{
+        "titre":"Horta",
+        "description":"Un intérieur dans la plus pure tradition art nouveau. Il est inspiré par des bâtiment de l'architecte belge Victor Horta. Le travail des courbes est interessant.\nEt un flacon de parfum dans la même tradition."
+    },
+    "108":{
+        "titre":"jardin du manoir",
+        "description":"Un tout petit jardin à l'anglaise surplombant un lac.\nBien que la qualité du rendu final soit assez faible, c'est la première fois que je fais des plantes procédurales à l'aide de géometry node. Un plaisir qui ne m'a jamais quitté."
+    },
+    "109":{
+        "titre":"sols",
+        "description":"Quelques matériaux de sol totalement procéduraux."
     }
 
 

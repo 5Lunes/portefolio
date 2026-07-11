@@ -169,7 +169,7 @@
         "date": "2024-07-01",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/12/beffroi.webp",
+        "mainImage": "img/works/12/beffroi_cropped.webp",
         "additionalImages": [
           "img/works/12/beffroi.webp",
           "img/works/12/beffroi3.webp",
@@ -183,7 +183,7 @@
         "date": "2025-02-23",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/13/gare.webp",
+        "mainImage": "img/works/13/gare_cropped.webp",
         "additionalImages": [
           "img/works/13/gare.webp"
         ]
@@ -608,7 +608,7 @@
         "soft":["Unreal_Engine"],
         "description_fr": "Iterprétation du palais d'Akhénaton à Amarna",
         "description_en":"",
-        "mainImage": "img/works/42/MEVIS_Luca_WideShot01.webp",
+        "mainImage": "img/works/42/cropped.webp",
         "additionalImages": [
           "img/works/42/MEVIS_Luca_WideShot01.webp",
           "img/works/42/MEVIS_Luca_WideShot02.webp",
@@ -631,7 +631,7 @@
         "soft":["Substance_Designer"],
         "description_fr": "Iterprétation du palais d'Akhénaton à Amarna",
         "description_en":"",
-        "mainImage": "img/works/43/MEVIS_Luca_BeautyShot_Trim01.webp",
+        "mainImage": "img/works/43/cropped.webp",
         "additionalImages": [
           "img/works/43/MEVIS_Luca_BeautyShot_Trim01.webp",
           "img/works/43/MEVIS_Luca_BeautyShot_RoofTiles01.webp",
@@ -719,7 +719,7 @@
         "date": "2025-08-11",
         "tags": ["procedural"],
         "soft":["Blender","SpeedTree"],
-        "mainImage": "img/works/48/chene_blend.webp",
+        "mainImage": "img/works/48/cropped.webp",
         "additionalImages": [
           "img/works/48/chene_3.webp",
           "img/works/48/chene_blend.webp",
@@ -735,7 +735,7 @@
         "date": "2025-08-11",
         "tags": ["procedural"],
         "soft":["Blender","SpeedTree"],
-        "mainImage": "img/works/49/saule_blend.webp",
+        "mainImage": "img/works/49/saule_cropped.webp",
         "additionalImages": [
           "img/works/49/saule_blend_3.webp",
           "img/works/49/saule_blend.webp",
@@ -751,7 +751,7 @@
         "date": "2025-08-11",
         "tags": ["procedural"],
         "soft":["Blender","SpeedTree"],
-        "mainImage": "img/works/50/magnolia_blend.webp",
+        "mainImage": "img/works/50/magnolia_cropped.webp",
         "additionalImages": [
           "img/works/50/magnolia_blend_3.webp",
           "img/works/50/magnolia_blend.webp",
@@ -767,7 +767,7 @@
         "date": "2025-08-11",
         "tags": ["procedural"],
         "soft":["Blender","SpeedTree"],
-        "mainImage": "img/works/51/rosier_blend.webp",
+        "mainImage": "img/works/51/rosier_cropped.webp",
         "additionalImages": [
           "img/works/51/rosier_blend_3.webp",
           "img/works/51/rosier_blend.webp",
@@ -782,7 +782,7 @@
         "date": "2025-08-11",
         "tags": ["procedural"],
         "soft":["Blender","SpeedTree"],
-        "mainImage": "img/works/52/herbe_blend.webp",
+        "mainImage": "img/works/52/herbe_cropped.webp",
         "additionalImages": [
           "img/works/52/herbe_blend.webp",
           "img/works/52/herbe_ST.webp"        ]
@@ -794,7 +794,7 @@
         "date": "2025-08-12",
         "tags": ["enviro"],
         "soft":["Unreal_Engine","Godot"],
-        "mainImage": "img/works/53/Un_Speedtree_enviro.webp",
+        "mainImage": "img/works/53/cropped.webp",
         "additionalImages": [
           "img/works/53/Un_Blender_enviro.webp",
           "img/works/53/Un_Speedtree_enviro.webp",
@@ -1038,7 +1038,7 @@
         "date": "2025-05-13",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/69/bridge.webp",
+        "mainImage": "img/works/69/bridge_cropped.webp",
         "additionalImages": [
           "img/works/69/bridge.webp"
         ]
@@ -1467,6 +1467,87 @@
         "mainImage": "img/works/103/couloir.webp",
         "additionalImages":[
           "img/works/103/couloir.webp"
+        ]
+      },
+      {
+        "id": 104,
+        "_titre": "rose",
+        "pays":"inconnu",
+        "date": "2021-11-01",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/104/rose_cropped.webp",
+        "additionalImages":[
+          "img/works/104/rose_1.webp",
+          "img/works/104/rose_2.webp",
+          "img/works/104/rose_3.webp",
+          "img/works/104/rose_4.webp",
+          "img/works/104/rose_5.webp"
+        ]
+      },
+      {
+        "id": 105,
+        "_titre": "boule a neige",
+        "pays":"inconnu",
+        "date": "2021-12-05",
+        "tags": ["props"],
+        "soft":["Blender"],
+        "mainImage": "img/works/105/boule_cropped.webp",
+        "additionalImages":[
+          "img/works/105/boule.webp"
+        ]
+      },
+      {
+        "id": 106,
+        "_titre": "etrange",
+        "pays":"inconnu",
+        "date": "2021-12-08",
+        "tags": ["sculpt"],
+        "soft":["Blender"],
+        "mainImage": "img/works/106/etrange_cropped.webp",
+        "additionalImages":[
+          "img/works/106/etrange.webp",
+          "img/works/106/etrange_2.webp"
+        ]
+      },
+      {
+        "id": 107,
+        "_titre": "horta",
+        "pays":"belgique",
+        "date": "2022-02-10",
+        "tags": ["enviro"],
+        "soft":["Blender"],
+        "mainImage": "img/works/107/horta_cropped.webp",
+        "additionalImages":[
+          "img/works/107/horta.webp",
+          "img/works/107/parfum.webp"
+        ]
+      },
+      {
+        "id": 108,
+        "_titre": "jardin",
+        "pays":"uk",
+        "date": "2022-06-06",
+        "tags": ["enviro","procedural"],
+        "soft":["Blender"],
+        "mainImage": "img/works/108/jardin_cropped.webp",
+        "additionalImages":[
+          "img/works/108/jardin_1.webp",
+          "img/works/108/jardin_2.webp"
+        ]
+      },
+      {
+        "id": 109,
+        "_titre": "sol",
+        "pays":"france",
+        "date": "2022-08-22",
+        "tags": ["procedural"],
+        "soft":["Blender"],
+        "mainImage": "img/works/109/sol_cropped.webp",
+        "additionalImages":[
+          "img/works/109/sol_1.webp",
+          "img/works/109/sol_2.webp",
+          "img/works/109/sol_3.webp"
         ]
       }
 ]

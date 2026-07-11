@@ -513,6 +513,31 @@
     "103":{
         "titre":"Wavremont",
         "description":"Wavremont is a monastery situated in the Belgian Ardennes. This corridor has nothing but a special aura."
+    },
+    "104":{
+        "titre":"collection of roses",
+        "description":"Various roses created at different times. These are not procedural but are the first ‘complex’ plants I have created."
+    },
+    "105":{
+        "titre":"snow globe",
+        "description":"The scene inside the snow globe is inspired by the painting ‘Isle of the Dead’ by the Symbolist painter Arnold Böcklin. The dancer in a tutu replaces the ferryman in the boat."
+    },
+    "106":{
+        "titre":"strange",
+        "description":"A creation I felt in my flesh.\nThe second image is simply the zoomed-out version."
+    },
+    "107":{
+        "titre":"Horta",
+        "description":"An interior in the purest Art Nouveau tradition. It is inspired by the buildings of the Belgian architect Victor Horta. The use of curves is particularly striking.\nAnd a perfume bottle in the same tradition."
+    },
+    "108":{
+        "titre":"manor garden",
+        "description":"A tiny English-style garden overlooking a lake.\nAlthough the quality of the final result isn’t great, this is the first time I’ve created procedural plants using Geometry Nodes. It’s a pleasure that has never left me."
+    },
+    "109":{
+        "titre":"ground",
+        "description":"Some fully procedural floor materials."
     }
+
 
 }
