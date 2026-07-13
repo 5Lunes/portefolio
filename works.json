@@ -12,8 +12,7 @@
         "img/works/1/sabre_suisse.webp",
         "img/works/1/sabre_suisse2.webp",
         "img/works/1/sabre_suisse3.webp"
-      ],
-      "additionalVideo": ""
+      ]
     },
     {
       "id": 2,
@@ -947,7 +946,7 @@
         "pays":"allemagne",
         "date": "2026-05-19",
         "tags": ["props"],
-        "soft":["maya","Unreal_Engine"],
+        "soft":["Maya","Unreal_Engine"],
         "mainImage": "img/works/63/wankel_cropped.webp",
         "additionalImages": [
           "img/works/63/wanker_1.webp",
@@ -1214,7 +1213,7 @@
         "_titre": "sabre laser",
         "pays":"inconnu",
         "date": "2020-03-23",
-        "tags": ["autre"],
+        "tags": ["props"],
         "soft":["Blender"],
         "mainImage": "img/works/83/sabre_laser.webp",
         "additionalImages": [
@@ -1301,7 +1300,7 @@
         "_titre": "cod",
         "pays":"russie",
         "date": "2020-11-09",
-        "tags": ["enviro"],
+        "tags": ["props"],
         "soft":["Blender"],
         "mainImage": "img/works/90/cod_cropped.webp",
         "additionalImages": [

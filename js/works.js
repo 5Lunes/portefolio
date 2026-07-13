@@ -78,6 +78,7 @@ class ImageGrid {
       Blender: 'img/svg/blender.svg',
       Houdini: 'img/svg/houdini.svg',
       '3Dmax': 'img/svg/3Dmax.png',
+      Maya:  'img/svg/Maya.svg',
       Unity: 'img/svg/unity.svg',
       Unreal_Engine: 'img/svg/unreal.svg',
       ZBrush: 'img/svg/zbrush.svg',
@@ -104,17 +105,18 @@ class ImageGrid {
   
 
 function showImageDetails(item) {
+  const dateFormatee = new Date(item.date).toLocaleDateString('fr-FR');
   const detailsContainer = document.getElementById('workdetail');
   detailsContainer.innerHTML = `
     <button onclick="window.workdetail.close();" aria-label="close" class="x"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
 
     <p class="detail_top">
-      <span class="detail_date"> ${item.date}</span>
+      <span class="detail_date"> ${dateFormatee}</span>
       <span>✧</span>
       <span data-i18n='pays.${item.pays}'></span>    
     </p>
     <h1 data-i18n='${item.id}.titre' class="detail_titre"></h1>
-    <p class="detail_info" data-i18n='${item.id}.description'>>
+    <p class="detail_info" data-i18n='${item.id}.description'>
     </p>
     <div class="detail_cat">
       <p class="detail_spec">
@@ -130,20 +132,16 @@ function showImageDetails(item) {
         </span>
       </p>
     </div>
+
+    ${item.additionalVideo != null ? `
+    <iframe width="560" height="315" src="${item.additionalVideo}" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    ` : ''}
     
     <div class="additional-images">
       ${item.additionalImages.map(img => `<a href="${img}" target="_blank"><img src="${img}" alt="Additional image" ></a>`).join('')}
     </div>
   `;
-
-  if( item.additionalVideo != null){
-    detailsContainer.insertAdjacentHTML(
-      "beforeend",
-      `<iframe width="560" height="315" src="${item.additionalVideo}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-    )
-  }
   window.workdetail.showModal();
-  //detailsContainer.style.display = 'block';
   rerender();
 }
 

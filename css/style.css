@@ -586,6 +586,12 @@ footer p{
   content: ', ';
 }
 
+#workdetail iframe{
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+}
+
 .additional-images{
   display: grid;
   grid-template-columns: 1fr 1fr;
