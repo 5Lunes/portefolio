@@ -22,7 +22,7 @@
       "date": "2024-06-02", 
       "tags": ["enviro"],
       "soft":["Blender","paint.net"],
-      "mainImage": "img/works/2/scientifique_fou.webp",
+      "mainImage": "img/works/2/scientifique_fou_cropped.webp",
       "additionalImages": [
         "img/works/2/scientifique_fou.webp",
         "img/works/2/scientifique_fou_alt1.webp",
@@ -40,7 +40,7 @@
         "tags": ["enviro","dessin"],
         "soft":["Photoshop"],
         "description_en":" ",
-        "mainImage": "img/works/3/MEVIS_Diorama_Iso.webp",
+        "mainImage": "img/works/3/MEVIS_Diorama_cropped.webp",
         "additionalImages": [
           "img/works/3/MEVIS_Diorama_Iso.webp",
           "img/works/3/MEVIS_Conceptart.webp",
@@ -94,7 +94,7 @@
         "date": "2024-01-15",
         "tags": ["procedural"],
         "soft":["Houdini"],
-        "mainImage": "img/works/7/pied_de_micro_postprod_2.webp",
+        "mainImage": "img/works/7/pied_de_micro_cropped.webp",
         "additionalImages": [
           "img/works/7/pied_de_micro_postprod_2.webp"
         ],
@@ -267,7 +267,7 @@
         "date": "2023-08-03",
         "tags": ["props"],
         "soft":["Houdini"],
-        "mainImage": "img/works/19/nature4.webp",
+        "mainImage": "img/works/19/nature4_cropped.webp",
         "additionalImages": [
           "img/works/19/nature4.webp",
           "img/works/19/nature4_nb.webp",
@@ -1291,7 +1291,7 @@
         "date": "2020-08-20",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/89/unicorn.webp",
+        "mainImage": "img/works/89/unicorn_cropped.webp",
         "additionalImages": [
           "img/works/89/unicorn.webp"
         ]
@@ -1328,7 +1328,7 @@
         "date": "2021-03-14",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/92/montagne.webp",
+        "mainImage": "img/works/92/montagne_cropped.webp",
         "additionalImages": [
           "img/works/92/montagne.webp",
           "img/works/92/montagne_2.webp"
@@ -1341,7 +1341,7 @@
         "date": "2020-11-01",
         "tags": ["procedural"],
         "soft":["Blender"],
-        "mainImage": "img/works/93/nodevember_3.webp",
+        "mainImage": "img/works/93/nodevember_cropped.webp",
         "additionalImages": [
           "img/works/93/nodevember_1.webp", 
           "img/works/93/day 6 draw_avi.gif",
@@ -1380,7 +1380,7 @@
         "date": "2021-05-16",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/96/chambre2.webp",
+        "mainImage": "img/works/96/chambre2_cropped.webp",
         "additionalImages": [
           "img/works/96/chambre2.webp"
         ]
@@ -1416,7 +1416,7 @@
         "date": "2021-06-30",
         "tags": ["props"],
         "soft":["Blender"],
-        "mainImage": "img/works/99/service a the.webp",
+        "mainImage": "img/works/99/service a the_cropped.webp",
         "additionalImages": [
           "img/works/99/service a the.webp"
         ]
@@ -1464,7 +1464,7 @@
         "date": "2021-10-25",
         "tags": ["enviro"],
         "soft":["Blender"],
-        "mainImage": "img/works/103/couloir.webp",
+        "mainImage": "img/works/103/couloir_cropped.webp",
         "additionalImages":[
           "img/works/103/couloir.webp"
         ]
